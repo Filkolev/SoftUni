@@ -11,11 +11,11 @@ class PrintLongSequence
             if (i % 2 == 0)
             {
 
-                Console.WriteLine(i);
+                Console.Write(i + " ");
             }
             else
             {
-                Console.WriteLine(-i);
+                Console.Write(-i + " ");
             }
         }
     }
