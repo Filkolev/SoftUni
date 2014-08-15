@@ -6,7 +6,7 @@ class PrintFullName
 {
     static void Main()
     {
-        Console.WriteLine("Ivan");
-        Console.WriteLine("Georgiev");
+        Console.WriteLine("Filip");
+        Console.WriteLine("Kolev");
     }
 }
