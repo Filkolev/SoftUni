@@ -14,7 +14,7 @@ class PrintASCII
         for (int i = 0; i < 256; i++)
         {        
             char symbol = (char)i; 
-            Console.WriteLine(i+" --> "+symbol);
+            Console.WriteLine(i + " --> " + symbol);
         }
     }
 }
