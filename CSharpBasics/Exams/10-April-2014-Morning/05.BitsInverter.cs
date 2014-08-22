@@ -5,24 +5,24 @@ using System;
 class BitsInverter
 {
     static void Main()
-    {              
+    {
         int n = int.Parse(Console.ReadLine());
         int step = int.Parse(Console.ReadLine());
-       
+
         int[] bytes = new int[n];
-       
+
         for (int i = 0; i < n; i++)
         {
-            bytes[i] = int.Parse(Console.ReadLine()); 
+            bytes[i] = int.Parse(Console.ReadLine());
         }
-        
+
         int position = 7;
-        
+
         for (int i = 0; i < n; i++)
         {
             while (position >= 0)
-	        {
-	            int currentBit = (bytes[i] >> position) & 1;
+            {
+                int currentBit = (bytes[i] >> position) & 1;
 
                 if (currentBit == 0)
                 {
@@ -34,7 +34,7 @@ class BitsInverter
                 }
 
                 position -= step;
-	        }
+            }
 
             Console.WriteLine(bytes[i]);
 
