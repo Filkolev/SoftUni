@@ -2,29 +2,20 @@ using System;
 
 // Problem can be found here: http://judge.softuni.bg/Contests/Practice/DownloadResource/65
 
-class OddEvenElements
+class Program
 {
     static void Main()
     {
         string input = Console.ReadLine();
 
-        if (input == "") // In case no input is provided
+        if (input == "")
         {
             Console.WriteLine("OddSum=No, OddMin=No, OddMax=No, EvenSum=No, EvenMin=No, EvenMax=No");
             return;
         }
 
-        string[] numbers = input.Split();
+        decimal[] numbers = Array.ConvertAll(input.Split(), x => decimal.Parse(x));
 
-        int numberOfOdd = numbers.Length / 2;
-        int numberOfEven = numbers.Length / 2;
-
-        if (numbers.Length % 2 != 0)
-        {
-            numberOfOdd++;  
-        }
-
-        // Using double gets a mistake in one of the tests
         decimal oddMin = decimal.MaxValue;
         decimal oddMax = decimal.MinValue;
         decimal oddSum = 0;
@@ -33,28 +24,39 @@ class OddEvenElements
         decimal evenMax = decimal.MinValue;
         decimal evenSum = 0;
 
-        for (int i = 0; i < numberOfOdd; i++)
+        decimal oddCount = 0;
+        decimal evenCount = 0;
+
+        for (int i = 1; i <= numbers.Length; i++)
         {
-            decimal current = decimal.Parse(numbers[2 * i]);
-            oddSum += current;
-            oddMin = Math.Min(oddMin, current);
-            oddMax = Math.Max(oddMax, current);
+            if (i % 2 == 0)
+            {
+                evenMin = Math.Min(evenMin, numbers[i - 1]);
+                evenMax = Math.Max(evenMax, numbers[i - 1]);
+                evenSum += numbers[i - 1];
+                evenCount++;
+            }
+
+            else
+            {
+                oddMin = Math.Min(oddMin, numbers[i - 1]);
+                oddMax = Math.Max(oddMax, numbers[i - 1]);
+                oddSum += numbers[i - 1];
+                oddCount++;
+            }
         }
 
-        for (int i = 0; i < numberOfEven; i++)
+        if (numbers.Length == 1)
         {
-            decimal current = decimal.Parse(numbers[2 * i + 1]);
-            evenSum += current;
-            evenMin = Math.Min(evenMin, current);
-            evenMax = Math.Max(evenMax, current);
+            Console.WriteLine("OddSum={0}, OddMin={1}, OddMax={2}, EvenSum=No, EvenMin=No, EvenMax=No",
+                (double)oddSum, (double)oddMin, (double)oddMax);           
         }
 
-        Console.WriteLine("OddSum={0}, OddMin={1}, OddMax={2}, EvenSum={3}, EvenMin={4}, EvenMax={5}", 
-            (double)oddSum, // switching to decimal led to more mistakes; converting the end result to double solved the issue
-            (double)oddMin,
-            (double)oddMax,
-            numberOfEven == 0 ? "No" : ((double)evenSum).ToString(),
-            numberOfEven == 0 ? "No" : ((double)evenMin).ToString(),
-            numberOfEven == 0 ? "No" : ((double)evenMax).ToString());       
+        else
+        {
+            Console.WriteLine("OddSum={0}, OddMin={1}, OddMax={2}, EvenSum={3}, EvenMin={4}, EvenMax={5}",
+                (double)oddSum, (double)oddMin, (double)oddMax, (double)evenSum, (double)evenMin, (double)evenMax);
+        }
+
     }
 }
