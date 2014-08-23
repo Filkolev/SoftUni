@@ -27,7 +27,5 @@ class CheckForPlayCard
         {
             Console.WriteLine("Result: no");
         }
-   
-        
     }
 }
