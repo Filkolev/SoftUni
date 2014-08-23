@@ -13,12 +13,7 @@ class DecimalToBinaryNumber
 
         Console.Write("Enter an integer: ");
         long inputInteger = long.Parse(Console.ReadLine());
-        long initialInput = inputInteger;
-
-        if (inputInteger == 0)
-        {
-            resultingString = "0";
-        }
+        long initialInput = inputInteger;        
 
         StringBuilder result = new StringBuilder();
 
@@ -29,6 +24,11 @@ class DecimalToBinaryNumber
         }
 
         resultingString = result.ToString();
+
+        if (inputInteger == 0)
+        {
+            resultingString = "0";
+        }
 
         Console.WriteLine("\nThe binary representation of {0} is: {1}\n", initialInput, resultingString);
     }
