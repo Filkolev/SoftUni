@@ -14,7 +14,7 @@ class CheckForPlayCard
 
         int.TryParse(input, out numeric);
 
-        if ((numeric >= 2 && numeric <=10) 
+        if ((numeric >= 2 && numeric <= 10) 
             || input == "Q" 
             || input == "J" 
             || input == "K" 
