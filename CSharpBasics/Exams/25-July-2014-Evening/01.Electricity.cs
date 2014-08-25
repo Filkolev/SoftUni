@@ -9,23 +9,24 @@ class Electricity
         int floors = int.Parse(Console.ReadLine());
         int flats = int.Parse(Console.ReadLine());
 
-        DateTime hour = DateTime.Parse(Console.ReadLine());
+        string[] time = Console.ReadLine().Split(':');
+        int hour = int.Parse(time[0]);
 
         int totalFlats = floors * flats;
 
         double result = 0;
 
-        if (hour >= DateTime.Parse("14:00") && hour <= DateTime.Parse("18:59"))
+        if (hour >= 14 && hour <= 18)
         {
             result = 2 * totalFlats * 100.53 + 2 * totalFlats * 125.90;
         }
 
-        else if (hour >= DateTime.Parse("17:00") && hour <= DateTime.Parse("23:59"))
+        else if (hour >= 17 && hour <= 23)
         {
             result = 7 * totalFlats * 100.53 + 6 * totalFlats * 125.90;
         }
 
-        else if (hour >= DateTime.Parse("00:00") && hour <= DateTime.Parse("08:59"))
+        else if (hour >= 0 && hour <= 8)
         {
             result = 1 * totalFlats * 100.53 + 8 * totalFlats * 125.90;
         }
