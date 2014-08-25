@@ -16,20 +16,25 @@ class ChangeEvenBits
             biggestNumber = Math.Max(number, biggestNumber);
         }
 
-        int numberToChange = int.Parse(Console.ReadLine());
+        ulong numberToChange = ulong.Parse(Console.ReadLine());
 
         int bitsToChange = getBitsCount(biggestNumber);
+        if (numberOfInputs == 0)
+        {
+            bitsToChange = 0;
+        }        
 
         int bitsChanged = 0;
 
         for (int j = 0; j < bitsToChange; j++)
         {
-            int currentBit = (numberToChange >> j * 2) & 1;            
+            int currentBit = (int)((numberToChange >> j * 2) & 1);            
 
             if (currentBit == 0)
             {
                 bitsChanged++;
-                int mask = 1 << j * 2;
+                ulong one = 1u;
+                ulong mask = one << j * 2;
                 numberToChange = numberToChange | mask;
             }
         }
@@ -40,12 +45,7 @@ class ChangeEvenBits
 
     public static int getBitsCount(int number)
     {
-        int count = 0;
-
-        if (number == 0)
-        {
-            return 1;
-        }
+        int count = 0;       
 
         while (number > 0)
         {
@@ -53,6 +53,6 @@ class ChangeEvenBits
             number = number >> 1;
         }
 
-        return count;
+        return Math.Max(1, count);
     }
 }
