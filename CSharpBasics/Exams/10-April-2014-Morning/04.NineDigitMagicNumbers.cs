@@ -37,12 +37,10 @@ class NineDigitMagicNumbers
     {
         bool isAllowed = false;
 
-        if (triplet % 10 != 0 
-            && (triplet / 10) % 10 != 0 
-            && triplet % 10 != 8 
-            && (triplet / 10) % 10 != 8 
-            && triplet % 10 != 9 
-            && (triplet / 10) % 10 != 9)
+        if (triplet % 10 > 0 
+            && (triplet / 10) % 10 > 0 
+            && triplet % 10 < 8 
+            && (triplet / 10) % 10 < 8) 
         {
             isAllowed = true;
         }
