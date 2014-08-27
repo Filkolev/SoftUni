@@ -28,31 +28,31 @@ class CoffeeMachine
 			while (change >= 1.0m && trays[4] > 0)
 			{
 				change--;
-                trays[4]--;
+                		trays[4]--;
 			}
 			
 			while (change >= 0.5m && trays[3] > 0)
 			{
 				change -= 0.5m;
-                trays[3]--;
+                		trays[3]--;
 			}
 			
 			while (change >= 0.2m && trays[2] > 0)
 			{
 				change -= 0.2m;
-                trays[2]--;
+                		trays[2]--;
 			}
 			
 			while (change >= 0.1m && trays[1] > 0)
 			{
 				change -= 0.1m;
-                trays[1]--;
+                		trays[1]--;
 			}
 			
 			while (change >= 0.05m && trays[0] > 0)
 			{
 				change -= 0.05m;
-                trays[0]--;
+                		trays[0]--;
 			}
 			
 			decimal trayTotal = trays[0] * 0.05m + trays[1] * 0.1m + trays[2] * 0.2m + trays[3] * 0.5m + trays[4];
