@@ -1,5 +1,7 @@
 using System;
 
+// Problem can be found here: http://bgcoder.com/Contests/Practice/DownloadResource/511
+
 class DiamondTrolls
 {
     static void Main()
