@@ -18,11 +18,11 @@ class XBits
         {
             for (int position = 0; position <= 29; position++)
             {
-                if (((numbers[number] & (mask << position))  >> position) == 5)
+                if (((numbers[number] >> position) & mask) == 5)
                 {
-                    if (((numbers[number + 1] & (mask << position)) >> position) == 2)
+                    if (((numbers[number + 1] >> position) & mask) == 2)
                     {
-                        if (((numbers[number + 2] & (mask << position)) >> position) == 5)
+                        if (((numbers[number + 2] >> position) & mask) == 5)
                         {
                             count++;
                         }
