@@ -16,7 +16,7 @@ class XBits
 
         for (int number = 0; number <= 5; number++)
         {
-            for (int position = 0; position <= 30; position++)
+            for (int position = 0; position <= 29; position++)
             {
                 if (((numbers[number] & (mask << position))  >> position) == 5)
                 {
