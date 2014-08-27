@@ -7,7 +7,6 @@ class BullsAndCows
     static void Main()
     {
         string input = Console.ReadLine();
-        
 
         int b = int.Parse(Console.ReadLine());
         int c = int.Parse(Console.ReadLine());
@@ -22,7 +21,6 @@ class BullsAndCows
             return;
         }
 
-
         for (int guessNumber = 1111; guessNumber <= 9999; guessNumber++)
         {
             char[] secretNumber = { input[0], input[1], input[2], input[3] };
@@ -33,7 +31,6 @@ class BullsAndCows
             {
                 continue;
             }
-         
 
             for (int i = 0; i < 4; i++)
             {
@@ -58,8 +55,6 @@ class BullsAndCows
                 }
             }
 
-
-
             if (countOfBulls == b && countOfCows == c)
             {
                 Console.Write("{0} ",guess);
@@ -69,7 +64,6 @@ class BullsAndCows
             countOfBulls = 0;
             countOfCows = 0;
         }
-
 
         if (results==0)
         {
