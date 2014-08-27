@@ -59,15 +59,12 @@ class GameOfPage
                             tray[r, c] = '0';
                         }
                     }
-
-
                 }
 
                 else if (checkLocation(checkRow, checkColumn, tray) == "broken cookie" || checkLocation(checkRow, checkColumn, tray) == "cookie crumb")
                 {
                     Console.WriteLine("page");
                 }
-
             }
         }
 
