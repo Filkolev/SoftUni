@@ -27,10 +27,6 @@ class ChessQueens
 
                             Console.WriteLine("{0}{1} - {2}{3}", (char)(q1x + 'a'), q1y + 1, (char)(q2x + 'a'), q2y + 1);
                         }
-
-
-
-
                     }
                 }
             }
