@@ -1,5 +1,5 @@
 using System;
-using System.Collections;
+using System.Collections.Generic;
 
 // Write a program that enters in integer n and prints the numbers 1, 2, …, n in random order.
 
@@ -7,7 +7,7 @@ class RandomizeNumbersFrom1ToN
 {
     static void Main()
     {
-        Console.Write("n = ");
+        Console.Write("Enter an integer number:\nn = ");
         string input = Console.ReadLine();       
 
         int n;
@@ -17,7 +17,7 @@ class RandomizeNumbersFrom1ToN
             input = Console.ReadLine();
         }
        
-        ArrayList numbersToN = new ArrayList();
+        List<int> numbersToN = new List<int>();
 
         if (n >= 1)
         {
@@ -33,13 +33,11 @@ class RandomizeNumbersFrom1ToN
             {
                 numbersToN.Add(i);
             }
-        }
-
-        int initialCount = numbersToN.Count;
+        }      
 
         Random randomInteger = new Random();
 
-        for (int i = 0; i < initialCount; i++)
+        for (int i = 0; i < numbersToN.Count; i++)
         {            
             int selectedNumber = randomInteger.Next(0, numbersToN.Count);
 
