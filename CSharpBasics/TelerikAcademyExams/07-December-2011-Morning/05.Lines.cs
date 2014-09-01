@@ -18,20 +18,20 @@ class Lines
 
         // checking lines down and to the left
         for (int row = 0; row < 8; row++)
-		{
-			for (int col = 0; col < 8; col++)
-		    {
-			    int bit = (grid[row] >> col) & 1;
+        {
+            for (int col = 0; col < 8; col++)
+            {
+                int bit = (grid[row] >> col) & 1;
                 if (bit == 1)
-	            {
-                   int currentLength = 1;
+                {
+                    int currentLength = 1;
 
-                   bool counted = false; // If the first method discovers a line of length 1, the second shouldn't double-count it
- 		           CheckDown(grid, col, row, ref maxLength, currentLength, ref numberOfLines, ref counted);
-                   CheckLeft(grid, ref col, row, ref maxLength, currentLength, ref numberOfLines, counted);                   
-	            }
-		    }
-		}
+                    bool counted = false; // If the first method discovers a line of length 1, the second shouldn't double-count it
+                    CheckDown(grid, col, row, ref maxLength, currentLength, ref numberOfLines, ref counted);
+                    CheckLeft(grid, ref col, row, ref maxLength, currentLength, ref numberOfLines, counted);
+                }
+            }
+        }
 
         Console.WriteLine(maxLength);
         Console.WriteLine(numberOfLines);
@@ -53,7 +53,7 @@ class Lines
         int currentCol = col + 1;
 
         while (currentCol < 8)
-        {            
+        {
             int bit = (grid[row] >> currentCol) & 1;
 
             if (bit == 1)
@@ -73,12 +73,12 @@ class Lines
             if (currentLength != 1 || !counted)
             {
                 numberOfLines++;
-            }            
+            }
         }
         else if (currentLength > maxLength)
         {
             maxLength = currentLength;
-            numberOfLines = 1;           
+            numberOfLines = 1;
         }
     }
 
@@ -92,7 +92,7 @@ class Lines
             if (upperBit == 1)
             {
                 return;
-            }            
+            }
         }
 
         int currentRow = row + 1;
