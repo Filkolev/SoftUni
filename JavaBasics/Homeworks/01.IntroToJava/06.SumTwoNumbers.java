@@ -1,3 +1,6 @@
+// Write a program SumTwoNumbers.java that enters two integers from the console, 
+// calculates and prints their sum. Search in Internet to learn how to read numbers from the console.
+
 import java.util.Scanner;
 
 public class _06_SumTwoNumbers {
