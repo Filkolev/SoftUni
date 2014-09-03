@@ -1,3 +1,5 @@
+// Create a simple Java program CurrentDateTime.java to print the current date and time.
+
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 
