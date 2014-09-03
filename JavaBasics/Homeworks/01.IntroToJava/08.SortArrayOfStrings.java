@@ -1,3 +1,7 @@
+/* Write a program that enters from the console number n and n strings, 
+then sorts them alphabetically and prints them. Note: you might need to 
+learn how to use loops and arrays in Java (search in Internet). */
+
 import java.util.Arrays;
 import java.util.Scanner;
 
