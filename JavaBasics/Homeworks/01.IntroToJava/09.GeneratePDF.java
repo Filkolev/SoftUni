@@ -49,7 +49,7 @@ public class _09_GeneratePDF {
 		PdfPTable table = new PdfPTable(4);
         
 		Font black = new Font(baseFont, 40f, 0, BaseColor.BLACK);
-        Font red = new Font(baseFont, 40f, 0, BaseColor.RED);
+        	Font red = new Font(baseFont, 40f, 0, BaseColor.RED);
 		
 		String[] colors = {"\u2660", "\u2665", "\u2666", "\u2663"};
 		String[] values = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
@@ -74,7 +74,7 @@ public class _09_GeneratePDF {
 			}
 		}		
 		
-	    document.add(table);
+	    	document.add(table);
 		document.close();
 	}
 }
