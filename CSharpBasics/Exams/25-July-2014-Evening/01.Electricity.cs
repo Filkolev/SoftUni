@@ -21,7 +21,7 @@ class Electricity
             result = 2 * totalFlats * 100.53 + 2 * totalFlats * 125.90;
         }
 
-        else if (hour >= 17 && hour <= 23)
+        else if (hour >= 19 && hour <= 23)
         {
             result = 7 * totalFlats * 100.53 + 6 * totalFlats * 125.90;
         }
