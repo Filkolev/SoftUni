@@ -1,4 +1,0 @@
-In order to run the program in Linux, open the Terminal, navigate to the directory where the .sh file is located (Homework1-Intro-Java) and run the following command:
-	sh run.sh 
-
-This runs the program from Problem 8.
