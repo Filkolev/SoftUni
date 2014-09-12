@@ -1,0 +1,14 @@
+I work on a VM with Linux Ununtu 14.04 64-bit. The steps below describe how I compiled a .java file using the Linux Terminal. Java SDK was installed beforehand.
+
+Step 1. I navigate to the folder where the .java file is located. In my case I used:
+	cd workspace/Homework1-Intro-Java/src
+
+Step 2. Compile the .java file (checked with 'dir' the contents of the directory to make sure I got the name right):
+	javac _06_SumTwoNumbers.java
+
+Step 3. Check with 'dir' that the file was successfully compiled to _06_SumTwoNumbers.class.
+
+Step 4. Run the program and enter inputs:
+	java _06_SumTwoNumbers
+
+Note that Eclipse had already compiled the file and created a .class file located in the bin directory, whereas compiling the .java file from the console created a class file in the current directory (src). I decided to leave the file where it is.
