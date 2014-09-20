@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/* Write a program to check whether a point is inside or outside of the figure below. 
+ * The point is given as a pair of floating-point numbers, separated by a space. Your 
+ * program should print "Inside" or "Outside". */
+
 public class _03_PointsInsideAFigure {
 	public static void main(String[] args) {
 		System.out.println("Enter the coordinates of a point to find whether it's inside or outside the figure:");
