@@ -1,0 +1,67 @@
+body {
+	background-image: url('../Resources/05.Background.jpg');
+	background-size: 100% 106.5%;
+	background-color: #cccccc;
+	font-size: 1.25em;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.yellow {
+	color: #FFCA7A;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul > li {
+    color: #FFCA7A;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+ul > li > span {
+    color: black;
+}
+
+ul > li > div {
+	color: white;	
+	border: 1px solid white;
+	background-color: #303030;
+	opacity: 0.8;
+	line-height: 0.5em;
+	margin-left: 5%;
+	margin-right: 10%;	
+}	
+
+#indented {
+	text-indent: 50px;
+}
+
+.white {
+	color: white;
+}
+
+.makeBold {
+	font-weight: bold;
+}
+
+img {
+	position: absolute;
+	right: 2.5%;
+    top: 5%;
+}
+
+body > div {
+	color: white;
+	position: absolute;
+	right: 2.5%;
+	bottom: 2.5%;
+}

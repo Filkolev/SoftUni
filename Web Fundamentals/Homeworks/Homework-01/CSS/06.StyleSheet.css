@@ -1,0 +1,15 @@
+body {
+	background-color: LightSkyBlue;
+}
+
+dt {
+	font-style: italic;
+}
+
+img {
+	display: block;
+}
+
+.makebold {
+	font-weight: bold;
+}
