@@ -2,3 +2,15 @@ body {
 	text-indent: 20px;
 	line-height: 1.5em;	
 }
+
+.circle {
+	list-style-type: circle;
+}
+
+.square {
+	list-style-type: square;
+}
+
+.disc {
+	list-style-type: disc;
+}
