@@ -1,0 +1,104 @@
+div {
+     border: 5px solid black;
+}
+
+#container {
+    border: none;
+    width: 900px;
+    height: 900px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    bottom: 0; 
+    right: 0;  
+}
+
+#face {   
+    background: yellow;;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    bottom: 0; 
+    right: 0;        
+}
+
+#nose {
+    background: red;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    bottom: 0; 
+    right: 0; 
+}
+
+.eye {
+    background: white;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin: auto;    
+}
+
+#left-eye {    
+    top: 143px; 
+    left: 143px;
+}
+
+#right-eye {    
+    top: 143px; 
+    right: 143px;
+}
+
+#mouth{
+    background: white;
+    border-radius: 100px;
+    width: 50%;
+    height: 20%;
+    bottom: 143px;
+    left: 200px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.tooth {    
+    width: 20%;
+    height: 50%;
+    display: inline;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0;
+    position: absolute;
+    top: -3px;
+}
+
+#left-tooth {
+    left: 114px;
+}
+#right-tooth {
+    right: 114px;
+}
+
+.eyeball {
+    background: black;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#left-eyeball {
+    right: 25px;
+    bottom: 25px;
+}

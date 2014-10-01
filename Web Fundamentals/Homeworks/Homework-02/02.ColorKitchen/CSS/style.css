@@ -1,0 +1,169 @@
+body {
+    background-image: url('../Resources/colorful_dots_on_black.jpg');
+    font-family: "Tahoma";
+}
+
+aside {
+    background-color: #F5E6FE;
+    float: left;
+    width: 20%;
+    border-radius: 20px;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 5px 20px 5px 0px;
+    margin: 2px;
+}
+
+nav ul li a:before {
+  content: url('../Resources/CheckList.png')" ";  
+}
+
+nav ul li {
+    border-radius: 10px;    
+    padding: 5px 25px 5px 5px;
+}
+
+nav ul li a:visited {
+    color: grey;   
+}
+
+nav ul {
+    padding: 0;   
+}
+
+li:first-child:hover {
+    background: #FF0000;    
+}
+
+li:nth-child(2):hover {
+    background: #FFA500;   
+}
+
+li:nth-child(3):hover {
+    background: #FFFF00;   
+}
+
+li:nth-child(4):hover {
+    background: #008000;   
+}
+
+li:nth-child(5):hover {
+    background: #0000FF;   
+}
+
+li:nth-child(6):hover {
+    background: #800080;   
+}
+
+nav header {
+    text-decoration: underline;
+    font-size: 1.5em;
+    font-weight: bold;    
+}
+
+header {
+    font-size: 1.5em;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    margin: 0px 5px 0px 5px;
+}
+
+article {
+background-color: #E6E6E6; 
+    float: right;
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px 25px 5px 25px;
+}
+
+body > header {
+    text-align: center;
+    margin: -10px -10px 50px -10px;
+    height: 100px;
+    background: linear-gradient(to left,  #0000FF 0%,#0000FF 33%,#008000 33%,#008000 66%, #FF0000 66%,#FF0000 100%);
+    color: #FFFF00;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+section {
+    padding: 5px; 
+    float: right;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 0 15px 15px 15px;
+    width: 75%;
+    margin: 0;
+}
+
+article header {
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+    font-size: 1.8em;
+}
+
+#webColors {
+    color: white;
+    background: #FF0000;
+}
+
+#webSafeColors {
+    background: #FFA500;
+}
+
+#RGB {
+    background: #FFFF00;
+}
+
+#RGBA {
+    background: #008000;
+    color: white;
+}
+
+#\#HSLHSV {
+    color: white;
+    background: #0000FF;
+}
+
+#\#lorem {
+    background: #800080;
+    color: white;
+}
+
+article a {
+    font-style:italic;
+    color: #808080;
+}
+
+div:first-line {
+    font-style: italic;
+}
+
+span[lang='la'] {
+    color: #0000FF;
+    font-style: italic;
+}
+
+span[lang='la']:before {
+    content: "\" ";
+}
+
+span[lang='la']:after {
+    content: "\" ";
+}
+
+div:first-letter {
+    font-size: 3em;    
+}
