@@ -132,8 +132,7 @@ tr:nth-child(even) {
     content: url('../Resources/Germany_resized.jpg');
 }
 
-#portugal p:before {
-    
+#portugal p:before {    
     content: url('../Resources/Portugal_resized.jpg');
 }
 
