@@ -1,0 +1,25 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma;    
+}
+
+#large-heading {
+    font-size: 1.5em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    margin: 10px;
+}
+
+tfoot td {
+    text-align: right;
+}

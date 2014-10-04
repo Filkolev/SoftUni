@@ -1,0 +1,57 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    font-family: Tahoma;
+    font-size: 1.5em;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    width: 120px;
+    padding: 5px;
+}
+
+tr {
+    height: 120px;
+}
+
+td.top {
+    vertical-align: top;
+}
+
+td.bottom {
+    vertical-align: bottom;
+}
+
+td.center {
+    text-align: center;
+}
+td.right {
+    text-align: right;
+}
+
+.big{
+    font-size: 1.5em;
+}
+
+th {
+    font-size: 2em;
+}
+
+table tr td table  {
+    margin: 0;
+}
+
+table tr td table tr {
+    height: 50px;
+}
+
+table tr td table tr td {
+    font-size: 0.5em;
+}
+

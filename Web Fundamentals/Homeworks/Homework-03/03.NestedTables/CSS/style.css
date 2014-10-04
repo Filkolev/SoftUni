@@ -1,0 +1,16 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 10px;
+    border: 2px solid black;
+}
+
+td {
+    padding: 10px;
+    border: 2px solid black;
+    font-family: Tahoma;
+    font-size: 2.2em;
+}

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <title>Website Header</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td id="logo"><a href="https://softuni.bg/" title="Home"><img src="Resources/FullLogo.jpg" alt="Logo" width="273" height="103" /></a></td>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td class="space"></td>
+                                    <td id="unread-notifications">
+                                        <a href="https://softuni.bg/notifications" title="View all notifications"> 0 <img src="Resources/notifications.jpg" alt="bell" width="18" height="26"/></a>
+                                    </td>
+                                    <td ><a href="https://softuni.bg/users/profile/show" title="View profile">user</a></td>
+                                    <td>
+                                        <form method="get" action="https://www.google.bg/search" target="_blank">
+                                            <input type="text" name="q" placeholder="Search the web..." />
+                                            <button onclick="javascript: submitForm()" title="Search with Google"><img src="Resources/magnifying-glass.png" title="Search with Google" alt="pic"/></button>
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li><a href="https://softuni.bg/news" title="Latest news">news</a></li>
+                                <li><a href="https://softuni.bg/about" title="More about SoftUni">about the university</a></li>
+                                <li><a href="https://softuni.bg/trainings/courses/list" title="List of courses">training courses</a></li>
+                                <li><a href="https://softuni.bg/university/companies/partners" title="List of partners">for companies</a></li>
+                                <li><a href="https://softuni.bg/forum" title="Go to SoftUni Forum">forum</a></li>
+                                <li><a href="https://softuni.bg/contacts" title="Contact us">contacts</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -5,12 +5,11 @@ body {
 }
 
 #container {
-    border-radius: 10px; 
-    border: 2px solid black;
+    border-radius: 10px;    
     position: absolute;       
     white-space: nowrap;
     width: 1300px;
-    height: 550px;    
+    height: 550px;  	
 }
 
 th {
@@ -33,7 +32,10 @@ th {
 table {
     width: 100%;
     height: 100%;    
-    border-collapse: collapse;
+    border-collapse: separate;
+	border-spacing: 0;
+	border-radius: 10px; 
+    border: 2px solid black;	
 }
 
 table tr:last-child td:first-child {    
@@ -54,11 +56,12 @@ th:last-child {
 
 td, th {
     text-align: center;
-    border: 2px solid black;
+    border-left: 2px solid black;
+	border-bottom: 2px solid black;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 10px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;  	
 }
 
 th {
@@ -161,6 +164,9 @@ select[disabled] {
     color: red;
 }
 
+button:focus {
+    outline: none;
+}
 button:focus {
     outline: none;
 }

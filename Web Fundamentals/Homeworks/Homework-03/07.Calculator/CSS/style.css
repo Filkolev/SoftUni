@@ -1,0 +1,38 @@
+table {
+    border: 1px solid gray;
+    font-family: Tahoma;
+    padding: 5px;
+    background: #a7a7a7;
+    border-radius: 5px;
+}
+
+td, th {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0;
+}
+
+button {
+    background: linear-gradient(#ffffff, #a7a7a7);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin: 0;
+    border: none;
+    border: 1px solid gray;
+}
+
+button:hover {
+    background: linear-gradient(#ffffff, #f7a85b, #f79824);
+    border: 1px solid #ff6a00;
+}
+
+th#display {
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    text-align: right;    
+    border: 1px solid gray;
+    background: white;
+}

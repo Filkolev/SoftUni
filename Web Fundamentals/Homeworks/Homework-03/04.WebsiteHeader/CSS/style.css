@@ -1,0 +1,87 @@
+body, a {
+    font-family: 'PT Sans', Tahoma, sans-serif;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    font-size: 1em;
+}
+
+table {
+    background: #234465;
+    border: none;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    text-indent: 10px;
+    border-radius: 5px;
+}
+
+td {
+    padding: 0 5px 0 5px;
+    text-align: right;
+}
+
+tr {
+    width: 1260px;
+}
+
+td.space {
+    width: 400px;
+}
+
+td#unread-notifications {  
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+form {
+    background: white;
+    border-radius: 5px;    
+}
+
+input, button {
+    border: none;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+input:focus, button:focus {
+    outline: none;
+}
+
+button:hover {
+    background: orange;
+}
+
+input[type=text] {
+    width: 200px;
+}
+
+ul li:hover {
+    background: orange;
+}
+
+td > a:hover {
+    color: orange;
+    text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <title>Calculator 1.0</title>
+    <script>
+        function writeFormula(key) {
+            document.getElementById("display").textContent += key;
+        }
+
+        function Calculate() {
+            var expression = document.getElementById("display").innerHTML;
+            var result = eval(expression);
+            clearDisplay();
+            writeFormula(result);
+        }
+
+        function clearDisplay() {
+            document.getElementById("display").textContent = "";
+        }
+    </script>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>                
+                <th colspan="4" id="display"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><button onclick="writeFormula(1)">1</button></td>
+                <td><button onclick="writeFormula(2)">2</button></td>
+                <td><button onclick="writeFormula(3)">3</button></td>
+                <td><button onclick="writeFormula(' + ')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="writeFormula(4)">4</button></td>
+                <td><button onclick="writeFormula(5)">5</button></td>
+                <td><button onclick="writeFormula(6)">6</button></td>
+                <td><button onclick="writeFormula(' - ')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="writeFormula(7)">7</button></td>
+                <td><button onclick="writeFormula(8)">8</button></td>
+                <td><button onclick="writeFormula(9)">9</button></td>
+                <td><button onclick="writeFormula(' * ')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clearDisplay()">C</button></td>
+                <td><button onclick="writeFormula(0)">0</button></td>
+                <td><button onclick="Calculate()">=</button></td>
+                <td><button onclick="writeFormula(' / ')">/</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

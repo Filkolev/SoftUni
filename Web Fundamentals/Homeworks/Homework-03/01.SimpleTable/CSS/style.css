@@ -1,0 +1,26 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 515px;
+}
+
+th {
+    font-size: 3em;
+    text-align: left;    
+    padding-bottom: 25px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+td#logo {
+    padding: 0 5px 0 10px;
+}
+
+p.heading {
+    font-weight: bold;
+}

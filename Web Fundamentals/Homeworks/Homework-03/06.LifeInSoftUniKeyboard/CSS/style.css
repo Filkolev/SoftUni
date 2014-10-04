@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+table {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;  
+    border: 2px solid  grey; 
+    font-family: Tahoma;
+    font-size: 1.5em;
+    color: blue;
+    background: linear-gradient(#F0F0F0 0, #F0F0F0 50%, #D4D4D4 51%, #D4D4D4 100%);
+}
+
+button:hover {
+    background: linear-gradient(white, orange);
+}
+
+th button {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+th, td {
+    width: 110px;
+    height: 120px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table tr td table tr td {
+    width: 100px;
+    height: 50px;
+}
+
+table tr td table {
+    margin: 0;
+    padding: 0;
+}
+
+table tr td table tr td button {
+    font-size: 1em;
+}
+
+button.beer {
+    text-align: right;
+    font-size: 2em;
+}
+
+
