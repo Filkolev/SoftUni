@@ -160,3 +160,7 @@ select {
 select[disabled] {
     color: red;
 }
+
+button:focus {
+    outline: none;
+}
