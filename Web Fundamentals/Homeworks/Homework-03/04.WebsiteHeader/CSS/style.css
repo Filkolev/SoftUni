@@ -4,15 +4,24 @@ body, a {
     text-transform: uppercase;
     color: white;
     text-decoration: none;
+	padding: 0;
+	margin: 0;
 }
 
 a {
     font-size: 1em;
 }
 
+#container {
+	background: #234465;
+	margin: 0;
+}
+
 table {
     background: #234465;
     border: none;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 ul {
@@ -71,6 +80,7 @@ input:focus, button:focus {
 
 button:hover {
     background: orange;
+	cursor: pointer;
 }
 
 input[type=text] {
