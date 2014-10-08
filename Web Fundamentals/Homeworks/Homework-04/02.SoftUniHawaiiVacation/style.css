@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: Animated;
-    src: url('/resources/Animated.ttf');
+    src: url(resources/Animated.ttf);
 }
 
 p {

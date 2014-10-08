@@ -1,5 +1,6 @@
 ﻿body {
     font-family: Tahoma, sans-serif;
+	font-size: 12pt;
 }
 
 body > div > p {
@@ -107,16 +108,16 @@ textarea {
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color: black;
    font-family: sans-serif;
-   font-size: 1.1em;
+   font-size: 11pt;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color: black;
    font-family: sans-serif;
-   font-size: 1.1em;
+   font-size: 11pt;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10+ */
    color: black;
    font-family: sans-serif;
-   font-size: 1.1em;
+   font-size: 1em;
 }
