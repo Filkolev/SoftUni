@@ -1,0 +1,100 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+#container {
+    background-image: url(resources/formBackground.jpg);
+    padding: 10px 5px 10px 5px;
+    width: 500px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    text-indent: 3px;
+}
+
+input, textarea {
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.50);
+}
+
+input:focus, textarea:focus {
+    border: 2px solid red;
+}
+
+div, input, textarea {
+    border-radius: 5px;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.50);
+    border: 1px solid white; 
+    margin: 5px;  
+    padding: 7px; 
+}
+
+label {
+    display: inline-block;
+    width: 100px;   
+}
+
+.radio {
+    width:auto;
+}
+
+textarea {
+    height: 75px; 
+    resize: vertical;
+}
+
+#text-area label {
+    display: inline;
+    vertical-align: top;
+    margin-right: 54px;
+}
+
+#submit {
+    height: 30px;
+    width: 100px;
+    background-color: #04152F;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 195px;    
+}
+
+#submit:focus {
+    outline: none;
+}
+
+#submit:hover {
+    background-color: yellow;
+    color: green;
+}
+
+input.radio {
+    margin-left: 35px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+table {
+    display: inline-block;
+}
+

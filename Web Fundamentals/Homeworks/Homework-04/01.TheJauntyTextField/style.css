@@ -1,0 +1,122 @@
+﻿body {
+    font-family: Tahoma, sans-serif;
+}
+
+body > div > p {
+    text-transform: uppercase;  
+    text-shadow: 13px 8px 14px gray;  
+    font-size: 2.5em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.25em;
+    margin: 10px;
+}
+
+#rectangle {
+    width: 555px;
+    height: 200px;
+    border-top: 6px dotted #FFFF00;
+    border-left: 6px dashed #FF0000;
+    border-right: 6px solid #008000;
+    border-bottom: double 6px #0202F7;
+    padding: 10px;
+    box-shadow: 15px 14px 5px #3F3F3F;
+}
+
+#inner-box {
+    border-radius: 50px;
+    border: 2px solid #FF1A1A;
+    box-shadow: 0 0 0 2px #FBFD00, 0 0 0 4px #006F21, 0 0 0 6px #0028AE;
+    margin: 40px 10px 10px 10px;
+    width: 530px;
+    height: 80px;
+}
+
+#small-circle {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    left: 475px;
+    top: 153px;
+    border: 3px dashed white;
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.6);  
+}
+
+#large-circle {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    left: 525px;
+    top: 117px;
+    border: 3px dashed white;
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.6);  
+}
+
+#text-balloon {
+    border-radius: 50px;
+    width: 115px;
+    height: 50px;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.6);
+    left: 547px;
+    top: 55px;
+    border: 3px dashed white;
+    box-shadow: 0 0 0 3px rgba(128, 128, 128, 0.6);  
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top: 7px;
+}
+
+textarea {
+    resize: none;
+    color: black;
+    width: 170px;
+    height: 15px;
+    padding: 2px;
+    text-align: center;
+    background-color: #D8921A;
+    border-bottom: 3px solid #A56401;
+    border-right: 3px solid #A56401;
+    border-top: 3px solid #FCA401;
+    border-left: 3px solid #FCA401;
+}
+
+#left {
+    left: 75px;
+    position: relative;
+}
+
+#right {
+    right: -95px;
+    position: relative;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: black;
+   font-family: sans-serif;
+   font-size: 1.1em;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: black;
+   font-family: sans-serif;
+   font-size: 1.1em;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: black;
+   font-family: sans-serif;
+   font-size: 1.1em;
+}

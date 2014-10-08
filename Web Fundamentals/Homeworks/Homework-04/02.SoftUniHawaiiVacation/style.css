@@ -1,0 +1,33 @@
+﻿#inner {
+    width: 1200px;
+    height: 800px;
+    background-image: url('resources/TediHula.png'), 
+        url('resources/AlexHula.png'), 
+        url('resources/PetiaHula.png'), 
+        url('resources/VladoKHula.png'), 
+        url('resources/NakovHula.png'), 
+        url('resources/VladoGHula.png'),       
+        url('resources/HawaiiBackground.png');
+    background-repeat: no-repeat;
+    background-position: 261px 361px, 493px 205px, 182px 188px, 671px 235px, 411px 158px, 42px 221px, 0 0;
+    padding: 10px;
+}
+
+#outer {
+    width: 900px;
+    height: 600px;
+    background: radial-gradient(circle at 162px 130px, white 4.5%, #e9e69b 5%, white 10%, #0068DB 100%);
+}
+
+@font-face {
+    font-family: Animated;
+    src: url(resources/Animated.ttf);
+}
+
+p {
+    font-family: Animated;
+    color: #FEBD1E;
+    font-size: 3em;
+    text-indent: 460px;
+    margin: 0;
+}
