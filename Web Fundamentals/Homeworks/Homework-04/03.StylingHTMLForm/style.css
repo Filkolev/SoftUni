@@ -31,7 +31,9 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border: 2px solid red;
+    border: 1px solid red;
+	outline: none;
+	background-color: #FFE1B4;
 }
 
 div, input, textarea {
@@ -87,14 +89,44 @@ textarea {
 }
 
 input.radio {
-    margin-left: 35px;
+
+	margin-top: 5px;
+
 }
 
 td {
-    vertical-align: middle;
+    vertical-align: middle;	
+}
+
+td:nth-child(even) {
+	width: 100px;	
+}
+
+td label {
+	background-repeat: no-repeat;
+	background-position: left;
 }
 
 table {
     display: inline-block;
+	margin-left: 20px;
 }
 
+span#top-aligned {
+	display: block;
+}
+
+td#visa label{
+	background-image: url(resources/visa.jpg);
+	text-indent: 35px;
+}
+
+td#amex  label{
+	background-image: url(resources/amex.jpg);
+	text-indent: 37px;
+}
+
+td#master label{
+	background-image: url(resources/master.jpg);
+	text-indent: 32px;
+}
