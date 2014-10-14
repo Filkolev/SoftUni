@@ -5,7 +5,7 @@
 
 form {
     display: inline-block;
-    width: 320px;
+    width: 340px;
     height: 300px;
     padding: 5px;
 }
@@ -112,7 +112,7 @@ input[value="Login"] {
 }
 
 #container {
-    width: 650px;
+    width: 675px;
     height: 300px;
 }
 
