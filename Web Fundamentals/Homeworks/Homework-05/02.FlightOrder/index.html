@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <title>Flight Order</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>flight order</legend>
+
+            <div class="f-left no-bottom">
+                <label for="from-city">From</label>
+                <input list="cities" name="from" id="from-city" placeholder="enter a city"/>
+
+                <datalist id="cities">
+                    <option value="Sofia">
+                    <option value="Pernik">
+                    <option value="Pazardzhik">
+                    <option value="Burgas">
+                </datalist>
+            </div>
+
+            <div class="f-right no-bottom">
+                <label for="destination">To</label>
+                <input list="cities" name="to" id="destination" placeholder="enter a city" />
+            </div>
+
+            <div id="filler" class="f-left thin"></div>
+
+            <div class="f-right thin">
+                <table>
+                    <tr>
+                        <td><input type="checkbox" id="direct" /></td>
+                        <td><label for="direct">Prefer directs</label></td>
+                    </tr>                   
+                </table>
+            </div>
+
+            <div class="f-left">
+                <label for="departure-date">Departure Date</label>
+                <input type="date" name="departure-date" id="departure-date" value="2014-06-09"/>
+            </div>
+
+            <div class="f-right time">
+                <label for="departure-time-min">Time Interval</label>
+                <input type="time" name="departure-time-min" id="departure-time-min"  value="00:20"/>
+                <input type="time" name="departure-time-max" id="departure-time-max" value="05:00" />
+            </div>
+
+            <div class="f-left">
+                <label for="return-date">Return Date</label>
+                <input type="date" name="return-date" id="return-date" value="2014-06-13" />
+            </div>
+
+            <div class="f-right time">
+                <label for="return-time-min">Time Interval</label>
+                <input type="time" name="return-time-min" id="return-time-min" value="16:00"/>
+                <input type="time" name="return-time-max" id="return-time-max" value="22:00"/>
+            </div>
+
+            <div class="f-left short" id="children-one">
+                <label for="12-plus">12+</label>
+                <input name="children-12-plus" type="number" min="0" max="5" value="0" />
+            </div>
+
+            <div class="f-left short" id="children-two">
+                <label for="2-12">2-12</label>
+                <input name="children-2-12" type="number" min="0" max="5" value="0" />
+            </div>
+
+            <div class="f-left short" id="children-three">
+                <label for="0-2">0-2</label>
+                <input name="children-0-2" type="number" min="0" max="5" value="0" />
+            </div>            
+
+            <div class="f-right">
+                <label for="flight-class">Choose class</label>
+                <select name="class" id="flight-class">
+                    <option value="econ" selected="selected">Economy</option>
+                    <option value="premium">Premium Economy</option>
+                    <option value="business">Business</option>
+                    <option value="first-class">First class</option>
+                </select>
+            </div>
+
+            <div class="f-right">
+                <input type="submit" value="Search" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

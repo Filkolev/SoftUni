@@ -1,0 +1,132 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-size: 25pt;
+}
+
+#container {
+    margin: 0 auto;
+    width: 860px;
+    height: 600px;
+    background-color: #3B5997;
+}
+
+form {
+    padding: 10px;
+}
+
+fieldset {
+    border: 1px solid white;
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+h1, h3, h5, label, legend {
+    color: white;
+}
+
+h1, h3, h5, legend {
+    font-weight: bold;
+    text-align: center;
+}
+
+span#small-copy {
+    font-size: 1rem;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 8rem;
+}
+
+h3, h5 {
+    margin: 10px;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+legend {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    border-radius: 5px;    
+}
+
+input {
+    width: 150px;    
+    height: 25px;
+}
+
+textarea {
+    width: 475px;
+    height: 50px;
+    resize: vertical;
+    max-height: 90px;
+}
+
+#non-important {
+    width: 317px;
+}
+
+#important {
+    width: 490px;
+}
+
+label {
+    font-size: 0.75rem;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+.short {
+    width: 50px;
+}
+
+label.inline {
+    display: inline-block;
+}
+
+input[type="datetime-local"] {
+    width: 300px;
+}
+
+input[type="reset"], input[type="submit"] {
+    color: #3B5997;
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0;
+}
+
+input[type="reset"] {
+    width: 329px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    width: 502px;
+    font-size: 1.5rem;
+}
+
+tr:first-child td {
+     height: 240px;
+}
+
+tr:nth-child(2) td {
+    height: 35px;
+}
+
+td {
+    vertical-align: middle;
+}

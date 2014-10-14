@@ -1,0 +1,149 @@
+﻿body {
+    font-family: Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+form {
+    background-color: #FFC0CB;
+    width: 382px;
+    padding: 5px;
+}
+
+legend {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 2em;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 185px;
+    display: inline-block;
+    height: 48px;
+    margin: 10px 5px 0 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input, select {
+    width: 175px;
+    padding: 1px;
+    margin-right: 5px;
+    height: 19px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8em;
+}
+
+select {
+    width: 180px;
+    height: 25px;
+}
+
+div#children-three {
+    margin-right: 0;
+}
+
+div#children-two, div#children-one {
+    margin-right: 6px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+div.short input {
+    width: 51px;
+}
+
+input[type="submit"] {
+    width: 180px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(white 33%, lightblue 66%, blue 100%);
+    border-style: inset;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+label {
+    display: block;
+    font-style: italic;
+}
+
+div.f-left.short {
+    width: 55px;
+}
+
+label[for="direct"] {
+    display: inline-block;
+}
+
+div.thin {
+    display: inline-block;
+    height: 25px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+}
+
+#departure-time-min, #departure-time-max, #return-time-min, #return-time-max {
+    width: 80px;
+}
+
+div.time:nth-child(2) {
+    margin-right: 5px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+table, tr, td {
+    height: 20px;
+}
+
+div.time {
+    width: 187px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: black;
+    font-family: sans-serif;
+    text-indent: 5px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: black;
+   font-family: sans-serif;
+   text-indent: 5px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: black;
+   font-family: sans-serif;
+   text-indent: 5px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: black;
+   font-family: sans-serif;
+   text-indent: 5px;
+}

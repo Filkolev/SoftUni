@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <title>Fakebook Register Form</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="container">
+        <h1>fakebook<span id="small-copy">&reg;</span></h1>
+        <h3>Registration</h3>
+        <h5>It is safe and it will always be!</h5>
+
+        <form method="get" action="#">
+            <table>
+                <tr>
+                    <td>
+                        <fieldset id="non-important">
+                            <legend>Non-Important Information</legend>
+
+                            <input type="text" name="fname" placeholder="First Name" />
+                            <input type="text" name="lname" placeholder="Last Name" />
+                            <input type="email" name="mail" placeholder="Your Email" />
+                            <input type="tel" name="phone" placeholder="Phone Number" />
+                            <input type="password" name="pass" placeholder="Your Password" />
+                            <input type="url" name="website" placeholder="Website" />
+                            <label for="birthday">Birthday</label>
+                            <input type="datetime-local" name="birthday" id="birthday" value="2014-05-09T13:58" />
+                            <input type="radio" name="gender" id="female" />
+                            <label for="female" class="inline">Female</label>
+                            <input type="radio" name="gender" id="male" />
+                            <label for="male" class="inline">Male</label>
+                            <input type="radio" name="gender" id="other" checked/>
+                            <label for="other" class="inline">Other</label>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset id="important">
+                            <legend>Important Information *required</legend>
+
+                            <input list="countries" name="country" placeholder="Country" required tabindex="3"/>
+
+                            <datalist id="countries">
+                                <option value="Bulgaria">
+                                <option value="East Timor">
+                                <option value="Pakistan">
+                                <option value="Macedonia">
+                            </datalist>
+
+                            <input type="text" name="village" placeholder="Village" required tabindex="4"/>
+                            <input type="text" name="district" placeholder="District" required />
+                            <input type="text" name="street" placeholder="Street" required />
+                            <input type="text" name="str-num" placeholder="Nr" class="short" required />
+                            <input type="text" name="floor" placeholder="Floor" class="short" required />
+                            <input type="text" name="ap-num" placeholder="Ap Nr" class="short" required />
+                            <label for="door-color">Door Color</label>
+                            <input type="color" name="door-color" id="door-color" value="#FF80C0" required />
+                            <input type="text" name="meter-num" placeholder="Water Meter Nr" required tabindex="2"/>
+                            <input list="panties-size" name="panties-size" placeholder="Aunt Panties' Size" required tabindex="1"/>
+                            <datalist id="panties-size">
+                                <option value="Small" />
+                                <option value="Medium" />
+                                <option value="Large" />
+                                <option value="Extra Large" />
+                                <option value="Friggin' HUGE!" />
+                            </datalist>
+
+                            <label for="more-info">More Personal Information</label>
+                            <textarea name="more-info" id="more-info" placeholder="Give Us More Information!!!" required></textarea>
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="reset" value="Clear Form" />
+                    </td>
+                    <td>
+                        <input type="submit" value="Register" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

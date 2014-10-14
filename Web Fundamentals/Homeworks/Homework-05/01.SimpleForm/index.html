@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <title>Simple Form</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+
+    
+    <div id="container">
+        <h2>Enter the system</h2>
+        <p>It is necessary to login Your account in order to sign in for a course</p>
+        <form method="get" action="#" name="register" id="register">
+            <fieldset>
+                <legend><span id="gray">are you new?</span> register</legend>
+
+                <input type="text" name="username" placeholder="User name" pattern="\w{4,20}" title="The username should be between 4 and 20 characters long and consist of latin letters, digits or underscores!" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="password" name="pass" placeholder="Password" pattern=".{6,}" title="Password should be at least 6 characters!" id="pass" required onkeypress="checkPasswords()" onchange="checkPasswords()" oninput="checkPasswords()" />
+                <input type="password" name="confirm-pass" placeholder="Confirm Password" title="Passwords should match!" id="confirm-pass" required onkeypress="checkPasswords()" onchange="checkPasswords()" oninput="checkPasswords()" />
+
+                <div id="message">
+                    <div id="invalid" style="display:none;">Passwords do not match! </div>
+                    <div id="valid" style="display:none;">Passwords match! </div>
+                </div>
+                <input type="submit" value="Register" disabled="disabled" id="register-button" title="Fill all required fields" />
+            </fieldset>
+        </form>
+
+        <form method="get" action="#" name="login" id="login">
+            <fieldset>
+                <legend>already a student? login</legend>
+
+                <input type="text" name="username" placeholder="User name" pattern="\w{4,20}" title="The username should be between 4 and 20 characters long and consist of latin letters, digits or underscores!" required />
+                <input type="password" name="pass" placeholder="Password" pattern=".{6,}" title="Password should be at least 6 characters!" required />
+
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="remember" id="remember" />
+                        </td>
+                        <td>
+                            <label for="remember">Remember me?</label>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="Login" id="login-button" />
+
+            </fieldset>
+            <div id="link"><a href="resources/too-bad.html">Forgot Password</a></div>
+        </form>
+    </div>
+    <script src="scripts/js-script.js"></script>
+</body>
+</html>

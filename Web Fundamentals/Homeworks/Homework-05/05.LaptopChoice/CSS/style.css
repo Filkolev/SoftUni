@@ -1,0 +1,104 @@
+﻿body {
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: #2C425A;
+}
+
+button {
+    background-color: white;
+    padding: 5px;
+    width: 210px;
+    height: 255px;
+    margin: 5px;
+        color: #2C425A;
+        border: none;
+}
+
+div.price {
+    float: right;
+    width: 55%;
+    font-size: 12pt;
+    background-color: #2C425A;
+    border-top-left-radius: 10px;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+h2, p, h1 {
+    text-align: left;
+    margin: 0;
+
+    
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+h3 {
+
+        font-weight: normal;
+        text-align: center;
+}
+
+p {
+    display: block;
+    height: 30px;
+}
+
+div#results {
+    width: 670px;
+    float: left;
+
+}
+
+div#search-sliders div {
+    font-size: 0.85rem;
+}
+
+div#search-sliders h3 {
+    font-size: 1rem;
+}
+
+div.min-max, div.max {
+        display: inline-block;
+}
+
+div.max {
+    text-align: right;
+    float: right;
+
+
+}
+
+div.min-max {
+    padding: 0;
+    width: 100%;
+}
+
+
+div#search-sliders {
+     width: 250px;
+    float: right;
+    height: 577px;
+}
+
+input {
+    width: 240px;
+}
+
+#container {
+    width: 1000px;
+    height: 580px;
+    margin: auto;
+}
+
+button:hover {
+    cursor: pointer;
+}

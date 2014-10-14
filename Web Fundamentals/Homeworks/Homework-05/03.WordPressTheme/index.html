@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="CSS/style.css" rel="stylesheet" />
+    <title>WordPress Theme</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="logo">
+        <table>
+            <tr>
+                <td><img src="resources/main-logo.png" alt="Logo" title="WordPress" width="54" height="50" /></td>
+                <td>Word<span id="gray">Press</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="upload">
+        <label for="file-upload">Upload a theme</label>
+        <input type="file" name="theme-file" id="file-upload" />
+    </div>
+    <div id="search-field">
+        <table>
+            <tr>
+                <td>
+                    <label for="search">Or search in wordpress</label>
+                </td>
+                <td>
+                    <input type="search" id="search" />
+                </td>
+                <td>
+                    <button onclick="submitSearch()"><img src="resources/search-logo.png" /></button>
+                </td>
+            </tr>            
+        </table>
+    </div>
+</body>
+</html>

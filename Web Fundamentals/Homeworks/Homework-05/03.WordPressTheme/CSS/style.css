@@ -1,0 +1,48 @@
+﻿body {
+    font-family: serif;
+    font-size: 11pt;
+}
+
+div#logo table tr td {
+    font-size: 2.5rem;
+    font-variant: small-caps;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #126E97;
+}
+
+span#gray {
+    color: #444444;
+}
+
+input[type="file"] {
+    font-size: 0.8rem;
+    width: 200px;
+}
+
+input[type="search"] {
+    height: 24px;
+    width: 120px;
+}
+
+button {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+}
+
+button img {
+    width: 25px;
+    height: 24px;
+}
+
+div#search-field table tr td {
+    vertical-align: bottom;
+}
+
+div {
+    margin: 10px;
+}

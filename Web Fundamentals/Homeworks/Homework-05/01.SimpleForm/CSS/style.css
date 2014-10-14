@@ -1,0 +1,156 @@
+﻿body {
+    font-size: 10pt;
+    font-family: Tahoma, sans-serif;
+}
+
+form {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+
+legend {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#login legend {
+    color: white;
+}
+
+#register legend, h2, p {
+    color: #234465;
+}
+
+form#register span#gray {
+    color: #757575;
+}
+
+fieldset {
+    border: none;
+}
+
+form#login {
+    background-color: #234465;
+    float: right;
+    margin: 0 auto 0 5px;
+}
+
+form#register {
+    margin: 0 5px 0 auto;    
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    height: 30px;
+    text-indent: 5px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    float: right;
+    font-size: 1.1em;
+}
+
+input[type=checkbox] {    
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+body > div {
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+label, a {
+    color: white;
+}
+
+input[value="Login"] {
+    width: 15%;
+}
+
+#link {
+    float:right;
+    text-align: right;
+}
+
+#register-button {
+    width: 50%;
+    border: 2px solid #234465;
+    color: #234465;
+    background-color: white;
+}
+
+#register-button:hover {
+    background-color: #234465;
+    color: #E3910D;
+}
+
+#register-button[disabled="disabled"] {
+    color: black;
+    background-color: lightgray;
+	border-color: gray;
+}
+
+#login-button {
+    width: 45%;
+    border: 2px solid #E3910D;
+    background-color: #234465;
+    color: white;
+}
+
+#login-button:hover {
+    background-color: #E3910D;
+    color: #234465;
+}
+
+#container {
+    width: 635px;
+    height: 300px;
+}
+
+label {
+    margin-left: 5px;
+    font-size: 0.9em;
+}
+
+table {
+    display: inline-block;
+}
+
+#register input:focus {
+    outline-color: #234465;
+}
+
+#login input:focus {
+    outline-color: #E3910D;
+}
+
+input:focus {
+    background-color: #d1cfb9;
+}
+
+#message {
+    width: 180px;
+    height: 30px;
+    font-weight: bold;
+}
+
+#valid {
+    color: green;
+}
+
+#invalid {
+    color: red;
+}
+
+a {
+    margin-right: 15px;
+}
