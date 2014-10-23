@@ -1,0 +1,137 @@
+﻿html {
+    margin: 0;
+    padding: 0;
+    background-color: #101415;
+}
+
+body {
+    width: 900px;
+    background-color: white;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Verdana;
+    font-size: 12px;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+    aside p {
+        margin: 0;
+    }
+
+    aside address {
+        margin-bottom: 10px;
+    }
+
+    aside article {
+        margin: 10px 0;
+    }
+
+    aside a {
+        color: #8cc624;
+    }
+
+h1, nav > ul > li {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+h1, h2, aside > article > a {
+    color: #8cc624;
+}
+
+section {
+    margin: 40px;
+}
+
+
+header {
+    background-image: url('resources/headerBackground.jpg');
+    background-repeat: no-repeat;
+    height: 330px;
+}
+
+footer {
+    background-color: #8cc624;
+
+    padding: 50px 150px;
+}
+
+header h1 {
+    text-transform: none;
+    color: white;
+    position: relative;
+    right: -490px;
+    top: 200px;
+}
+
+div#logo {
+    width: 900px;
+    height: 270px;
+}
+
+
+
+header > nav > ul > li {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 1.2em;
+}
+
+    header > nav > ul > li:hover {
+        background-color: #bbbbbb;
+    }
+
+header > nav > ul {
+    padding: 0;
+    background: linear-gradient(white 50%, #dedede 100%);
+    margin: 0;
+}
+
+    header > nav > ul > li > a {
+        color: gray;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    header > nav > ul > li:hover > a {
+        color: white;
+    }
+
+section#main {
+    width: 70%;
+}
+
+figure {
+    float: left;
+}
+
+#main article {
+    float: left;
+}
+
+    article h3 {
+        font-size: 0.9em;
+    }
+
+#products {
+    height: 500px;
+}
+
+time {
+    font-weight: bold;
+}
+
+address {
+    font-style: normal;
+}

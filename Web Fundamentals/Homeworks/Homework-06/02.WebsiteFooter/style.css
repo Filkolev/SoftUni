@@ -1,0 +1,80 @@
+﻿body, section, ul, li, button, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: block;
+    
+    background-color: #234465;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+}
+
+    div#container {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    section {
+        display: inline-block;
+        vertical-align: top;
+        width: 200px;
+        margin: 0 10px;
+    }
+
+        section h3 {
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #ffa000;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+
+        section#buttons > button {
+            display: block;
+            margin: auto;
+            color: white;
+            background-color: #234465;
+            border: 1px solid #ffa000;
+            width: 90%;
+            height: 50px;
+            margin-bottom: 15px;
+        }
+
+            section#buttons > button:hover {
+                background-color: #ffa000;
+                cursor: pointer;
+
+            }
+
+        section ul li {
+            list-style-type: none;
+            text-indent: 0;
+            margin: 5px 0;
+        }
+
+            section ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 14px;
+            }
+
+            section ul li a:hover {
+                color: #ffa000;
+            }
+
+        button.social-button {
+            width: 32px;
+            height: 32px;
+			float: left;
+            padding: 0;
+            border: none;
+            background-color: #234465;
+
+        }
+
+        button.social-button:hover {
+            cursor:pointer;
+        }

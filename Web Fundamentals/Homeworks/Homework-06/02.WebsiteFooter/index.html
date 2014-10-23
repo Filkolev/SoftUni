@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <title>Website Footer</title>
+</head>
+
+<body>    
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+        <footer>
+            <div id="container">
+                <section id="buttons">
+                    <button onclick="parent.location = 'https://softuni.bg/apply'">Apply Now</button>
+                    <button onclick="parent.location = 'https://softuni.bg/trainings/fasttracks'">Fast track courses</button>
+                </section>
+                <section>
+                    <h3>about the university</h3>
+                    <ul>
+                        <li><a href="https://softuni.bg/about">About</a></li>
+                        <li><a href="https://softuni.bg/professions">Professions</a></li>
+                        <li><a href="https://softuni.bg/plans">Plans</a></li>
+                        <li><a href="http://validator.w3.org/">Partner universities</a></li>
+                        <li><a href="https://softuni.bg/trainers">Trainers</a></li>
+                        <li><a href="http://jigsaw.w3.org/css-validator/#validate_by_upload">Dorms</a></li>
+                        <li><a href="https://softuni.bg/apply">Apply</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>нашите приятели</h3>
+                    <ul>
+                        <li><a href="http://www.nakov.com/">Svetlin Nakov Blog</a></li>
+                        <li><a href="http://www.introprogramming.info/">C# book</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>software university learning system - 1.0.52.87</h3>
+                    <p>
+                        &copy; 2013-2014 - Software University All Rights Reserved.
+                    </p>
+                    <button id="twitter" class="social-button" onclick="parent.location = 'https://twitter.com/softunibg'"><img src="resources/social_twitter_box.png" alt="twitter" title="Twitter" /></button>
+                    <button id="facebook" class="social-button" onclick="parent.location = 'https://www.facebook.com/SoftwareUniversity'"><img src="resources/social_facebook.png" alt="FB" title="Facebook" /></button>
+                    <button id="google-plus" class="social-button" onclick="parent.location = 'https://plus.google.com/+SoftuniBg'"><img src="resources/social_google.png" alt="G+" title="Google Plus" /></button>
+                </section>
+                <section>
+                    <div class="fb-like-box" data-href="https://www.facebook.com/SoftwareUniversity" data-width="200" data-height="180" data-colorscheme="dark" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false"></div>
+                </section>
+            </div>
+        </footer>
+</body>
+
+</html>

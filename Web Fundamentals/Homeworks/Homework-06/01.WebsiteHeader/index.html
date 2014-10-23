@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <title>Website Header</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header>
+        <div id="container">
+            <div id="header-logo"><a href="https://softuni.bg/"><img src="resources/logo.png" alt="SoftUni logo" width="272" height="68" /></a></div>
+
+            <div id="menu-container">
+                <div id="upper-menu">
+                    <div id="notifications">
+                        0
+                        <img src="resources/notifications.jpg" alt=&#x25BE; />
+                        <ul id="notificateion-list">
+                            <li>
+                                <span class="bold">nakov</span> added a new comment: <span class="bold">За да ви е гадно!</span>
+                            </li>
+                            <li>
+                                <span class="bold">nakov</span> added a new answer: <span class="bold">Така е в джава, оплачете се на Oracle. Защо е така: ми за да ви е гадно!</span>
+                            </li>
+                            <li>
+                                <span class="bold">nakov</span> added a new comment: <span class="bold">За порно ползвай Opera. Той е същият като Chrome вече, ползват еднакъв енджин.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="user-menu">
+                        USER &#x25BE;
+                        <ul>
+                            <li class="menu-section"><a href="https://softuni.bg/users/profile/show">user panel</a></li>
+                            <li><a href="https://softuni.bg/users/profile/edit">edit account</a></li>
+                            <li><a href="https://softuni.bg/home/schedule">schedule</a></li>
+                            <li><a href="https://softuni.bg/users/payments/pay">payments</a></li>
+                        </ul>
+                    </div>
+                    <form id="search" method="get" action="https://softuni.bg/Search/Results?">
+                        <input type="search" placeholder="Search..." name="query" />
+                        <button onclick="javascript: submitForm()" title="Search softuni.bg"><img src="resources/magnifying-glass.png" alt="Go" /></button>
+                    </form>
+                </div>
+                <nav>
+                    <ul id="main-menu">
+                        <li id="news"><a href="https://softuni.bg/news">news</a></li>
+                        <li id="about">
+                            about the university &#x25BE;
+                            <ul class="drop-down" id="about-menu">
+                                <li>
+                                    <a href="https://softuni.bg/about">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/plans">curriculum</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/trainers">trainers</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/apply">apply</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="courses">
+                            training courses &#x25BE;
+                            <ul class="drop-down" id="courses-menu">
+                                <li class="menu-section">
+                                    <a href="https://softuni.bg/trainings/courses/list">Courses</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/trainings/coursesinstances/details/1058">C# Basics September</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/trainings/coursesinstances/details/1056">Java Basics September</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/trainings/coursesinstances/details/1065">Web Fundamentals (HTML + CSS) September</a>
+                                </li>
+                                <li class="menu-section">
+                                    <a href="https://softuni.bg/trainings/seminars/list">Seminars</a>
+                                </li>
+                                <li>
+                                    <a href="https://softuni.bg/trainings/seminars/details/1067">Advanced CSS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="partners"><a href="https://softuni.bg/university/companies/partners">for companies</a></li>
+                        <li id="forum"><a href="https://softuni.bg/forum">forum</a></li>
+                        <li id="contacts"><a href="https://softuni.bg/contacts">contacts</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+</body>
+</html>

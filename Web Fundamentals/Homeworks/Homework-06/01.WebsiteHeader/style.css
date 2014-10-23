@@ -1,0 +1,207 @@
+﻿html, body {
+    padding: 0;
+    margin: 0;
+}
+
+header, a {
+    background-color: #234465;
+    color: white;
+}
+
+div#container {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+    ul#main-menu li {
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 5px;
+        margin: 2px;
+    }
+
+        ul#main-menu li:hover {
+            background-color: #4CA0DB;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+ul.drop-down, div#notifications ul, div#user-menu ul {
+    display: none;
+    -webkit-padding-start: 0;
+}
+
+div, ul#main-menu, form, nav {
+    display: inline-block;
+}
+
+    div#header-logo {
+        width: 20%;
+    }
+
+    div#menu-container {
+        width: 65%;
+    }
+
+#upper-menu, #lower-menu {
+    float: right;
+}
+
+
+.drop-down li {
+    text-align: left;
+    text-indent: 0;
+    background-color: #234465;
+}
+
+.drop-down {
+    background-color: #4CA0DB;
+}
+
+
+ul#main-menu li:hover ul {
+    position: absolute;
+    display: block;
+    min-width: 206px;
+    padding-left: 0; 
+}
+
+    ul#main-menu li:hover ul li {
+        display: block;
+        border-radius: 0;
+        text-transform: capitalize;
+        font-weight: normal;
+        padding-left: 0;            
+    }
+
+#about-menu {
+    top: 80px;
+    left: 510px;
+}
+
+#courses-menu {
+    top: 80px;
+    left: 730px;
+}
+
+ul#main-menu li ul li:hover {
+    background-color: #FF9C00;
+}
+
+input[type="search"] {
+    height: 30px;
+    width: 75%;
+    margin-right: 0;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: right;
+    border-right: 1px solid gray;
+}
+
+    button:hover {
+        background-color: #FF9C00;
+        cursor: pointer;
+    }
+
+
+form > input, form > button {
+    display: inline;
+    border-spacing: 0;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+form {
+    background-color: white;
+    border-radius: 5px;
+}
+
+nav {
+    float: right;
+    height: 60px;
+}
+
+#user-menu:hover > ul {
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 966px;
+    text-transform: capitalize;
+}
+
+nav > ul {
+    margin-top: 5px;
+}
+
+
+#user-menu:hover > ul > li {
+    background-color: #234465;
+    border: 1px solid #4CA0DB;
+    padding: 7px;
+}
+
+    #user-menu:hover > ul > li:hover {
+        background-color: #FF9C00;
+    }
+
+#user-menu {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+    #user-menu:hover {
+        cursor: pointer;
+    }
+
+#notifications:hover > ul {
+    display: block;
+    position: absolute;
+    top: 22px;
+    left: 925px;
+    background-color: white;
+    color: #234465;
+}
+
+    #notifications:hover > ul > li {
+        border: 1px solid #4CA0DB;
+        padding: 2px;
+    }
+
+.bold {
+    font-weight: bold;
+}
+
+#notifications:hover {
+    cursor: pointer;
+}
+
+    #notifications:hover > ul > li:hover {
+        text-decoration: underline;
+    }
+
+#header-logo {
+    position: relative;
+    top: -15px;
+    left: 120px;
+}
