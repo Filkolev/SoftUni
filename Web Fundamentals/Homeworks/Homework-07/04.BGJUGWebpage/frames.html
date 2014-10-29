@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <title>BGJUG Webpage - Frames</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+
+    <!--Тези тагове не просто са остарели, а не се поддържат в HTML5. Опитах с различни браузъри, както и да уточня, че документът е HTML 4.01 в doctype декларацията, но по никакъв
+        начин не можах да накарам тези фреймове да проработят, съответно не мога да визуализирам резултат. Затова просто направих рамка на кода на страницата. А и не мисля, че има мнкго
+        смисъл да се отделя време за нещо, което никога няма да ползваме-->
+
+    <frame id="logo" src="header-logo.html" />
+
+    <frameset id="navigation" cols="80%, 20%">
+        <frame src="navigation.html" />
+        <frame src="search-bar.html" />
+    </frameset>
+
+    <frameset id="main-content" cols="20%, *, 20%">
+        <frame src="left-menu.html" />
+        <frame src="main.html" />
+        <frame src="right-menu.html" />
+    </frameset>
+
+    <frame id="twitter-bar" src="twitter-bar.html" />
+
+    <frameset id="footer" cols="20%, 20%, 20%, 20%, 20%">
+        <frame src="footer-heading.html" />
+        <frame src="footer-navigation.html" />
+        <frame src="latest-news.html" />
+        <frame src="footer-more-info.html" />
+        <frame src="copyright.html" />
+    </frameset>
+
+</body>
+</html>

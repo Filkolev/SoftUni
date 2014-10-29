@@ -1,0 +1,170 @@
+﻿body {
+    width: 55%;
+    margin: 0 auto;
+    border: 1px solid gray;    
+}
+
+#left {
+    float: left;
+    width: 15%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#left li {
+    margin: 5px 0;
+}
+
+#right {
+    float: right;
+    width: 15%;
+}
+
+#main {
+    width: 45%;
+    margin: 0 auto;
+}
+
+header > nav > ul > li, header > nav > ul, header > nav, #search-bar {
+    display: inline-block;
+}
+
+#search-bar {
+    margin-left: 280px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer > section {
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+}
+
+footer ul {
+    padding-left: 10px;
+}
+
+h1 {
+    text-indent: 50px;
+    margin: 0 0 50px 0;
+}
+
+section {
+    margin: 20px 10px;
+}
+
+footer, footer a {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h3 {
+    text-transform: uppercase;
+   
+}
+
+p {
+    margin: 0;
+}
+
+header nav ul li  a {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.25em;
+}
+
+header nav ul li {
+    margin-right: 20px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+label, select {
+    display: block;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+h4 {
+    margin: 0;
+}
+
+footer p {
+    color: gray;
+}
+
+address {
+    display: inline;
+    font-style: normal;
+}
+
+article p {
+    margin: 20px 0;
+}
+
+article {
+    margin: 30px 0;
+}
+
+input[type="search"] {
+    height: 30px;
+    border: none;
+}
+
+#search button {
+    background: white;
+    border: none;
+}
+
+.gray {
+    color: gray;
+}
+
+header nav ul li:hover {
+    background-color: gray;
+    color: white;
+}
+
+header nav ul li:hover a {
+    color: white;
+}
+
+select {
+    margin: 20px 0;
+}
+
+footer h3 {
+    font-size: 0.9em;
+}

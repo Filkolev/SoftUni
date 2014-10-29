@@ -1,0 +1,59 @@
+﻿body {
+    font-family: Arial;
+}
+
+section {
+    vertical-align: top;
+    width: 40%;
+    height: 300px;
+    margin: 10px auto;
+    background-color: black;
+    border-radius: 10px;
+
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 3em;
+    margin: 0 0 20px 0;
+}
+
+iframe {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    border: 2px solid yellow;
+    overflow: hidden;
+}
+    iframe::-webkit-scrollbar {
+        display: none;
+    }
+
+ul, iframe, nav {
+    display: inline-block;
+    padding: 0;
+    float: left;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+nav {
+    height: 200px;
+    margin-left: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-style: italic;
+}
+
+ul li a:hover {
+    color: yellow;
+}

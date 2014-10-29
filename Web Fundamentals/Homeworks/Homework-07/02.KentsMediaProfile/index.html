@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <title>Kent's Media Profile</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+
+    <section id="main">
+        <h1>Profile</h1>
+        <section id="general-info">
+            <h2>User: Kent</h2>
+            <figure>
+                <img src="resources/profile-pic.png" alt="Profile picture" width="286" height="230"/>
+                <figcaption>Profile completed 60%</figcaption>                
+            </figure>
+            <meter value="0.6"></meter>
+        </section>
+        <section id="audio">
+            <h2>Uploaded Audio Files</h2>
+            <embed type="audio/ogg" src="http://www.w3schools.com/tags/horse.ogg" />
+                
+            <audio controls>
+                <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg" />
+                <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mp3" />
+                Your browser does not support the audio tag.
+            </audio>
+            <audio controls>
+                <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg" />
+                <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mp3" />
+                Your browser does not support the audio tag.
+            </audio>
+            <audio controls>
+                <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg" />
+                <source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mp3" />
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+        <section id="video">
+            <h2>Uploaded Video Files</h2>
+            <video width="320" height="240" controls>
+                <source src="http://www.w3schools.com/tags/movie.mp4" type="video/mp4" />
+                <source src="http://www.w3schools.com/tags/movie.ogg" type="video/ogg" />
+                <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+                <!--Fake subtitles, couldn't find appropriate file to embed, but had to use the track tag-->
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </section>
+
+</body>
+</html>

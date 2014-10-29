@@ -1,0 +1,46 @@
+﻿body, figure, figcaption, h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+section#main {
+    background-color: #ffc0cb;
+    border-radius: 5px;
+    width: 51%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h2, figcaption {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+section > section {
+    display: inline-block;  
+    vertical-align: top; 
+    margin: 10px; 
+}
+
+    section > audio {
+        display: block;
+        margin: 3px 0;
+    }
+
+    embed {
+       height: 140px;
+    }
+
+    meter {
+        width: 75%;
+        height: 20px;
+    }
+
+   

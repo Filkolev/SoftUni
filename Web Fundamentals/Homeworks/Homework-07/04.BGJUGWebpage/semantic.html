@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet' type='text/css'>
+    <title>BGJUG Webpage - Semantic</title>
+    <meta charset="utf-8" />
+</head>
+
+<!--Styles are not 100% accurate, but they don't need to be according to the problem-->
+<body>
+    <header>
+        <h1>BGJUG - Bulgarian Java User Group</h1>
+        <nav>
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">events</a></li>
+                <li><a href="#">contacts</a></li>
+            </ul>
+        </nav>
+        <div id="search-bar">
+            <form id="search" method="get" action="https://softuni.bg/Search/Results?">
+                <input type="search" placeholder="Search..." name="query" />
+                <button onclick="javascript: submitForm()" title="Search softuni.bg"><img src="resources/search.png" alt="search" width="10" height="10"/></button>
+            </form>
+        </div>
+    </header>
+
+    <aside id="left">
+        <ul>
+            <li><a href="#">An Architecture for E-Voting</a></li>
+            <li><a href="#">Integration Tests for External Services</a></li>
+            <li><a href="#">Algorithmic Music Influenced By Tweets</a></li>
+            <li><a href="#">The Low Quality Of Scientific Code</a></li>
+            <li><a href="#">Development "Methodologies"</a></li>
+        </ul>
+    </aside>
+    <aside id="right">
+        <form>
+            <label for="lang">language</label>
+            <select id="lang" name="lang">
+                <option value="bg">Bulgarian</option>
+                <option value="en">English</option>
+            </select>
+            <a href="#">BLOGROLL</a>
+        </form>
+    </aside>
+
+    <section id="main">
+        <article>
+            <h2>An Architecture for E-Voting</h2>
+            <address>by BOZHO</address> on <time datetime="2014-05-27">MAY 27, 2014</time>
+            <a href="#" class="gray">LEAVE A COMMENT</a>
+            <p>E-voting is a hot topic in my country, and has been discussed a lot everywhere. Since we are already using the internet and touch-screen technologies in our everyday lives, why not apply that to voting? And not for the sake of technology itself, but in order to prevent technical mistakes and election fraud, and make [...]</p>
+            <a href="#">Continue Reading &#8594;</a>
+        </article>
+        <article>
+            <h2>The Optional Type API</h2>
+            <address>by BOZHO</address> on <time datetime="2014-03-19">MARCH 19, 2014</time>
+            <a href="#" class="gray">LEAVE A COMMENT</a>
+            <p>Java 8 introduces the Optional class. In a nutshell, instead of returning null, and then checking for null, you return an Optional instance, which can either have or not have a value set. That way you don't fail with NullPointerException. I won't discuss whether the Optional type will eliminate NPEs completely (it won't). Instead, I'll [...]</p>
+            <a href="#">Continue Reading &#8594;</a>
+        </article>
+
+        <a href="#">&#8592; Previous Entries</a>
+    </section>
+    <section id="twitter">
+        <em>Set your Twitter account name in your settings to use the TwitterBar Section.</em>
+    </section>
+
+    <footer>
+        <section>
+            <h2>BGJUG - Java Bulgarian User Group</h2>
+        </section>
+        <section>
+            <h3>pages</h3>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <h3>the latest</h3>
+            <h4>An Architecture for E-Voting</h4>
+            <p>E-voting is a hot topic in my country, and has been discussed [...]</p>
+        </section>
+        <section>
+            <h3>more</h3>
+            <p>Thanks for dropping by! Feel free to join the discussion by leaving comments, and stay updated by subscribing to the <a href="#">RSS Feed.</a></p>
+        </section>
+        <section>
+            <p>&copy; 2011 BGJUG - Java Bulgarian User Group</p>
+        </section>
+    </footer>
+
+</body>
+</html>
