@@ -1,0 +1,114 @@
+﻿body, h1, h2, span, a, input[type="submit"] {
+    font-family: Tahoma, Helvetica, sans-serif;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #cccccc;
+    padding: 30px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    font-weight: normal;
+    color: #1f201b;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+section#forms {
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #cecece;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+form {
+    display: inline-block;
+    width: 49%;
+    position: relative;
+}
+
+#login {
+    top: -114px;
+    right: -7px;
+}
+
+input {
+    display: block;
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}
+
+    input[type="checkbox"] {
+        display: inline-block;
+        width: auto;
+        margin: 0;
+        border-radius: initial;
+        border: none;
+    }
+
+label span {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #79797b;
+}
+
+a {
+    color: #fa5275;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #ff5d5d;
+        text-decoration: underline;
+    }
+
+input[type="submit"] {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 1px 2px #c7c7c7;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+    input[type="submit"]:hover {
+        cursor: pointer;
+        background-color: #afdf67;
+    }
+
+input[type="text"], input[type="email"] {
+    background-image: url('../images/ok.png');
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
+
+input[type="password"] {
+    background-image: url('../images/no.png');
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
