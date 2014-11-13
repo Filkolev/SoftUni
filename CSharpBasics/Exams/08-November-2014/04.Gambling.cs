@@ -24,7 +24,7 @@ class Gambling
 
 		int winningHands = 0;
 		int totalHands = 0;
-		// const int totalHands = 28561;
+		// const int TOTAL_HANDS = 28561;
 
 		for (int card1 = 2; card1 <= 14; card1++)
 		{
