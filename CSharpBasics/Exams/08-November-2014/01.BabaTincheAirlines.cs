@@ -1,6 +1,6 @@
 using System;
 
-class DoubleDowns
+class BabaTincheAirlines
 {
     static void Main()
     {
