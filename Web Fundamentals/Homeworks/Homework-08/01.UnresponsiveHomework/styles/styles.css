@@ -1,0 +1,226 @@
+﻿body {
+    background-color: #6698ff;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+    #wrapper > header > h1 {
+        border-bottom: 2px solid black;
+        padding-bottom: 20px;
+    }
+
+    #wrapper header > h1 > a {
+        text-decoration: none;
+    }
+
+        #wrapper header > h1 > a > span {
+            font-weight: bold;
+            color: white;
+            font-size: 3rem;
+        }
+
+    #wrapper header nav {
+        position: relative;
+        top: -40px;
+    }
+
+
+
+header nav ul li {
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 10px;
+    float: right;
+}
+
+    header nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+        header nav ul li a:hover {
+            color: blue;
+        }
+
+aside {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    position: relative;
+    right: -2.5%;
+    background-color: white;
+}
+
+    aside > div > ul {
+        margin: 0;
+        padding: 10px;
+        list-style-type: none;
+    }
+
+        aside > div > ul > li {
+            margin-bottom: 5px;
+        }
+
+            aside > div > ul > li > a {
+                color: black;
+                text-decoration: none;
+                font-size: 0.9em;
+            }
+
+                aside > div > ul > li > a:hover {
+                    color: blue;
+                }
+
+
+section {
+    width: 74%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+    section > article {
+        border: 1px solid black;
+        background-color: white;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+        section > article > div {
+            text-indent: 30px;
+        }
+
+article header h1 {
+    font-size: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    vertical-align: bottom;
+}
+
+    footer > h2 {
+        margin-bottom: 0;
+    }
+
+@media only screen and (max-width: 1360px) {
+    #wrapper header > h1 > a > span {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #wrapper header > h1 > a > span {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    #wrapper header > h1 > a > span {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 960px) {
+    #wrapper {
+        width: 100%;
+    }
+
+        #wrapper header > h1 > a > span {
+            font-size: 2rem;
+        }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 780px) {
+    #wrapper {
+        width: 100%;
+    }
+
+        #wrapper header > h1 > a > span {
+            font-size: 1.5rem;
+        }
+
+    section, aside {
+        width: 100%;
+    }
+
+    aside {
+        right: 0;
+        margin-bottom: 10px;
+    }
+
+        aside > div > ul {
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        aside li {
+            display: inline-block;
+            width: 24%;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+}
+
+@media only screen and (max-width: 640px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    section, aside {
+        width: 100%;
+    }
+
+    #wrapper > header {
+        text-align: center;
+    }
+
+        #wrapper > header > h1 > a > img {
+            margin: 0 auto;
+        }
+
+        #wrapper > header > h1 > a > span {
+            display: block;
+        }
+
+        #wrapper > header nav ul li {
+            display: block;
+            width: 100%;
+        }
+
+    aside {
+        right: 0;
+        margin-bottom: 10px;
+    }
+
+        aside li {
+            display: block;
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+
+    footer {
+        margin-top: 20px;
+    }
+}

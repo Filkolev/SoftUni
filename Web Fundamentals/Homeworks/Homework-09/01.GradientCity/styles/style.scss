@@ -1,0 +1,232 @@
+﻿@mixin gradientGenerator($type, $direction, $start-color, $end-color) {
+    @if $type == 'linear' {
+        background: linear-gradient(to $direction, $start-color, $end-color);
+    }
+    @else {
+        background: radial-gradient($start-color, $end-color);
+    }
+}
+
+@mixin outer-border-style() {
+    border: 3px double #848484;
+}
+
+@mixin inner-border-style() {
+    border: 1px solid #848484;
+}
+
+$text-color: #808080;
+$text-font: Tahoma, sans-serif;
+
+body {
+    color: $text-color;
+    font-family: $text-font;
+    @include gradientGenerator(linear, bottom, #808080, #f2f2f2 );
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#wrapper {
+    @include outer-border-style;
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+
+    > header {
+        text-align: center;
+        @include outer-border-style;
+    }
+}
+
+
+nav {
+    ul {
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 10px;
+        @include outer-border-style;
+    }
+
+    a {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        color: $text-color;
+        text-decoration: none;
+
+        &:hover {
+            @include gradientGenerator(linear, bottom, #808080, #f2f2f2 );
+            color: white;
+        }
+    }
+}
+
+
+.linear, .radial {
+    @include outer-border-style;
+    margin: 10px 0;
+    padding: 20px;
+
+    h1 {
+        text-decoration: underline;
+        font-weight: normal;
+    }
+
+    article {
+        @include inner-border-style;
+        margin: 10px 0;
+        padding: 20px;
+
+        h2 {
+            font-weight: normal;
+            font-size: 1.1em;
+        }
+    }
+
+    .innerContainer {
+        font-size: 0;
+
+        div {
+            width: 174px;
+            height: 174px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+    }
+}
+
+.linear {
+    article:nth-child(2) {
+        .purple {
+            @include gradientGenerator(linear, bottom, purple, white);
+        }
+
+        .blue {
+            @include gradientGenerator(linear, bottom, blue, white);
+        }
+
+        .green {
+            @include gradientGenerator(linear, bottom, green, white);
+        }
+
+        .yellow {
+            @include gradientGenerator(linear, bottom, yellow, white);
+        }
+
+        .orange {
+            @include gradientGenerator(linear, bottom, orange, white);
+        }
+
+        .red {
+            @include gradientGenerator(linear, bottom, red, white);
+        }
+    }
+
+    article:nth-child(3) {
+        .purple {
+            @include gradientGenerator(linear, right, purple, white);
+        }
+
+        .blue {
+            @include gradientGenerator(linear, right, blue, white);
+        }
+
+        .green {
+            @include gradientGenerator(linear, right, green, white);
+        }
+
+        .yellow {
+            @include gradientGenerator(linear, right, yellow, white);
+        }
+
+        .orange {
+            @include gradientGenerator(linear, right, orange, white);
+        }
+
+        .red {
+            @include gradientGenerator(linear, right, red, white);
+        }
+    }
+
+    article:nth-child(4) {
+        .purple {
+            @include gradientGenerator(linear, right bottom, purple, white);
+        }
+
+        .blue {
+            @include gradientGenerator(linear, right bottom, blue, white);
+        }
+
+        .green {
+            @include gradientGenerator(linear, right bottom, green, white);
+        }
+
+        .yellow {
+            @include gradientGenerator(linear, right bottom, yellow, white);
+        }
+
+        .orange {
+            @include gradientGenerator(linear, right bottom, orange, white);
+        }
+
+        .red {
+            @include gradientGenerator(linear, right bottom, red, white);
+        }
+    }
+}
+
+.radial {
+    .purple {
+        @include gradientGenerator(radial, right bottom, purple, white);
+    }
+
+    .blue {
+        @include gradientGenerator(radial, right bottom, blue, white);
+    }
+
+    .green {
+        @include gradientGenerator(radial, right bottom, green, white);
+    }
+
+    .yellow {
+        @include gradientGenerator(radial, right bottom, yellow, white);
+    }
+
+    .orange {
+        @include gradientGenerator(radial, right bottom, orange, white);
+    }
+
+    .red {
+        @include gradientGenerator(radial, right bottom, red, white);
+    }
+}
+
+footer {
+    text-align: center;
+
+    h3 {
+        text-decoration: underline;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 5px 0;
+    }
+
+    a {
+        color: $text-color;
+        text-decoration: none;
+    }
+}

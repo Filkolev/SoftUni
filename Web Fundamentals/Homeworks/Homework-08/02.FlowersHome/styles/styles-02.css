@@ -1,0 +1,251 @@
+﻿body {
+    background-image: url('../images/background-flowers.jpg');
+    background-repeat: repeat;
+}
+
+
+#wrapper {
+    width: 65%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    height: 500px;
+}
+
+    #wrapper > header img {
+        width: 33%;
+    }
+
+    #wrapper > header, aside, section, footer {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid black;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 1%;
+    }
+
+    #wrapper > header {
+        -ms-flex: 0 100%;
+        flex: 0 100%;
+        order: 1;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+aside.left {
+    -ms-flex: 0 22%;
+    flex: 0 22%;
+    order: 2;
+}
+
+aside.right {
+    -ms-flex: 0 22%;
+    flex: 0 22%;
+    order: 4;
+}
+
+section {
+    -ms-flex: 0 52%;
+    flex: 0 52%;
+    order: 3;
+    margin: 0 2%;
+}
+
+footer {
+    -ms-flex: 0 100%;
+    flex: 0 100%;
+    order: 5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section article div {
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+    section article div img {
+        width: 24%;
+        -o-object-fit: contain;
+        object-fit: contain;
+        max-height: 150px;
+        margin: 1% 0;
+    }
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+    header nav ul li a {
+        display: inline-block;
+        width: 120px;
+        height: 40px;
+        background-color: #eb2a7b;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        text-decoration: none;
+        margin: 0 10px;
+        border: 1px solid black;
+    }
+
+header span {
+    float: right;
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+article header h1 {
+    margin: 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 960px) and (min-width: 781px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    section article div img {
+        width: 32%;
+    }
+}
+
+
+@media only screen and (max-width: 780px) and (min-width: 641px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    aside.left, aside.right, section {
+        -ms-flex: 0 100%;
+        flex: 0 100%;
+    }
+
+    aside.left {
+        order: 3;
+    }
+
+    section {
+        -ms-flex: 0 100%;
+        flex: 0 100%;
+        order: 2;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    #wrapper > header, section, aside, footer {
+        margin: 10px auto;
+    }
+
+
+    header nav ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    section article div img {
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    nav ul {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+
+    #wrapper {
+        width: 100%;
+    }
+
+        #wrapper > header {
+            width: 100%;
+            text-align: center;
+        }
+
+        #wrapper header nav {
+            width: 100%;
+        }
+
+            #wrapper header nav ul {
+                width: 100%;
+                justify-content: space-around;
+            }
+
+                #wrapper header nav ul li {
+                    width: 100%;
+                }
+
+                    #wrapper header nav ul li a {
+                        padding: 0 30%;
+                    }
+
+    header span {
+        float: none;
+        display: block;
+        text-decoration: none;
+    }
+
+
+    aside.left, aside.right, section {
+        -ms-flex: 0 100%;
+        flex: 0 100%;
+    }
+
+    aside.left {
+        order: 3;
+    }
+
+    section {
+        -ms-flex: 0 100%;
+        flex: 0 100%;
+        order: 2;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    #wrapper > header, section, aside, footer {
+        margin: 10px auto;
+    }
+
+
+    a {
+        text-decoration: none;
+    }
+
+    section article div img {
+        width: 49% !important;
+    }
+}
