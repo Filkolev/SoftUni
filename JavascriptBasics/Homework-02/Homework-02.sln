@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FA9DFB8-C598-464A-8DB1-7BD1D9857724}"
+	ProjectSection(SolutionItems) = preProject
+		01.kw2hp.js = 01.kw2hp.js
+		02.simple-calculations.js = 02.simple-calculations.js
+		03.evenChecker.js = 03.evenChecker.js
+		04.primeChecker.js = 04.primeChecker.js
+		05.divisionChecker.js = 05.divisionChecker.js
+		06.checkingBits.js = 06.checkingBits.js
+		07.lifetimeSupplyCalc.js = 07.lifetimeSupplyCalc.js
+		08.cylinderVol.js = 08.cylinderVol.js
+		09.treehouse.js = 09.treehouse.js
+		10.digitChecker.js = 10.digitChecker.js
+		11.digitAsWord.js = 11.digitAsWord.js
+		12.variableTypes.js = 12.variableTypes.js
+		13.digitalSoothsayer.js = 13.digitalSoothsayer.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14.CalculateExpression", "14.CalculateExpression", "{C171F816-CA57-4B35-BC66-B9AA936BD657}"
+	ProjectSection(SolutionItems) = preProject
+		14.Calculate Expression\14.calcExpression.js = 14.Calculate Expression\14.calcExpression.js
+		14.Calculate Expression\14.CalculateExpression.html = 14.Calculate Expression\14.CalculateExpression.html
+		14.Calculate Expression\14.style.css = 14.Calculate Expression\14.style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C171F816-CA57-4B35-BC66-B9AA936BD657} = {8FA9DFB8-C598-464A-8DB1-7BD1D9857724}
+	EndGlobalSection
+EndGlobal

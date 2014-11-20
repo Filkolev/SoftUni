@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0128F292-DAF7-4B6B-9034-7C5EE80EF0C6}"
+	ProjectSection(SolutionItems) = preProject
+		01.numberChecker.js = 01.numberChecker.js
+		02.minMaxNumbers.js = 02.minMaxNumbers.js
+		04.arrayBuilder.js = 04.arrayBuilder.js
+		05.charComparer.js = 05.charComparer.js
+		06.sequenceFinder.js = 06.sequenceFinder.js
+		07.maxSequenceFinder-v2.js = 07.maxSequenceFinder-v2.js
+		07.maxSequenceFinder.js = 07.maxSequenceFinder.js
+		08.arraySorter.js = 08.arraySorter.js
+		09.numberFinder.js = 09.numberFinder.js
+		10.stringReverser.js = 10.stringReverser.js
+		11.bracketsChecker.js = 11.bracketsChecker.js
+		12.substringSearch.js = 12.substringSearch.js
+		13.spaceReplacer.js = 13.spaceReplacer.js
+		14.palindromesExtract.js = 14.palindromesExtract.js
+		15.frequentWord.js = 15.frequentWord.js
+		16.cardFrequencies.js = 16.cardFrequencies.js
+		17.aTagReplacer.js = 17.aTagReplacer.js
+		debug.html = debug.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.DocumentProperties", "03.DocumentProperties", "{7481E55B-EEB4-4C0C-938F-1E352FB51782}"
+	ProjectSection(SolutionItems) = preProject
+		03.DocumentProperties\03.docProperties.html = 03.DocumentProperties\03.docProperties.html
+		03.DocumentProperties\03.docProperties.js = 03.DocumentProperties\03.docProperties.js
+		03.DocumentProperties\03.style.css = 03.DocumentProperties\03.style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7481E55B-EEB4-4C0C-938F-1E352FB51782} = {0128F292-DAF7-4B6B-9034-7C5EE80EF0C6}
+	EndGlobalSection
+EndGlobal

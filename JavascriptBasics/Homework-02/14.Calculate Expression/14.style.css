@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+}
+
+#container {
+	display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+}
+
+input, button, p {
+	margin: 10px;
+	font-size: 1.5em;
+	border: 3px solid grey;	
+	display: block;	
+	border-radius: 5px;
+	color: #E68A00;
+}
+
+input, p {
+	padding: 2px;
+	height: 30px;
+	width: 300px;
+	max-width: 300px;
+	background-color: blue;
+}
+
+button {
+	padding: 10px;
+	width: 310px;
+	max-width: 310px;
+	background-color: green;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#result, #toEval {
+	font-size: 1.5em;
+}
+
+#refresh {
+	height: 30px;
+	background-color: grey;
+	color: black;
+	font-size: 0.75em;
+	padding: 2px;
+}
+
+button:hover {
+	background-color: yellow;
+	color: green;
+}
+
+#refresh:hover {
+	background-color: white;
+}

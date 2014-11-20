@@ -1,0 +1,31 @@
+﻿button {
+    font-size: 3em;
+    font-weight: bold;
+    padding: 20px;
+    margin: 50px;
+    background-color: white;
+    color: orange;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+    button:hover {
+        background-color: orange;
+        color: white;
+        cursor: pointer;
+        outline: none;
+    }
+
+    button:active, button:focus {
+        outline: none;
+    }
+
+textarea {
+    font-size: 2em;
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    resize: none;
+    border: none;
+}

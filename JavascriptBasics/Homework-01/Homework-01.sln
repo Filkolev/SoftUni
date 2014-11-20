@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9C743BA-5BD1-4966-9629-7A80DFE52AAE}"
+	ProjectSection(SolutionItems) = preProject
+		02.numbers1to10.js = 02.numbers1to10.js
+		03.current-time.js = 03.current-time.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Hometown", "01.Hometown", "{3CFB371C-E067-427F-A8F0-251C7DEAF472}"
+	ProjectSection(SolutionItems) = preProject
+		01.Hometwon\01.Hometown.html = 01.Hometwon\01.Hometown.html
+		01.Hometwon\01.hometown.js = 01.Hometwon\01.hometown.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.CircleArea", "04.CircleArea", "{02E1ADA3-534D-4FA3-9136-94BD4B78361F}"
+	ProjectSection(SolutionItems) = preProject
+		04.CircleArea\04.circle-area.html = 04.CircleArea\04.circle-area.html
+		04.CircleArea\04.circle-area.js = 04.CircleArea\04.circle-area.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Decimal2Hexadecimal", "05.Decimal2Hexadecimal", "{A7317F2C-BEBA-4B25-8BDA-1B73D7BBDC4E}"
+	ProjectSection(SolutionItems) = preProject
+		05.Decimal2Hecadecimal\05.dec2hex.html = 05.Decimal2Hecadecimal\05.dec2hex.html
+		05.Decimal2Hecadecimal\05.dec2hex.js = 05.Decimal2Hecadecimal\05.dec2hex.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.TicTacToe", "06.TicTacToe", "{8D8C6FB1-3D8C-402F-84C0-24C80B2EFCD2}"
+	ProjectSection(SolutionItems) = preProject
+		06.TicTacToe.html = 06.TicTacToe.html
+		style.css = style.css
+		ticTacToe.js = ticTacToe.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CFB371C-E067-427F-A8F0-251C7DEAF472} = {A9C743BA-5BD1-4966-9629-7A80DFE52AAE}
+		{02E1ADA3-534D-4FA3-9136-94BD4B78361F} = {A9C743BA-5BD1-4966-9629-7A80DFE52AAE}
+		{A7317F2C-BEBA-4B25-8BDA-1B73D7BBDC4E} = {A9C743BA-5BD1-4966-9629-7A80DFE52AAE}
+		{8D8C6FB1-3D8C-402F-84C0-24C80B2EFCD2} = {A9C743BA-5BD1-4966-9629-7A80DFE52AAE}
+	EndGlobalSection
+EndGlobal

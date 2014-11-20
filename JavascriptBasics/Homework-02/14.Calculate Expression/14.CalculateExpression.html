@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Calculate Expression</title>
+	<link type="text/css" rel="stylesheet" href="14.style.css" />	
+</head>
+
+<body>
+	<div id="container">
+		<input type="text" id="expression" placeholder="Enter expression..." />
+		<button onclick="calculate()" title="Accepted symbols: 0-9, +, -, \, %, *, (, ). Everything else is ignored!">Evaluate</button>
+		<p id="toEval"></p>		
+		<p id="result"></p>		
+		<button id="refresh" onClick="window.location.reload()">Clear</button>
+	</div>
+	
+	<script src="14.calcExpression.js"></script>
+</body>
+
+</html>
