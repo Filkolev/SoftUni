@@ -1,0 +1,22 @@
+button {
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 50px;
+    border: 1px solid #0e3a94;
+    color: orange;
+    background-color: white;
+    border-radius: 5px;
+}
+
+    button:hover {
+        color: white;
+        background-color: orange;
+        cursor: pointer;
+    }
+
+    button:focus {
+        outline: none;
+    }

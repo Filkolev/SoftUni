@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Like-UnlikeButton", "01.Like-UnlikeButton", "{ECD2185A-E92E-48D7-B213-B8E718250C3D}"
+	ProjectSection(SolutionItems) = preProject
+		01.LikeUnlikeButton\01.index.html = 01.LikeUnlikeButton\01.index.html
+		01.LikeUnlikeButton\01.LikeUnlikeButton.js = 01.LikeUnlikeButton\01.LikeUnlikeButton.js
+		01.LikeUnlikeButton\01.style.css = 01.LikeUnlikeButton\01.style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.DivsContent", "02.DivsContent", "{3A44B681-7DC5-4A13-8E3B-9E15F69CF49E}"
+	ProjectSection(SolutionItems) = preProject
+		02.DivsContent\02.index.html = 02.DivsContent\02.index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.HideOddRows", "03.HideOddRows", "{C11E816D-22D1-409D-A2EE-8FCBB03C5C23}"
+	ProjectSection(SolutionItems) = preProject
+		03.HideOddRows\03.index.html = 03.HideOddRows\03.index.html
+		03.HideOddRows\hideOddRows.js = 03.HideOddRows\hideOddRows.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.NumbersOnlyField", "04.NumbersOnlyField", "{EC6AC88D-A45E-4688-8D81-3DA53C313E65}"
+	ProjectSection(SolutionItems) = preProject
+		04.NumbersOnlyField\04.index.html = 04.NumbersOnlyField\04.index.html
+		04.NumbersOnlyField\fieldValidator.js = 04.NumbersOnlyField\fieldValidator.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.PrintMouseCoordinates", "05.PrintMouseCoordinates", "{66FC9C4C-1C8E-4DB2-BD31-3381E04C38A4}"
+	ProjectSection(SolutionItems) = preProject
+		05.PrintMouseCoordinates\05.index.html = 05.PrintMouseCoordinates\05.index.html
+		05.PrintMouseCoordinates\printMouseCoordinates.js = 05.PrintMouseCoordinates\printMouseCoordinates.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
