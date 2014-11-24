@@ -11,10 +11,10 @@ function solve(args) {
         var currentEntry = JSON.parse(args[i]);
 
         if (currentEntry['role'] == 'student') {
-            delete currentEntry.role;
             result.students.push(currentEntry);
         } else {
             delete currentEntry.role;
+            delete currentEntry.town;
             result.trainers.push(currentEntry);
         }
     }
@@ -23,31 +23,25 @@ function solve(args) {
         if (studentsSort == 'name') {
             if (a.firstname == b.firstname) {
                 return a.lastname.localeCompare(b.lastname);
-            } else {
-                return a.firstname.localeCompare(b.firstname);
             }
+            return a.firstname.localeCompare(b.firstname);
         } else {
             if (a.level == b.level) {
                 return a.id - b.id;
-            } else {
-                return a.level - b.level;
             }
+            return a.level - b.level;
         }
     });
 
     result.trainers.sort(function (a, b) {
         if (a.courses.length == b.courses.length) {
             return a.lecturesPerDay - b.lecturesPerDay;
-        } else {
-            return a.courses.length - b.courses.length;
         }
+        return a.courses.length - b.courses.length;
     });
 
     for (var j in result.students) {
         var currentStudent = result.students[j];
-        delete currentStudent.town;
-        delete currentStudent.level;
-
         var totalScore = 0;
 
         for (var grade in currentStudent.grades) {
@@ -56,8 +50,7 @@ function solve(args) {
 
         var avg = (totalScore / currentStudent.grades.length).toFixed(2);
 
-        currentStudent['averageGrade'] = avg;
-        delete currentStudent.grades;
+        currentStudent['averageGrade'] = avg;        
 
         var orderedStudent = {};
 
@@ -65,15 +58,10 @@ function solve(args) {
         orderedStudent['firstname'] = currentStudent.firstname;
         orderedStudent['lastname'] = currentStudent.lastname;
         orderedStudent['averageGrade'] = currentStudent.averageGrade;
-        orderedStudent['certificate'] = currentStudent.certificate;    
+        orderedStudent['certificate'] = currentStudent.certificate;
 
         result.students[j] = orderedStudent;
     }
-
-    for (var p in result.trainers) {
-        delete result.trainers[p].town;
-    }
-
 
     console.log(JSON.stringify(result));
 }

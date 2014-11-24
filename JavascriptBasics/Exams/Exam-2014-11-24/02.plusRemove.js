@@ -13,14 +13,11 @@ function solve(args) {
 
         for (var p = 0; p < args[k].length; p++) {
             result[k].push(true);
-        }
-        
+        }        
     }    
 
-    for (var row = 0; row < args.length; row++) {
-       
+    for (var row = 0; row < args.length; row++) {       
         for (var col = 1; col < maxLength; col++) {
-
             if (!args[row] ||
                 !args[row + 1] ||
                 !args[row + 2]) {
@@ -50,7 +47,7 @@ function solve(args) {
 
     for (var row = 0; row < args.length; row++) {
         var rowString = '';
-        for (var col = 0; col < maxLength; col++) {
+        for (var col = 0; col < args[row].length; col++) {
             if (result[row][col] == true) {
                 rowString += args[row][col].toString();
             }

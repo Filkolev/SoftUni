@@ -7,9 +7,8 @@ function solve(args) {
         var results = {};
 
         while (match = regex.exec(currentLine)) {
-            var key = match[1].replace(/(%20|\+)/g, ' ').trim();
-            var val = match[2].replace(/(%20|\+)/g, ' ').trim();
-            val = val.replace(/\s+/g, ' ');
+            var key = match[1].replace(/(%20|\+)+/g, ' ').trim();
+            var val = match[2].replace(/(%20|\+)+/g, ' ').trim();            
 
             if (!results[key]) {
                 results[key] = [];
