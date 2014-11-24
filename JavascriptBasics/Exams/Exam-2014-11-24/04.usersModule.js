@@ -5,7 +5,6 @@ function solve(args) {
     };
 
     var studentsSort = args[0].split('^')[0];
-    var trainersSort = args[0].split('^')[1];
 
     for (var i = 1; i < args.length; i++) {
         var currentEntry = JSON.parse(args[i]);
