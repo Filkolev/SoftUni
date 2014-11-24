@@ -48,11 +48,9 @@ function solve(args) {
         }
 
         var avg = (totalScore / currentStudent.grades.length).toFixed(2);
-
-        currentStudent['averageGrade'] = avg;        
-
+        currentStudent['averageGrade'] = avg;  
+        
         var orderedStudent = {};
-
         orderedStudent['id'] = currentStudent.id;
         orderedStudent['firstname'] = currentStudent.firstname;
         orderedStudent['lastname'] = currentStudent.lastname;
