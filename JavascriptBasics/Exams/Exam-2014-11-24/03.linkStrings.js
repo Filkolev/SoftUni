@@ -2,9 +2,8 @@ function solve(args) {
     for (var j in args) {
         var currentLine = args[j];
         var regex = /([^?=&]+)=([^?=&]+)/g;
-        var match;
-
         var results = {};
+        var match;
 
         while (match = regex.exec(currentLine)) {
             var key = match[1].replace(/(%20|\+)+/g, ' ').trim();
