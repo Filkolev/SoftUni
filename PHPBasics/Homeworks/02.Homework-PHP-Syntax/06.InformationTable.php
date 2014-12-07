@@ -23,12 +23,12 @@
     <body>
     <?php
     function buildTable($name, $phone, $age, $address) {
-        echo "\t<table>";
-        echo "\n\t\t\t\t<tr>\n\t\t\t\t\t<th>Name</th>\n\t\t\t\t\t<td>$name</td>\n\t\t\t\t</tr>";
-        echo "\n\t\t\t\t<tr>\n\t\t\t\t\t<th>Phone number</th>\n\t\t\t\t\t<td>$phone</td>\n\t\t\t\t</tr>";
-        echo "\n\t\t\t\t<tr>\n\t\t\t\t\t<th>Age</th>\n\t\t\t\t\t<td>$age</td>\n\t\t\t\t</tr>";
-        echo "\n\t\t\t\t<tr>\n\t\t\t\t\t<th>Address</th>\n\t\t\t\t\t<td>$address</td>\n\t\t\t\t</tr>";
-        echo "\n\t\t\t</table><br/>";
+        echo "<table>";
+        echo "<tr><th>Name</th><td>$name</td></tr>";
+        echo "<tr><th>Phone number</th><td>$phone</td></tr>";
+        echo "<tr><th>Age</th><td>$age</td></tr>";
+        echo "<tr><th>Address</th><td>$address</td></tr>";
+        echo "</table><br/>";
     }
 
     buildTable("Gosho", "0882-321-423", 24, "Hadji Dimitar");
@@ -37,6 +37,3 @@
 
     </body>
 </html>
-
-
- 

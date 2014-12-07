@@ -14,8 +14,6 @@
                 width: 500px;
             }
         </style>
-
-
     </head>
 
     <body>
@@ -43,9 +41,5 @@
         }
 
         ?>
-
     </body>
 </html>
-
-
- 

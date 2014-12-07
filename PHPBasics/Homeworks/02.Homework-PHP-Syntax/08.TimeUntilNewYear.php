@@ -15,4 +15,3 @@
     echo "Seconds until new year : " .number_format ((int)($difference), 0, ".", " ") . "<br />\n";
     echo "Days:Hours:Minutes:Seconds $days:$hours:$minutes:$seconds<br />\n";
 ?>
- 

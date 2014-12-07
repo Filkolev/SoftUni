@@ -5,16 +5,12 @@
         <title>Personal Info</title>
     </head>
     <body>
-
         <?php
         $firstName = 'Ivan';
         $lastName = 'Ivanov';
         $age = 33;
-        echo '<p>My name is ' . $firstName . ' ' . $lastName . ' and I am ' . $age . ' years old. </p>';
         ?>
+
+        <p>My name is <?php echo "$firstName $lastName and I am $age years old." ?> </p>;
     </body>
 </html>
-
-
-
- 
