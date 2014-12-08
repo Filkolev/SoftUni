@@ -30,8 +30,8 @@ if (isset($_POST['submit'])) {
     $maxFrequency = $frequencies[array_keys($frequencies)[0]];
     $mostFrequentTags = array();
 
-    foreach (array_keys($frequencies) as $key) {
-        echo "$key : $frequencies[$key] times<br />\n";
+    foreach ($frequencies as $key=>$value) {
+        echo "$key : $value times<br />\n";
         if ($maxFrequency == $frequencies[$key]) {
             $mostFrequentTags[] = $key;
         }
