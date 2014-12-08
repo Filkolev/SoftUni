@@ -6,9 +6,47 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<?php
 
+<?php
+$name_matcher = "/^[a-zA-Z]{2,20}$/";
+$company_matcher = "/^[a-zA-Z0-9]{2,20}$/";
+$email_matcher = "/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\\.[a-zA-Z0-9]+$/";
+$phone_matcher = "/^[0-9+\\-\\s]+$/";
+
+    if (isset($_POST['submit'])) {
+        $firstName = $_POST['first-name'];
+        $lastName = $_POST['last-name'];
+        $email = $_POST['email'];
+        $phone = $_POST['phone'];
+        $gender = $_POST['gender'];
+        $birthDate = $_POST['birth-date']; // change format
+        $nationality = $_POST['nationality'];
+        $companyName = $_POST['company-name'];
+        $workFrom = $_POST['work-from'];
+        $workTo = $_POST['work-to'];
+        $programmingLangs = $_POST['prog-lang'];
+        $programmingLangsLevel = $_POST['prog-lang-level'];
+        $languages = $_POST['langs'];
+        $langComprehension = $_POST['langs-comprehension'];
+        $langReading = $_POST['langs-reading'];
+        $langWriting = $_POST['langs-writing'];
+        $driverLicense = $_POST['driver-license'];
+
+        if (preg_match($name_matcher, $firstName) != 1 || preg_match($name_matcher, $lastName) != 1){
+            die("First and last name should contain only letters, between 2 and 20");
+        }
+        if (preg_match($company_matcher, $companyName) != 1) {
+            die("Company name should contain letters and numbers only, between 2 and 20");
+        }
+        if (preg_match($email_matcher, $email) != 1) {
+            die("Email should contain letters and numbers, only one dot and only one @.");
+        }
+        if (preg_match($phone_matcher, $phone) != 1) {
+            die("Phone number should contain digits, -, + and space.");
+        }
+    }
 ?>
+
 <h1>CV</h1>
 <table>
     <thead>
@@ -19,31 +57,31 @@
     <tbody>
     <tr>
         <td>First Name</td>
-        <td></td>
+        <td><?php echo $firstName ?></td>
     </tr>
     <tr>
         <td>Last Name</td>
-        <td></td>
+        <td><?php echo $lastName ?></td>
     </tr>
     <tr>
         <td>Email</td>
-        <td></td>
+        <td><?php echo $email ?></td>
     </tr>
     <tr>
         <td>Phone Number</td>
-        <td></td>
+        <td><?php echo $phone ?></td>
     </tr>
     <tr>
         <td>Gender</td>
-        <td></td>
+        <td><?php echo $gender ?></td>
     </tr>
     <tr>
         <td>Birth Date</td>
-        <td></td>
+        <td><?php echo $birthDate ?></td>
     </tr>
     <tr>
         <td>Nationality</td>
-        <td></td>
+        <td><?php echo $nationality ?></td>
     </tr>
     </tbody>
 </table>
@@ -57,15 +95,15 @@
     <tbody>
     <tr>
         <td>Company Name</td>
-        <td></td>
+        <td><?php echo $companyName ?></td>
     </tr>
     <tr>
         <td>From</td>
-        <td></td>
+        <td><?php echo $workFrom ?></td>
     </tr>
     <tr>
         <td>To</td>
-        <td></td>
+        <td><?php echo $workTo ?></td>
     </tr>
     </tbody>
 </table>
@@ -88,7 +126,11 @@
                 </tr>
                 </thead>
                 <tbody>
-                // include php
+                <?php
+                for ($i = 0; $i < count($programmingLangs); $i++) {
+                echo "<tr><td>$programmingLangs[$i]</td><td>$programmingLangsLevel[$i]</td></tr>";
+                }
+                ?>
                 </tbody>
             </table>
         </td>
@@ -116,7 +158,11 @@
                 </tr>
                 </thead>
                 <tbody>
-                // include php
+                <?php
+                for ($i = 0; $i < count($languages); $i++) {
+                    echo "<tr><td>$languages[$i]</td><td>$langComprehension[$i]</td><td>$langReading[$i]</td><td>$langWriting[$i]</td></tr>";
+                }
+                ?>
                 </tbody>
             </table>
         </td>
@@ -124,12 +170,11 @@
     <tr>
         <td>Driver's license</td>
         <td>
-            // include php
+            <?php echo implode(", ", $driverLicense) ?>
         </td>
     </tr>
     </tbody>
 </table>
-
 
 </body>
 </html>

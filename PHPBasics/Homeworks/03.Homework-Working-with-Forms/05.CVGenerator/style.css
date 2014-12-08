@@ -38,3 +38,19 @@ ul {
 table, th, td, tr {
     border: 1px solid black;
 }
+
+input, select, button {
+    margin: 5px;
+}
+
+body > table {
+    margin: 10px;
+}
+
+h1 {
+    text-indent: 10px;
+}
+
+td, th {
+    padding: 5px;
+}

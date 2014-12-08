@@ -16,22 +16,22 @@ function addLanguage(list) {
 
         var input = document.createElement('input');
         input.setAttribute('type', 'text');
-        input.setAttribute('name', 'prog-lang' + newID);
+        input.setAttribute('name', 'prog-lang[]');
         input.setAttribute('id', 'prog-lang' + newID);
 
         var select = document.createElement('select');
-        select.setAttribute('name', 'prog-lang-level' + newID);
+        select.setAttribute('name', 'prog-lang-level[]');
         var opt0 = document.createElement('option');
-        opt0.setAttribute('value', '0');
+        opt0.setAttribute('value', 'Beginner');
         opt0.innerHTML = 'Beginner';
         var opt1 = document.createElement('option');
-        opt1.setAttribute('value', '1');
+        opt1.setAttribute('value', 'Intermediate');
         opt1.innerHTML = 'Intermediate';
         var opt2 = document.createElement('option');
-        opt2.setAttribute('value', '2');
+        opt2.setAttribute('value', 'Expert');
         opt2.innerHTML = 'Expert';
         var opt3 = document.createElement('option');
-        opt3.setAttribute('value', '3');
+        opt3.setAttribute('value', 'Guru');
         opt3.innerHTML = 'Guru';
         select.appendChild(opt0);
         select.appendChild(opt1);
@@ -63,23 +63,23 @@ function addLanguage(list) {
 
         var input = document.createElement('input');
         input.setAttribute('type', 'text');
-        input.setAttribute('name', 'langs' + newID);
+        input.setAttribute('name', 'langs[]');
         input.setAttribute('id', 'langs' + newID);
         li.appendChild(input);
 
         var select = document.createElement('select');
-        select.setAttribute('name', 'langs-comprehension' + newID);
+        select.setAttribute('name', 'langs-comprehension[]');
         var optDef = document.createElement('option');
-        optDef.setAttribute('value', '0');
+        optDef.setAttribute('value', 'Beginner');
         optDef.innerHTML = '-Comprehension-';
         var opt0 = document.createElement('option');
-        opt0.setAttribute('value', '0');
+        opt0.setAttribute('value', 'Beginner');
         opt0.innerHTML = 'Beginner';
         var opt1 = document.createElement('option');
-        opt1.setAttribute('value', '1');
+        opt1.setAttribute('value', 'Intermediate');
         opt1.innerHTML = 'Intermediate';
         var opt2 = document.createElement('option');
-        opt2.setAttribute('value', '2');
+        opt2.setAttribute('value', 'Expert');
         opt2.innerHTML = 'Expert';
         select.appendChild(optDef);
         select.appendChild(opt0);
@@ -88,18 +88,18 @@ function addLanguage(list) {
         li.appendChild(select);
 
         var select = document.createElement('select');
-        select.setAttribute('name', 'langs-reading' + newID);
+        select.setAttribute('name', 'langs-reading[]');
         var optDef = document.createElement('option');
-        optDef.setAttribute('value', '0');
+        optDef.setAttribute('value', 'Beginner');
         optDef.innerHTML = '-Reading-';
         var opt0 = document.createElement('option');
-        opt0.setAttribute('value', '0');
+        opt0.setAttribute('value', 'Beginner');
         opt0.innerHTML = 'Beginner';
         var opt1 = document.createElement('option');
-        opt1.setAttribute('value', '1');
+        opt1.setAttribute('value', 'Intermediate');
         opt1.innerHTML = 'Intermediate';
         var opt2 = document.createElement('option');
-        opt2.setAttribute('value', '2');
+        opt2.setAttribute('value', 'Expert');
         opt2.innerHTML = 'Expert';
         select.appendChild(optDef);
         select.appendChild(opt0);
@@ -108,18 +108,18 @@ function addLanguage(list) {
         li.appendChild(select);
 
         var select = document.createElement('select');
-        select.setAttribute('name', 'langs-writing' + newID);
+        select.setAttribute('name', 'langs-writing[]');
         var optDef = document.createElement('option');
-        optDef.setAttribute('value', '0');
+        optDef.setAttribute('value', 'Beginner');
         optDef.innerHTML = '-Writing-';
         var opt0 = document.createElement('option');
-        opt0.setAttribute('value', '0');
+        opt0.setAttribute('value', 'Beginner');
         opt0.innerHTML = 'Beginner';
         var opt1 = document.createElement('option');
-        opt1.setAttribute('value', '1');
+        opt1.setAttribute('value', 'Intermediate');
         opt1.innerHTML = 'Intermediate';
         var opt2 = document.createElement('option');
-        opt2.setAttribute('value', '2');
+        opt2.setAttribute('value', 'Expert');
         opt2.innerHTML = 'Expert';
         select.appendChild(optDef);
         select.appendChild(opt0);

@@ -9,26 +9,26 @@
     <form action="CVGenerator.php" method="post">
         <fieldset id="personal-info">
             <legend>Personal Information</legend>
-            <input type="text" name="first-name" id="first-name" pattern="[\s\w]+" placeholder="First Name">
-            <input type="text" name="first-name" id="last-name" pattern="[\s\w]+" placeholder="Last Name">
-            <input type="email" name="email" id="email" placeholder="Email">
-            <input type="tel" name="phone" id="phone" placeholder="Phone Number">
-            <label for="female">Female <input type="radio" name="gender" id="female" value="female"></label>
-            <label for="male">Male <input type="radio" name="gender" id="male" value="male"></label>
+            <input type="text" name="first-name" id="first-name" pattern="[a-zA-Z]{2,20}" title="Between 2 and 20 latin letters!" placeholder="First Name" required="required">
+            <input type="text" name="last-name" id="last-name" pattern="[a-zA-Z]{2,20}" title="Between 2 and 20 latin letters!" placeholder="Last Name" required="required">
+            <input type="email" name="email" id="email" placeholder="Email" pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+" title="Letters and numbers. One dot and one @ only!">
+            <input type="tel" name="phone" id="phone" placeholder="Phone Number" pattern="[0-9+\-\s]+" title="Only digits, +, - and space!">
+            <label for="female">Female <input type="radio" name="gender" id="female" value="Female"></label>
+            <label for="male">Male <input type="radio" name="gender" id="male" value="Male"></label>
             <label for="birth-date">Birth Date</label>
             <input type="date" name="birth-date" id="birth-date">
             <label for="nationality">Nationality</label>
             <select name="nationality" id="nationality">
-                <option value="bg" selected />Bulgarian</option>
-                <option value="en">British</option>
-                <option value="de">German</option>
-                <option value="ru">Russian</option>
+                <option value="Bulgarian" selected />Bulgarian</option>
+                <option value="English">British</option>
+                <option value="German">German</option>
+                <option value="Russian">Russian</option>
             </select>
         </fieldset>
 
         <fieldset id="work-position">
             <legend>Last Work Position</legend>
-            <label for="company-name">Company Name <input type="text" name="company-name" id="company-name"></label>
+            <label for="company-name">Company Name <input type="text" name="company-name" id="company-name" pattern="[a-zA-Z0-9]{2,20}" title="Between 2 nd 20 lating letters or digits!"></label>
             <label for="work-from">From <input type="date" name="work-from" id="work-from"></label>
             <label for="work-to">To <input type="date" name="work-to" id="work-to"></label>
         </fieldset>
@@ -38,12 +38,12 @@
             <label for="prog-lang0">Programming Languages</label>
             <ul id="computer-skills-list">
                 <li id="computer0">
-                    <input type="text" name="prog-lang0" id="prog-lang0">
-                    <select name="prog-lang-level0">
-                        <option value="0">Beginner</option>
-                        <option value="1">Intermediate</option>
-                        <option value="2">Expert</option>
-                        <option value="3">Guru</option>
+                    <input type="text" name="prog-lang[]" id="prog-lang0">
+                    <select name="prog-lang-level[]">
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Expert">Expert</option>
+                        <option value="Guru">Guru</option>
                     </select>
                     <button type="button" class="remove" onclick="removeLanguage('computer', 0)">[X]</button>
                 </li>
@@ -57,24 +57,24 @@
             <label for="langs0">Languages</label>
             <ul id="languages-list">
                 <li id="language0">
-                    <input type="text" name="langs0" id="langs0">
-                    <select name="langs-comprehension0">
-                        <option value="0">-Comprehension-</option>
-                        <option value="0">Beginner</option>
-                        <option value="1">Intermediate</option>
-                        <option value="2">Expert</option>
+                    <input type="text" name="langs[]" id="langs0">
+                    <select name="langs-comprehension[]">
+                        <option value="Beginner">-Comprehension-</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Expert">Expert</option>
                     </select>
-                    <select name="langs-reading0">
-                        <option value="0">-Reading-</option>
-                        <option value="0">Beginner</option>
-                        <option value="1">Intermediate</option>
-                        <option value="2">Expert</option>
+                    <select name="langs-reading[]">
+                        <option value="Beginner">-Reading-</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Expert">Expert</option>
                     </select>
-                    <select name="langs-writing0">
-                        <option value="0">-Writing-</option>
-                        <option value="0">Beginner</option>
-                        <option value="1">Intermediate</option>
-                        <option value="2">Expert</option>
+                    <select name="langs-writing[]">
+                        <option value="Beginner">-Writing-</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Expert">Expert</option>
                     </select>
                     <button type="button" class="remove" onclick="removeLanguage('language', 0)">[X]</button>
                 </li>
@@ -82,9 +82,9 @@
 
             <button type="button" class="add" onclick="addLanguage('language')">Add Language</button>
             <label for="driver-b" id="driver-label">Driver's License</label>
-            <label for="driver-b">B <input type="checkbox" value="b" id="driver-b" name="driver-license[]"></label>
-            <label for="driver-a">A <input type="checkbox" value="a" id="driver-a" name="driver-license[]"></label>
-            <label for="driver-c">C <input type="checkbox" value="c" id="driver-c" name="driver-license[]"></label>
+            <label for="driver-b">B <input type="checkbox" value="B" id="driver-b" name="driver-license[]"></label>
+            <label for="driver-a">A <input type="checkbox" value="A" id="driver-a" name="driver-license[]"></label>
+            <label for="driver-c">C <input type="checkbox" value="C" id="driver-c" name="driver-license[]"></label>
         </fieldset>
         <input type="submit" value="Generate CV" name="submit">
     </form>
