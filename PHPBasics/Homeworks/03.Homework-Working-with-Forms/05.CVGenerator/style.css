@@ -1,0 +1,40 @@
+form {
+    width: 700px;
+    margin: 20px auto;
+}
+
+#personal-info input[type=text], #personal-info input[type=tel], #personal-info input[type=email] {
+    display: block;
+}
+
+#personal-info label[for=birth-date], #personal-info label[for=nationality] {
+    display: block;
+}
+
+#other-skills label[for=langs], #driver-label {
+    display: block;
+}
+
+label[for=work-from], label[for=work-to] {
+    display: block;
+}
+
+.remove {
+    border: none;
+    background-color: inherit;
+}
+
+.remove:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+table, th, td, tr {
+    border: 1px solid black;
+}

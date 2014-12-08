@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CV Generator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form action="CVGenerator.php" method="post">
+        <fieldset id="personal-info">
+            <legend>Personal Information</legend>
+            <input type="text" name="first-name" id="first-name" pattern="[\s\w]+" placeholder="First Name">
+            <input type="text" name="first-name" id="last-name" pattern="[\s\w]+" placeholder="Last Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+            <label for="female">Female <input type="radio" name="gender" id="female" value="female"></label>
+            <label for="male">Male <input type="radio" name="gender" id="male" value="male"></label>
+            <label for="birth-date">Birth Date</label>
+            <input type="date" name="birth-date" id="birth-date">
+            <label for="nationality">Nationality</label>
+            <select name="nationality" id="nationality">
+                <option value="bg" selected />Bulgarian</option>
+                <option value="en">British</option>
+                <option value="de">German</option>
+                <option value="ru">Russian</option>
+            </select>
+        </fieldset>
+
+        <fieldset id="work-position">
+            <legend>Last Work Position</legend>
+            <label for="company-name">Company Name <input type="text" name="company-name" id="company-name"></label>
+            <label for="work-from">From <input type="date" name="work-from" id="work-from"></label>
+            <label for="work-to">To <input type="date" name="work-to" id="work-to"></label>
+        </fieldset>
+
+        <fieldset id="computer-skills">
+            <legend>Computer Skills</legend>
+            <label for="prog-lang0">Programming Languages</label>
+            <ul id="computer-skills-list">
+                <li id="computer0">
+                    <input type="text" name="prog-lang0" id="prog-lang0">
+                    <select name="prog-lang-level0">
+                        <option value="0">Beginner</option>
+                        <option value="1">Intermediate</option>
+                        <option value="2">Expert</option>
+                        <option value="3">Guru</option>
+                    </select>
+                    <button type="button" class="remove" onclick="removeLanguage('computer', 0)">[X]</button>
+                </li>
+            </ul>
+            <button type="button" class="add" onclick="addLanguage('computer')">Add Language</button>
+        </fieldset>
+
+        <fieldset id="other-skills">
+            <legend>Other Skills</legend>
+
+            <label for="langs0">Languages</label>
+            <ul id="languages-list">
+                <li id="language0">
+                    <input type="text" name="langs0" id="langs0">
+                    <select name="langs-comprehension0">
+                        <option value="0">-Comprehension-</option>
+                        <option value="0">Beginner</option>
+                        <option value="1">Intermediate</option>
+                        <option value="2">Expert</option>
+                    </select>
+                    <select name="langs-reading0">
+                        <option value="0">-Reading-</option>
+                        <option value="0">Beginner</option>
+                        <option value="1">Intermediate</option>
+                        <option value="2">Expert</option>
+                    </select>
+                    <select name="langs-writing0">
+                        <option value="0">-Writing-</option>
+                        <option value="0">Beginner</option>
+                        <option value="1">Intermediate</option>
+                        <option value="2">Expert</option>
+                    </select>
+                    <button type="button" class="remove" onclick="removeLanguage('language', 0)">[X]</button>
+                </li>
+            </ul>
+
+            <button type="button" class="add" onclick="addLanguage('language')">Add Language</button>
+            <label for="driver-b" id="driver-label">Driver's License</label>
+            <label for="driver-b">B <input type="checkbox" value="b" id="driver-b" name="driver-license[]"></label>
+            <label for="driver-a">A <input type="checkbox" value="a" id="driver-a" name="driver-license[]"></label>
+            <label for="driver-c">C <input type="checkbox" value="c" id="driver-c" name="driver-license[]"></label>
+        </fieldset>
+        <input type="submit" value="Generate CV" name="submit">
+    </form>
+
+    <script src="js-script.js"></script>
+</body>
+</html>
