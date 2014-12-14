@@ -29,36 +29,49 @@
     </form>
 
     <?php
-        if (isset($_POST['submit']) && $_POST['years'] != '') {
-            $count = $_POST['years'];
-            date_default_timezone_set("Europe/Sofia");
-            $year = date('Y');
+    if (isset($_POST['submit']) && $_POST['years'] != ''):
+    $count = $_POST['years'];
+    date_default_timezone_set("Europe/Sofia");
+    $year = date('Y'); ?>
 
-            echo "<table>";
-            echo "<thead><tr>";
-            echo "<th>Year</th><th>January</th><th>February</th><th>March</th><th>April</th><th>May</th><th>June</th><th>July</th>";
-            echo "<th>August</th><th>September</th><th>October</th><th>November</th><th>December</th><th>Total:</th>";
-            echo "</tr></thead>";
-            echo "<tbody>";
+    <table>
+        <thead>
+        <tr>
+            <th>Year</th>
+            <th>January</th>
+            <th>February</th>
+            <th>March</th>
+            <th>April</th>
+            <th>May</th>
+            <th>June</th>
+            <th>July</th>
+            <th>August</th>
+            <th>September</th>
+            <th>October</th>
+            <th>November</th>
+            <th>December</th>
+            <th>Total:</th>
+        </tr>
+        </thead>
 
-            for ($i = $year; $i >= $year - $count + 1; $i--) {
-                echo "<tr>";
-                echo "<td>$i</td>";
-                $total = 0;
+        <tbody>
 
-                for ($m = 0; $m <= 11; $m++) {
-                    $expenses = rand(0, 999);
-                    $total += $expenses;
-                    echo "<td>$expenses</td>";
-                }
+        <?php for ($i = $year; $i >= $year - $count + 1; $i--): ?>
+            <tr>
+                <td><?php echo $i ?></td>
 
-                echo "<td>$total</td>";
+            <?php $total = 0;
+            for ($m = 0; $m <= 11; $m++):
+                $expenses = rand(0, 999);
+                $total += $expenses; ?>
+                <td><?php echo $expenses ?></td>
+                <td><?php echo $total ?></td>
+            </tr>
+            <?php endfor;
+        endfor;
+    endif; ?>
 
-                echo "</tr>";
-            }
-
-            echo "</tbody></table>";
-        }
-    ?>
+        </tbody>
+    </table>
 </body>
 </html>

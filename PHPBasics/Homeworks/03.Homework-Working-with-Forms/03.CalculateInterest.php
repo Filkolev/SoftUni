@@ -38,7 +38,7 @@
 
         <input type="submit" name="submit" value="Calculate">
     </form>
-
+    <p>
     <?php
     $amount = floatval($_POST['amount']);
     $currency = $_POST['currency'];
@@ -56,6 +56,7 @@
     }
 
     ?>
+    </p>
     </body>
 </html>
 

@@ -12,7 +12,7 @@
             padding: 5px;
         }
         table {
-            width: 200 px;
+            width: 200px;
             margin: 10px auto;
         }
         .bold {
@@ -22,27 +22,27 @@
 </head>
 
 <body>
-    <table>
-        <thead>
-        <tr>
-            <th>Number</th>
-            <th>Root</th>
-        </tr>
-        </thead>
+<table>
+    <thead>
+    <tr>
+        <th>Number</th>
+        <th>Root</th>
+    </tr>
+    </thead>
 
-        <tbody>
-        <?php
+    <tbody>
+    <?php
 
-        for ($i = 0; $i <= 100; $i += 2) {
-            $square = round(sqrt($i), 2);
-            $sum += $square;
-            echo "<tr><td>$i</td><td>$square</td></tr>";
-        }
-
-        echo "<tr><td class=\"bold\">Total:</td><td>$sum</td></tr>";
+    for ($i = 0; $i <= 100; $i += 2):
+        $square = round(sqrt($i), 2);
+        $sum += $square;
         ?>
-        </tbody>
-    </table>
+        <tr><td><?php echo $i ?></td><td><?php echo $square ?></td></tr>
+        <tr><td class="bold">Total:</td><td><?php echo $sum ?></td></tr>
+    <?php endfor ?>
+
+    </tbody>
+</table>
 </body>
 </html>
 

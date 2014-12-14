@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <title>String Modifier</title>
     </head>
+
     <body>
         <form action="06.StringModifier.php" method="post">
             <input type="text" id="text" name="text" required="required">
@@ -31,17 +32,17 @@
                     $reversed = array_reverse(str_split($text));
                     $reversed = implode("", $reversed);
                     if ($reversed == $text) {
-                        echo "$text is a palindrome!";
+                        echo htmlentities($text) . "is a palindrome!";
                     } else {
-                        echo "$text is not a palindrome!";
+                        echo htmlentities($text) . "is not a palindrome!";
                     }
                 } else if ($operation == 'reverse') {
                     $reversed = array_reverse(str_split($text));
                     $reversed = implode("", $reversed);
-                    echo $reversed;
+                    echo htmlentities($reversed);
                 } else if ($operation == 'split') {
                     $splitStr = implode(" ", str_split($text));
-                    echo $splitStr;
+                    echo htmlentities($splitStr);
                 } else if ($operation == 'hash') {
                     echo crypt($text);
                 } else {
@@ -53,7 +54,7 @@
                     }
 
                     $newStr = implode("", $arr);
-                    echo $newStr;
+                    echo htmlentities($newStr);
                 }
             }
             ?>

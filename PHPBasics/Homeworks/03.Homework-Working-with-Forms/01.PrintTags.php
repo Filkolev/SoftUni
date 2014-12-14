@@ -13,7 +13,9 @@
         echo "<input type='text' name='input'/>\n";
         echo "<input type=\"submit\" name='submit'/>\n";
         echo "</form>\n";
-
+        ?>
+        <div>
+        <?php
         if (isset($_POST['submit'])) {
             $tags = explode(", ", $_POST['input']);
             for ($i = 0; $i < count($tags); $i++) {
@@ -22,6 +24,7 @@
         }
 
         ?>
+        </div>
     </body>
 </html>
 

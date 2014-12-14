@@ -16,37 +16,39 @@
 </head>
 
 <body>
-<form action="05.SumOfDigits.php" method="post">
-    <label for="input-field">Input string: </label>
-    <input type="text" name="numbers" id="input-field">
-    <input type="submit" name="submit" id="submit" value="Show result">
-</form>
+    <form action="05.SumOfDigits.php" method="post">
+        <label for="input-field">Input string: </label>
+        <input type="text" name="numbers" id="input-field">
+        <input type="submit" name="submit" id="submit" value="Show result">
+    </form>
 
-<?php
+    <?php
 
-if (isset($_POST['submit']) && $_POST['numbers'] != '') {
-    $numbers = explode(", ", $_POST['numbers']);
-    echo "<table>";
+    if (isset($_POST['submit']) && $_POST['numbers'] != ''):
+    $numbers = explode(", ", $_POST['numbers']); ?>
+    <table>
+        <?php
+        foreach ($numbers as $num):
+        $sumOfDigits = 0; ?>
 
-    foreach ($numbers as $num) {
-        $sumOfDigits = 0;
+        <tr>
+            <td><?php echo $num ?></td>
+            <td>
+                <?php if (is_numeric($num)):
+                    while ($num > 0) {
+                        $sumOfDigits += $num % 10;
+                        $num /= 10;
+                    }
 
-        echo "<tr><td>$num</td><td>";
-        if (is_numeric($num)) {
-            while ($num > 0) {
-                $sumOfDigits += $num % 10;
-                $num /= 10;
-            }
+                    echo $sumOfDigits;
 
-            echo $sumOfDigits;
-
-        } else {
-            echo "I cannot sum that";
-        }
-
-        echo "</td>";
-    }
-}
-?>
+                else:
+                    echo "I cannot sum that";
+                endif;
+        endforeach;
+    endif; ?>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

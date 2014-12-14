@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
         }
     }
 
-    echo "Most Frequent Tag(s) is(are) : " . implode($mostFrequentTags, ", ");
+    echo "<p>Most Frequent Tag(s) is(are) : " . implode($mostFrequentTags, ", ") . "</p>";
 }
 
 ?>

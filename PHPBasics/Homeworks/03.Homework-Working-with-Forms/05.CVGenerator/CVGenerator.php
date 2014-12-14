@@ -127,10 +127,9 @@ $phone_matcher = "/^[0-9+\\-\\s]+$/";
                 </thead>
                 <tbody>
                 <?php
-                for ($i = 0; $i < count($programmingLangs); $i++) {
-                echo "<tr><td>$programmingLangs[$i]</td><td>$programmingLangsLevel[$i]</td></tr>";
-                }
-                ?>
+                for ($i = 0; $i < count($programmingLangs); $i++): ?>
+                <tr><td> <?php echo $programmingLangs[$i] ?></td><td><?php echo $programmingLangsLevel[$i] ?></td></tr>
+                <?php endfor ?>
                 </tbody>
             </table>
         </td>
@@ -159,10 +158,9 @@ $phone_matcher = "/^[0-9+\\-\\s]+$/";
                 </thead>
                 <tbody>
                 <?php
-                for ($i = 0; $i < count($languages); $i++) {
-                    echo "<tr><td>$languages[$i]</td><td>$langComprehension[$i]</td><td>$langReading[$i]</td><td>$langWriting[$i]</td></tr>";
-                }
-                ?>
+                for ($i = 0; $i < count($languages); $i++): ?>
+                <tr><td><?php echo $languages[$i] ?></td><td><?php echo $langComprehension[$i] ?></td><td><?php echo $langReading[$i] ?></td><td><?php echo $langWriting[$i] ?></td></tr>
+                <?php endfor ?>
                 </tbody>
             </table>
         </td>

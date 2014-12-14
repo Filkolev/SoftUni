@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="02.MostFrequentTag.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02.MostFrequentTag.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02.MostFrequentTag.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6282195" vertical-offset="0" max-vertical-offset="893">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state vertical-scroll-proportion="-25.5" vertical-offset="0" max-vertical-offset="850">
+              <caret line="39" column="88" selection-start-line="39" selection-start-column="88" selection-end-line="39" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="03.CalculateInterest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03.CalculateInterest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1156">
-              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+            <state vertical-scroll-proportion="-30.076923" vertical-offset="204" max-vertical-offset="1173">
+              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="04.externalScript.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04.HTMLTagsCounter/04.externalScript.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -58,7 +58,7 @@
       <file leaf-file-name="04.HTMLTagsCounter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/04.HTMLTagsCounter/04.HTMLTagsCounter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="510">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -68,19 +68,32 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05.CVGenerator/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1683">
+            <state vertical-scroll-proportion="-40.53846" vertical-offset="0" max-vertical-offset="1683">
               <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CVGenerator.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CVGenerator.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/05.CVGenerator/CVGenerator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="374" max-vertical-offset="3162">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-              <folding />
+            <state vertical-scroll-proportion="1.418813" vertical-offset="1470" max-vertical-offset="3128">
+              <caret line="161" column="185" selection-start-line="161" selection-start-column="185" selection-end-line="161" selection-end-column="185" />
+              <folding>
+                <marker date="1418160780758" expanded="true" signature="3697:3739" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="3709:3739" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="3718:3739" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="3795:4218" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="3804:4218" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="3844:4218" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="3864:4218" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="3888:4111" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="3909:4086" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="4135:4218" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="4517:4596" placeholder="..." />
+                <marker date="1418160780758" expanded="true" signature="4564:4596" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +101,7 @@
       <file leaf-file-name="js-script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05.CVGenerator/js-script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="2635">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="2635">
               <caret line="121" column="42" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
               <folding />
             </state>
@@ -98,7 +111,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05.CVGenerator/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1037">
+            <state vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="1037">
               <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding />
             </state>
@@ -108,8 +121,8 @@
       <file leaf-file-name="01.PrintTags.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01.PrintTags.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="561">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -126,15 +139,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/01.printTags.php" />
-        <option value="$PROJECT_DIR$/03.CalculateInterest.php" />
         <option value="$PROJECT_DIR$/04.externalScript.php" />
         <option value="$PROJECT_DIR$/04.HTMLTagsCounter.php" />
-        <option value="$PROJECT_DIR$/01.PrintTags.php" />
         <option value="$PROJECT_DIR$/05.CVGenerator/js-script.js" />
         <option value="$PROJECT_DIR$/05.CVGenerator/index.html" />
-        <option value="$PROJECT_DIR$/05.CVGenerator/CVGenerator.php" />
         <option value="$PROJECT_DIR$/05.CVGenerator/style.css" />
+        <option value="$PROJECT_DIR$/01.PrintTags.php" />
         <option value="$PROJECT_DIR$/02.MostFrequentTag.php" />
+        <option value="$PROJECT_DIR$/03.CalculateInterest.php" />
+        <option value="$PROJECT_DIR$/05.CVGenerator/CVGenerator.php" />
       </list>
     </option>
   </component>
@@ -187,6 +200,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="03.Homework-Working-with-Forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03.Homework-Working-with-Forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03.Homework-Working-with-Forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05.CVGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03.Homework-Working-with-Forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03.Homework-Working-with-Forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04.HTMLTagsCounter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,7 +317,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -325,6 +366,91 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/02.MostFrequentTag.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="850">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.CalculateInterest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1156">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.HTMLTagsCounter/04.externalScript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.HTMLTagsCounter/04.HTMLTagsCounter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.CVGenerator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1683">
+          <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.CVGenerator/CVGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3162">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1418160780758" expanded="true" signature="3697:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3709:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3718:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3795:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3804:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3844:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3864:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3888:4111" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3909:4086" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4135:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4517:4596" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4564:4596" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.CVGenerator/js-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2057" max-vertical-offset="2635">
+          <caret line="121" column="42" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.CVGenerator/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1037">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.PrintTags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="561">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.MostFrequentTag.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="850">
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
@@ -367,7 +493,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3162">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1418160780758" expanded="true" signature="3697:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3709:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3718:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3795:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3804:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3844:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3864:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3888:4111" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3909:4086" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4135:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4517:4596" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4564:4596" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -439,7 +578,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="2397">
           <caret line="114" column="31" selection-start-line="114" selection-start-column="31" selection-end-line="114" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1418160780758" expanded="true" signature="3697:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3709:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3718:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3795:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3804:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3844:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3864:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3888:4111" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3909:4086" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4135:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4517:4596" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4564:4596" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -495,7 +647,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1418160780758" expanded="true" signature="3697:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3709:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3718:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3795:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3804:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3844:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3864:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3888:4111" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3909:4086" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4135:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4517:4596" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4564:4596" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -589,24 +754,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01.PrintTags.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="561">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.MostFrequentTag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.5" vertical-offset="0" max-vertical-offset="850">
+          <caret line="39" column="88" selection-start-line="39" selection-start-column="88" selection-end-line="39" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03.CalculateInterest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1156">
-          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04.HTMLTagsCounter/04.externalScript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-30.076923" vertical-offset="204" max-vertical-offset="1173">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -619,18 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05.CVGenerator/index.html">
+    <entry file="file://$PROJECT_DIR$/04.HTMLTagsCounter/04.externalScript.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="1683">
-          <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05.CVGenerator/js-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2635">
-          <caret line="121" column="42" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -643,19 +800,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05.CVGenerator/CVGenerator.php">
+    <entry file="file://$PROJECT_DIR$/05.CVGenerator/js-script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="374" max-vertical-offset="3162">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="2635">
+          <caret line="121" column="42" selection-start-line="121" selection-start-column="42" selection-end-line="121" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02.MostFrequentTag.php">
+    <entry file="file://$PROJECT_DIR$/05.CVGenerator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6282195" vertical-offset="0" max-vertical-offset="893">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state vertical-scroll-proportion="-40.53846" vertical-offset="0" max-vertical-offset="1683">
+          <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.CVGenerator/CVGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.418813" vertical-offset="1470" max-vertical-offset="3128">
+          <caret line="161" column="185" selection-start-line="161" selection-start-column="185" selection-end-line="161" selection-end-column="185" />
+          <folding>
+            <marker date="1418160780758" expanded="true" signature="3697:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3709:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3718:3739" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3795:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3804:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3844:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3864:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3888:4111" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="3909:4086" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4135:4218" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4517:4596" placeholder="..." />
+            <marker date="1418160780758" expanded="true" signature="4564:4596" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
