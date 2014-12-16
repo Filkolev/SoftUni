@@ -36,8 +36,14 @@
 
         preg_match_all("/\\w+/", strtolower($_POST['input-field']), $words);
 
+            $map = array();
+
         foreach ($words[0] as $word) {
-            $map[$word]++;
+            if (!array_key_exists($word, $map)) {
+                $map[$word] = 1;
+            } else {
+                $map[$word]++;
+            }
         }
         ?>
 
