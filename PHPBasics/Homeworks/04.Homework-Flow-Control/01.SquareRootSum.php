@@ -32,15 +32,14 @@
 
     <tbody>
     <?php
-
+	$sum = 0;
     for ($i = 0; $i <= 100; $i += 2):
         $square = round(sqrt($i), 2);
         $sum += $square;
         ?>
-        <tr><td><?php echo $i ?></td><td><?php echo $square ?></td></tr>
-        <tr><td class="bold">Total:</td><td><?php echo $sum ?></td></tr>
+        <tr><td><?php echo $i ?></td><td><?php echo $square ?></td></tr>        
     <?php endfor ?>
-
+<tr><td class="bold">Total:</td><td><?php echo $sum ?></td></tr>
     </tbody>
 </table>
 </body>

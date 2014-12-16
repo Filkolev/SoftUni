@@ -64,11 +64,11 @@ if (isset($_POST['submit']) && $_POST['years'] != ''):
             for ($m = 0; $m <= 11; $m++):
                 $expenses = rand(0, 999);
                 $total += $expenses; ?>
-                <td><?php echo $expenses ?></td>
-                <td><?php echo $total ?></td>
+                <td><?php echo $expenses ?></td>                
+            <?php endfor; ?>
+			<td><?php echo $total ?></td>
                 </tr>
-            <?php endfor;
-        endfor; ?>
+        <?php endfor; ?>
         </tbody>
     </table>
 <?php  endif; ?>
