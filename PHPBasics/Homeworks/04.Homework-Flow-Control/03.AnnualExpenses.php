@@ -22,14 +22,14 @@
 </head>
 
 <body>
-    <form action="03.AnnualExpenses.php" method="post">
-        <label for="input-field">Enter number of years</label>
-        <input type="text" name="years" id="input-field">
-        <input type="submit" name="submit" id="submit" value="Show expenses">
-    </form>
+<form action="03.AnnualExpenses.php" method="post">
+    <label for="input-field">Enter number of years</label>
+    <input type="text" name="years" id="input-field">
+    <input type="submit" name="submit" id="submit" value="Show expenses">
+</form>
 
-    <?php
-    if (isset($_POST['submit']) && $_POST['years'] != ''):
+<?php
+if (isset($_POST['submit']) && $_POST['years'] != ''):
     $count = $_POST['years'];
     date_default_timezone_set("Europe/Sofia");
     $year = date('Y'); ?>
@@ -58,7 +58,7 @@
 
         <?php for ($i = $year; $i >= $year - $count + 1; $i--): ?>
             <tr>
-                <td><?php echo $i ?></td>
+            <td><?php echo $i ?></td>
 
             <?php $total = 0;
             for ($m = 0; $m <= 11; $m++):
@@ -66,12 +66,11 @@
                 $total += $expenses; ?>
                 <td><?php echo $expenses ?></td>
                 <td><?php echo $total ?></td>
-            </tr>
+                </tr>
             <?php endfor;
-        endfor;
-    endif; ?>
-
+        endfor; ?>
         </tbody>
     </table>
+<?php  endif; ?>
 </body>
 </html>

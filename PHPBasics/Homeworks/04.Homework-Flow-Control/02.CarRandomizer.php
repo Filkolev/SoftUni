@@ -38,10 +38,10 @@
             $count = rand(1, 5);
             ?>
             <tr><td><?php echo htmlentities($car) ?></td><td><?php echo $color ?></td><td><?php echo $count ?></td></tr>
-        <?php endforeach;
-        endif; ?>
+        <?php endforeach; ?>
         </tbody>
     </table>
+ <?php endif; ?>
 </body>
 </html>
 

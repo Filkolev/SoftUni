@@ -44,8 +44,9 @@
         <table>
             <?php foreach($map as $key=>$value): ?>
                 <tr><td><?php echo htmlentities($key) ?></td><td><?php echo $value ?></td></tr>
-            <?php endforeach;
-        endif; ?>
+            <?php endforeach; ?>
+        </table>
+        <?php endif; ?>
     </div>
 </body>
 </html>

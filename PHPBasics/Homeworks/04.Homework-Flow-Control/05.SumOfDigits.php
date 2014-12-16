@@ -16,21 +16,20 @@
 </head>
 
 <body>
-    <form action="05.SumOfDigits.php" method="post">
-        <label for="input-field">Input string: </label>
-        <input type="text" name="numbers" id="input-field">
-        <input type="submit" name="submit" id="submit" value="Show result">
-    </form>
+<form action="05.SumOfDigits.php" method="post">
+    <label for="input-field">Input string: </label>
+    <input type="text" name="numbers" id="input-field">
+    <input type="submit" name="submit" id="submit" value="Show result">
+</form>
 
-    <?php
+<?php
 
-    if (isset($_POST['submit']) && $_POST['numbers'] != ''):
+if (isset($_POST['submit']) && $_POST['numbers'] != ''):
     $numbers = explode(", ", $_POST['numbers']); ?>
     <table>
         <?php
         foreach ($numbers as $num):
         $sumOfDigits = 0; ?>
-
         <tr>
             <td><?php echo $num ?></td>
             <td>
@@ -44,11 +43,11 @@
 
                 else:
                     echo "I cannot sum that";
-                endif;
-        endforeach;
-    endif; ?>
+                endif; ?>
             </td>
         </tr>
+        <?php endforeach; ?>
     </table>
+<?php endif; ?>
 </body>
 </html>
