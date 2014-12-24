@@ -1,0 +1,1 @@
+text=The+input+will+be+read+from+an+HTTP+GET+request.%0D%0AThe+text+will+be+in+ASCII+encoding.

@@ -1,0 +1,1 @@
+list=++++Java+is+an+object-oriented+programming+language.%0D%0A++++PHP+is+a+server-side+scripting+language.++%0D%0A++++HTML+is+the+standard+markup+language+used+to+create+web+pages.%0D%0A%0D%0A++++To+define+a+table+in+HTML+use+%3Ctable%3E%2C+%3Ctd%3E+and+%3Ctr%3E+tags.&maxSize=50

@@ -1,0 +1,1 @@
+text=<br><b><a+href%3D"softuni.bg">softuni<%2Fa><script+src%3D"injection.js"><%2Fscript>&minFontSize=3&maxFontSize=48&step=6

@@ -1,0 +1,7 @@
+﻿<table>
+<tr><th>Name</th><th>Genre</th><th>Artists</th><th>Downloads</th><th>Rating</th></tr>
+<tr><td>V starite Karpati</td><td>Rock</td><td>Nakov</td><td>1029</td><td>4.1</td></tr>
+<tr><td>Rakiichice</td><td>Rock</td><td>Ceco, Joro, Nakov, Petya, Preslav</td><td>453</td><td>4.2</td></tr>
+<tr><td>Sladkarnica Malinka</td><td>Jazz</td><td>Gero, Nakov, Pencho</td><td>728</td><td>4.3</td></tr>
+<tr><td>Krali Marko</td><td>Rock</td><td>Joro, Nakov, Pesho</td><td>1250</td><td>4.8</td></tr>
+</table>

@@ -1,0 +1,1 @@
+errorLog=Strange+Exception+in+thread+%22main%22+here+in+at+Java_Basics.calc%28Java_Basics.java%3A22%29+what+does+it+mean%3F+%3A%0D%0A++++Exception+in+thread+%22main%22+java.lang.ArrayIndexOutOfBoundsException%3A+1%0D%0A++++at+Java_Basics.calc%28Java_Basics.java%3A22%29%0D%0A++++at+Java_Basics.main%28Java_Basics.java%3A13%29

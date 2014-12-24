@@ -1,0 +1,1 @@
+﻿<ul><li>line <strong>73</strong> - <strong>StrangeException</strong> in <em>Java_Basics.java:load</em></li></ul>

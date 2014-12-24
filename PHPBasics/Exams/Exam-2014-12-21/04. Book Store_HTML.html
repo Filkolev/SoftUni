@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Book Store</title>
+</head>
+<body>
+    <form action="book-store.php" method="GET">
+        <div>
+            <label for="text">
+                Input
+                <br/>
+                <textarea name="text" id="text" rows="18" cols="100">Gambardella, Matthew/XML Developer's Guide/Computer/44.95/2000-10-01/An in-depth look at creating applications with XML.
+Ralls, Kim/Midnight Rain/Fantasy/19.15/2000-12-16/A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.
+Corets, Eva/Maeve Ascendant/Fantasy/6.95/2000-11-17/After the collapse of a nanotechnology society in England, the young survivors lay the foundation for a new society.
+Corets, Eva/Oberon's Legacy/Fantasy/5.00/2001-03-10/In post-apocalypse England, the mysterious agent known only as Oberon helps to create a new life for the inhabitants of London. Sequel to Maeve Ascendant.
+Randall, Cynthia/Lover Birds/Romance/5.95/2000-09-02/When Carla meets Paul at an ornithology conference, tempers fly as feathers get ruffled.
+Thurman, Paula/Splish Splash/Romance/4.95/2000-11-02/A deep sea diver finds true love twenty thousand leagues beneath the sea.</textarea>
+            </label>
+        </div>
+        <div>
+            <label for="min-price">
+                Min Price:
+                <br/>
+                <input type="text" name="min-price" id="min-price" value="5.00"/>
+            </label>
+        </div>
+        <div>
+            <label for="max-price">
+                Max Price:
+                <br/>
+                <input type="text" name="max-price" id="max-price" value="10.45"/>
+            </label>
+        </div>
+        <div>
+            <label for="sort">
+                Sort by:
+                <br/>
+                <select name="sort" id="sort">
+                    <option value="genre">genre</option>
+                    <option value="author">author</option>
+                    <option value="publish-date">publish date</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label for="order">
+                Order:
+                <br/>
+                <select name="order" id="order">
+                    <option value="ascending">ascending</option>
+                    <option value="descending">descending</option>
+                </select>
+            </label>
+        </div>
+        <input type="submit"/>
+    </form>
+</body>
+</html>

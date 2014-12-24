@@ -1,0 +1,6 @@
+﻿<div>
+<b>Topic:</b> <span>The dangers of smoking</span>
+<b>Author:</b> <span>Dr. Elliot Hawking</span>
+<b>When:</b> <span>June</span>
+<b>Summary:</b> <span>Recent research has proven that about 80% of all smokers, who smoke on a regular daily basis, are de...</span>
+</div>

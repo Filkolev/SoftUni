@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rainbow Letters</title>
+    <style>
+        input {
+            margin: 3px;
+        }
+        label {
+            display: inline-block;
+            width: 70px;
+        }
+    </style>
+</head>
+<body>
+<form action="RainbowLetters.php" method="get">
+    <label for="text">Text:</label>
+    <input type="text" name="text" id="text" value="Hello"/><br>
+    <label for="red">Red:</label>
+    <input type="text" name="red" id="red" value="255" /><br>
+    <label for="green">Green:</label>
+    <input type="text" name="green" id="green" value="0"/><br>
+    <label for="blue">Blue:</label>
+    <input type="text" name="blue" id="blue" value="0"/><br>
+    <label for="nth">Nth letter:</label>
+    <input type="text" name="nth" id="nth" value="2"/><br>
+    <input type="submit" value="SUBMIT"/>
+</form>
+</body>
+</html>

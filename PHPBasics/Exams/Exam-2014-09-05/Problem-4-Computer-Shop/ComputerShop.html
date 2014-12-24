@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Computer Shop</title>
+    <style>
+        label, textarea, input[type="text"], input[type="submit"] {
+            display: block;
+        }
+        textarea {
+            width: 850px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form method="GET" action="ComputerShop.php">
+        <label>List:</label>
+        <textarea name="list">SONY VAIO SVF13N1X2ES | laptop | INTEL CORE i5-4260U, 4 GB RAM, INTEL HD GRAPHICS 5000 | 2399.00
+PACKARD BELL IMEDIA S2185 (SFF) | desktop | INTEL CELERON N2815 Dual Core, 4 GB RAM, INTEL HD GRAPHICS | 369.00
+ACER ASPIRE Z3-600 | desktop | AMD QUAD-CORE A4-5000 1.50 GHz, 4 GB RAM, AMD RADEON HD 8330 | 1399.00
+APPLE iMAC Z0MQ00071/BG | desktop | INTEL CORE i7-4770T, 16 GB RAM, NVIDIA GEFORCE GT 750M | 2949.00
+ACER ASPIRE V5-123-12104G50NSS | laptop | INTEL CELERON 1007U, 2 GB RAM, INTEL HD GRAPHICS | 489.00
+ACER ASPIRE XC-605 | desktop | INTEL PENTIUM 2117U, 4 GB RAM, INTEL HD GRAPHICS | 749.99
+DELL INSPIRON 3847/476756/477784 | laptop | Intel Core i5-4510U, 6 GB RAM, NVIDIA GeForce 9800GT | 1049.49</textarea>
+        <label>Minimum price:</label>
+        <input type="text" name="minPrice" value="590.00"/>
+        <label>Maximum price:</label>
+        <input type="text" name="maxPrice" value="1600.00"/>
+        <label>Filter:</label>
+        <input type="radio" name="filter" value="all"/>all
+        <input type="radio" name="filter" value="desktop" checked/>desktop
+        <input type="radio" name="filter" value="laptop"/>laptop
+        <label>Order by:</label>
+        <select name="order">
+            <option value="ascending">ascending</option>
+            <option value="descending">descending</option>
+        </select>
+        <input type="submit" value="SUBMIT"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+﻿<table>
+<tr><th>Name</th><th>Genre</th><th>Artists</th><th>Downloads</th><th>Rating</th></tr>
+<tr><td>kokoshka</td><td>tupnq10</td><td>koko2</td><td>10</td><td>3</td></tr>
+<tr><td>patka</td><td>tupnq10</td><td>koko2, nakov</td><td>1021</td><td>4.2</td></tr>
+</table>

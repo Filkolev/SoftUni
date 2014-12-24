@@ -1,0 +1,1 @@
+text=hello+php5&lineLength=5

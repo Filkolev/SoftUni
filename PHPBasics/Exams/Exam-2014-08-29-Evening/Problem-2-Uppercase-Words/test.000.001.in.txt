@@ -1,0 +1,1 @@
+text=Companies+like%0D%0A++++HP%2C+ORACLE+and+IBM+target+their+platforms+for+cloud-based+environment.%0D%0A++++IList%3CT%3E+implements+IEnumerable%3CT%3E.+GoPHP+is+a+PHP+library.

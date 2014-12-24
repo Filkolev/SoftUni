@@ -1,0 +1,1 @@
+﻿<p>Someti<span style="color: #7f007f">m</span>esISit<span style="color: #7f007f">A</span>ndThin<span style="color: #7f007f">k</span>WhatTh<span style="color: #7f007f">e</span>WorldW<span style="color: #7f007f">i</span>llBeWi<span style="color: #7f007f">t</span>houtMe</p>

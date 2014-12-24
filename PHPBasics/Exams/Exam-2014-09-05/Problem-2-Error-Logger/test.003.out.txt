@@ -1,0 +1,1 @@
+﻿<ul><li>line <strong>168</strong> - <strong>StringBuilderException</strong> in <em>test.java:method</em></li><li>line <strong>43</strong> - <strong>InvalidArgumentException</strong> in <em>Calculator.java:priceCalculator</em></li></ul>

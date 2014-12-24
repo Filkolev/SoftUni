@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SoftUni Tunes</title>
+    <style>
+        textarea {
+            width: 500px;
+            height: 200px;
+        }
+        select, textarea, input {
+            display: block;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="softuniTunes.php" method="get">
+        <label>Text:</label>
+        <textarea name="text">Krali Marko | Rock | Nakov, Joro, Pesho | 1250 | 4.8
+Sladkarnica Malinka | Jazz | Pencho, Nakov, Gero | 728 | 4.3
+Hvani me Minke | Rock | Kaloqn, Tosho | 1930 | 4.4
+V starite Karpati | Rock | Nakov | 1029 | 4.1
+Rakiichice | Rock | Ceco, Joro, Nakov, Preslav, Petya | 453 | 4.2</textarea>
+        <label>Artist:</label>
+        <input type="text" name="artist" value="Nakov"/>
+        <label>Sort by:</label>
+        <select name="property">
+            <option value="name">name</option>
+            <option value="genre">genre</option>
+            <option value="downloads">downloads</option>
+            <option value="rating" selected>rating</option>
+        </select>
+        <label>Order by:</label>
+        <select name="order">
+            <option value="ascending" selected>ascending</option>
+            <option value="descending">descending</option>
+        </select>
+        <input type="submit" value="SUBMIT"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+recipient=bay_ivan%40yahoo.com&subject=How+are+you%3F&body=Hello%2C%0D%0A%0D%0AWelcome+to+our+group+at+Yahoo%21+Groups%2C+a+free%2C+easy-to-use+email+group+service.+Please+take+a+moment+to+review+this+message.%0D%0A%0D%0ATo+see+and+modify+all+of+your+groups%2C+go+to+http%3A%2F%2Fgroups.yahoo.com%2Fmygroups%0D%0A%0D%0ARegards%2C%0D%0AModerator&key=pass123

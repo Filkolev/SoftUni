@@ -1,0 +1,1 @@
+﻿<ul><li>Java is an object-oriented programming language.</li><li>PHP is a server-side scripting language.</li><li>HTML is the standard markup language used to creat...</li><li>To define a table in HTML use &lt;table&gt;, &lt;td&gt; and &lt;t...</li></ul>

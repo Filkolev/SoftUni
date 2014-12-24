@@ -1,0 +1,1 @@
+text=Hi+PHP5&minFontSize=4&maxFontSize=8&step=3

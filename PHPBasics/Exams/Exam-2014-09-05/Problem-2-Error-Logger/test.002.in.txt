@@ -1,0 +1,1 @@
+errorLog=++++Exception+in+thread+%22unknown%22+java.StringBuilderException%3A+1%0D%0A++++at+test.method%28test.java%3A168%29%0D%0A++++at+other.main%28other.java%3A13%29

@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<html>
+
+<body>
+<header>
+
+<nav style="color:red">
+Nav
+<aside style="color:blue">
+Aside
+
+<section align = "left" style = "color:blue">
+    <p class="header">
+        <span class="main">
+            Hi, I have class="main".
+        </span>
+    </p>
+
+</section>
+</aside>
+</nav>
+
+Hello
+</header>
+</body>
+</html>

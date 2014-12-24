@@ -1,0 +1,10 @@
+﻿<table>
+<tr><th>Name</th><th>Genre</th><th>Artists</th><th>Downloads</th><th>Rating</th></tr>
+<tr><td>ga6ta mi</td><td>Jazz</td><td>Jorkata, Kilata maika, Nakov</td><td>1</td><td>5</td></tr>
+<tr><td>pra6ka mi</td><td>Jazz</td><td>Jorkata, Kilata maika, Nakov</td><td>1</td><td>5</td></tr>
+<tr><td>4i4ka mi</td><td>Rap</td><td>Jorkata, Kilata maika, Nakov</td><td>1</td><td>4</td></tr>
+<tr><td>bajaka mi</td><td>Jazz</td><td>Jorkata, Kilata maika, Nakov</td><td>1</td><td>4</td></tr>
+<tr><td>cigarata mi</td><td>Jazz</td><td>Jorkata, Kilata maika, Nakov</td><td>1</td><td>3</td></tr>
+<tr><td>kilata mi</td><td>Jazz</td><td>Jorkata, Kilata maika, Nakov</td><td>1</td><td>2.2</td></tr>
+<tr><td>parcala mi</td><td>Jazz</td><td>Kilata maika, Nakov, Rico</td><td>1</td><td>1</td></tr>
+</table>

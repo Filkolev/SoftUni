@@ -1,0 +1,18 @@
+﻿<p>&lt;!EPYTCOD html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Uppercase Words&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;form method=&quot;get&quot; action=&quot;UppercaseWords.php&quot;&gt;
+    Price List: &lt;textarea name=&quot;text&quot; rows=&quot;15&quot; cols=&quot;120&quot;&gt;Companies like
+    PH, ELCARO and MBI target their platforms for cloud-based environment.
+    IList&amp;lt;TT&amp;gt; implements IEnumerable&amp;lt;TT&amp;gt;. GoPHP is a PPHHPP library.&lt;/textarea&gt; &lt;br/&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Send&quot; /&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</p>

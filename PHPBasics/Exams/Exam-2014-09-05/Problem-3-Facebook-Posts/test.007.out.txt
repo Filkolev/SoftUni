@@ -1,0 +1,1 @@
+﻿<article><header><span>&amp;Mr. Bombastic</span><time>6 June 2006</time></header><main><p>wuuuut</p></main><footer><div class="likes">15 people like this</div><div class="comments"><p>-no</p></div></footer></article>

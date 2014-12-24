@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gosho is Moving</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+<form method="get" action="gosho-is-moving.php">
+    <fieldset>
+        <legend>Information</legend>
+        <label for="luggage">Luggage</label><br/>
+        <textarea id="luggage" rows="10" cols="80" name="luggage">furniture;living room;pink couch;40.85kgC|_|furniture;bedroom;night table;5.12kgC|_|boxes;kitchen;plates;10.36kgC|_|boxes;kitchen;cups;10.36kgC|_|boxes;kitchen;tableware;7.6kgC|_|boxes;living room;glasses;3.32kgC|_|boxes;living room;dresses;4.32kgC|_|bags;hall;shoes;5.9kgC|_|</textarea><br/>
+    </fieldset>
+    <fieldset>
+        <legend>Filters</legend>
+        <label>Type Of Luggage</label><br/>
+        <label>Furniture</label>
+        <input type="checkbox" checked name="typeLuggage[]" value="furniture"/>
+        <label>Boxes</label>
+        <input type="checkbox" checked name="typeLuggage[]" value="boxes"/>
+        <label>Bags</label>
+        <input type="checkbox" checked name="typeLuggage[]" value="bags"/><br/>
+
+        <label for="room">Room</label><br/>
+        <input id="room" type="text" name="room" value="living room"/><br/>
+
+        <label for="minWeight">Min Weight</label><br/>
+        <input id="minWeight" type="text" name="minWeight" value="5" /> <br/>
+        <label for="maxWeight">Max Weight</label><br/>
+        <input id="maxWeight" type="text" name="maxWeight" value="50" /> <br/>
+    </fieldset>
+    <input type="submit" value="Send" autofocus="autofocus"/>
+</form>
+</body>
+</html>

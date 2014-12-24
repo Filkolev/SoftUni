@@ -1,0 +1,1 @@
+﻿<div class="product" id="product8"><h2>DELL INSPIRON 3847/476756/477784</h2><ul><li class="component">Intel Core i5-4510U</li><li class="component">6 GB RAM</li><li class="component">NVIDIA GeForce 9800GT</li></ul><span class="price">1049.49</span></div>

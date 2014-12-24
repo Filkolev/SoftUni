@@ -1,0 +1,1 @@
+text=this+text+does+not+hold+any+uppercase+acronums

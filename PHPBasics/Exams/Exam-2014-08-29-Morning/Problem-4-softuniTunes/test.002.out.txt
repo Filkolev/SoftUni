@@ -1,0 +1,8 @@
+﻿<table>
+<tr><th>Name</th><th>Genre</th><th>Artists</th><th>Downloads</th><th>Rating</th></tr>
+<tr><td>song2</td><td>Jazz</td><td>Joro, Nakov, Pencho</td><td>728</td><td>1.3</td></tr>
+<tr><td>song5</td><td>Pop</td><td>Joro, Koro, Nakov, Penio, Pesho, Pudio, asd</td><td>1250</td><td>1.8</td></tr>
+<tr><td>song4</td><td>Rap</td><td>Joro</td><td>1029</td><td>0.1</td></tr>
+<tr><td>song3</td><td>RnB</td><td>Joro</td><td>12453</td><td>3.2</td></tr>
+<tr><td>song6</td><td>Rock</td><td>Jero, Joro, Tosho</td><td>1930</td><td>5.4</td></tr>
+</table>

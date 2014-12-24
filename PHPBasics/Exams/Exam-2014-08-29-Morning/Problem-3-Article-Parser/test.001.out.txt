@@ -1,0 +1,24 @@
+﻿<div>
+<b>Topic:</b> <span>Ttile</span>
+<b>Author:</b> <span>Mr. a.</span>
+<b>When:</b> <span>March</span>
+<b>Summary:</b> <span>elements of a document or visual presentation. Replacing meaningful content that could be distractin...</span>
+</div>
+<div>
+<b>Topic:</b> <span>Ttirle</span>
+<b>Author:</b> <span>Mr. a.</span>
+<b>When:</b> <span>March</span>
+<b>Summary:</b> <span>elements of a document or visual presentation. Replacing meaningful content that could be distractin...</span>
+</div>
+<div>
+<b>Topic:</b> <span>Ttsile</span>
+<b>Author:</b> <span>Mr. a.</span>
+<b>When:</b> <span>March</span>
+<b>Summary:</b> <span>elements of a document or visual presentation. Replacing meaningful content that could be distractin...</span>
+</div>
+<div>
+<b>Topic:</b> <span>ztile</span>
+<b>Author:</b> <span>...</span>
+<b>When:</b> <span>March</span>
+<b>Summary:</b> <span>elements...</span>
+</div>

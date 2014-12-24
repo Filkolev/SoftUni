@@ -1,0 +1,2 @@
+﻿<p>The input will be read from an PTTH TEG request.
+The text will be in IICSA encoding.</p>

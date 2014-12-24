@@ -1,0 +1,1 @@
+priceList=%3Ctable+class%3D%22priceListTable%22%3E%0D%0A++%3Ctr%3E%3Cth%3EProduct%3C%2Fth%3E%3Cth%3ECategory%3C%2Fth%3E%3Cth%3EPrice%3C%2Fth%3E%3Cth%3ECurrency%3C%2Fth%3E%3C%2Ftr%3E%0D%0A++%3Ctr%3E%3Ctd%3EBeer+Ariana%3C%2Ftd%3E%3Ctd%3Ebeer%3C%2Ftd%3E%3Ctd%3E2%3C%2Ftd%3E%3Ctd%3EBGN%3C%2Ftd%3E%3C%2Ftr%3E%0D%0A%3C%2Ftable%3E

@@ -1,0 +1,5 @@
+﻿<table>
+<tr><th>Name</th><th>Genre</th><th>Artists</th><th>Downloads</th><th>Rating</th></tr>
+<tr><td>Krali Marko</td><td>Rock</td><td>Joro, Nakov, Pesho</td><td>1250</td><td>4.8</td></tr>
+<tr><td>song1</td><td>Rock</td><td>Joro, Nakov, Pesho</td><td>1250</td><td>4.8</td></tr>
+</table>

@@ -1,0 +1,1 @@
+recipient=info%40softuni.bg&subject=SoftUniConf+%3C2014%3E&body=SoftUniConf+%3C2014%3E+is+coming.%0D%0A%3Ca+href%3D%22https%3A%2F%2Fsoftuni.bg%2FSoftUniConf%22%3ELearn+more%3C%2Fa%3E&key=s3cr3t%21

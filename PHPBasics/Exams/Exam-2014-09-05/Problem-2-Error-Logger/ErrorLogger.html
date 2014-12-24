@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error Logger</title>
+    <style>
+        textarea, label {
+            display: block;
+        }
+        textarea {
+            width: 600px;
+            height: 200px;
+        }
+        form {
+            margin-bottom: 30px;
+        }
+        input[type="submit"] {
+            margin: 5px;
+        }
+        h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<h2>Zero Test #1</h2>
+<form method="GET" action="ErrorLogger.php">
+    <label>Error log:</label>
+    <textarea name="errorLog">Strange Exception in thread "main" here in at Java_Basics.calc(Java_Basics.java:22) what does it mean? :
+    Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+    at Java_Basics.calc(Java_Basics.java:22)
+    at Java_Basics.main(Java_Basics.java:13)</textarea>
+    <input type="submit" value="SUBMIT"/>
+</form>
+
+<h2>Zero Test #2</h2>
+<form method="GET" action="ErrorLogger.php">
+    <label>Error log:</label>
+    <textarea name="errorLog">Strange Exception in thread "main" here in at Java_Basics.calc(Java_Basics.java:22) what does it mean? :
+    Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+    at Java_Basics.calc(Java_Basics.java:22)
+    at Java_Basics.main(Java_Basics.java:13)
+     Exception in thread "main" java.lang.NullPointerException: 4
+    at Java_Basics.getResources(Java_Basics.java:55)
+    at Java_Basics.calc(Java_Basics.java:22)
+    at Java_Basics.main(Java_Basics.java:13)
+    sudo chmod 777 -R /path/to/Dir/Java_Basics.java</textarea>
+    <input type="submit" value="SUBMIT"/>
+</form>
+
+<h2>Zero Test #3</h2>
+<form method="GET" action="ErrorLogger.php">
+    <label>Error log:</label>
+    <textarea name="errorLog">Exception in thread "main" java.StrangeException: 7
+    at Java_Basics.load(Java_Basics.java:73)
+    at Java_Basics.calc(Java_Basics.java:22)
+    at Java_Basics.main(Java_Basics.java:13)</textarea>
+    <input type="submit" value="SUBMIT"/>
+</form>
+</body>
+</html>

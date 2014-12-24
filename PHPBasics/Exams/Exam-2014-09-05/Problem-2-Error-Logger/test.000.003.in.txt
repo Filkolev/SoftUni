@@ -1,0 +1,1 @@
+errorLog=Exception+in+thread+%22main%22+java.StrangeException%3A+7%0D%0A++++at+Java_Basics.load%28Java_Basics.java%3A73%29%0D%0A++++at+Java_Basics.calc%28Java_Basics.java%3A22%29%0D%0A++++at+Java_Basics.main%28Java_Basics.java%3A13%29

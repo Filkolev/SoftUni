@@ -1,0 +1,1 @@
+﻿<ul><li>line <strong>22</strong> - <strong>ArrayIndexOutOfBoundsException</strong> in <em>Java_Basics.java:calc</em></li><li>line <strong>55</strong> - <strong>NullPointerException</strong> in <em>Java_Basics.java:getResources</em></li><li>line <strong>321</strong> - <strong>EmptyDelegateException</strong> in <em>JavacCLI.java:getResources</em></li></ul>

@@ -1,0 +1,1 @@
+﻿{"beer":[{"product":"Beer Ariana","price":"2","currency":"BGN"}]}

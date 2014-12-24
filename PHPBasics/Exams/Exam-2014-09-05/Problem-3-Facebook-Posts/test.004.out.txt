@@ -1,0 +1,1 @@
+﻿<article><header><span>Didko Dachev</span><time>10 May 1993</time></header><main><p>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;To be or not to be&gt;&gt;&gt;&gt;&gt;&gt;&gt;</p></main><footer><div class="likes">1000 people like this</div><div class="comments"><p>good</p><p>yes</p><p>love</p><p>and</p><p>stuff</p><p>like</p><p>that</p></div></footer></article>
