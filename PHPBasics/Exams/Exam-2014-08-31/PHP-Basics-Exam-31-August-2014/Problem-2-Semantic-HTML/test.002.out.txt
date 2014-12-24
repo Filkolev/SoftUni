@@ -1,3 +1,0 @@
-﻿<nav style="color:red">
-Nav
-</nav>

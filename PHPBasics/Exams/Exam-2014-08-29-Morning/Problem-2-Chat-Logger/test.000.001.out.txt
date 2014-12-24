@@ -1,3 +1,0 @@
-﻿<div>Hey John, happy birthday!</div>
-<div>Thanks :)</div>
-<p>Last active: <time>yesterday</time></p>

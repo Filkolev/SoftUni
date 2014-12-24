@@ -1,1 +1,0 @@
-list=Welcome+to+the+PHP+course.&maxSize=20

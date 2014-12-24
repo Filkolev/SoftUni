@@ -1,3 +1,0 @@
-﻿<p>Companies like
-    PH, ELCARO and MBI target their platforms for cloud-based environment.
-    IList&lt;TT&gt; implements IEnumerable&lt;TT&gt;. GoPHP is a PPHHPP library.</p>
