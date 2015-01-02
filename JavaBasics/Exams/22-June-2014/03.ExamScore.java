@@ -25,14 +25,12 @@ public class _03_ExamScore {
 			int score = Integer.parseInt(tokens[3]);
 			Double grade = Double.parseDouble(tokens[4]);
 			TreeMap<String, Double> newEntry = new TreeMap<>();
+          newEntry.put(name, grade);
 
 			if (entries.containsKey(score)) {				
-				if (entries.get(score).containsKey(name)) {						
-					grade += entries.get(score).get(name);
-				} 
 				entries.get(score).put(name, grade);
 			} else {
-				newEntry.put(name, grade);
+				
 				entries.put(score, newEntry);
 			}
 		}
