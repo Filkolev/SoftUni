@@ -1,29 +1,17 @@
 <?php
-    
-$list = $_GET['list'];
-$length = $_GET['length'];
 
-$show = false;
-if (isset($_GET['show'])) {
-    $show = true;
-}
-
-$names = preg_split("/\r?\n/", $list, -1, PREG_SPLIT_NO_EMPTY);
-
-//var_dump($names);
+$names = preg_split("/\r?\n/", trim($_GET['list']), -1, PREG_SPLIT_NO_EMPTY);
+$minLength = intval($_GET['length']);
 
 $result = "<ul>";
 
 foreach ($names as $name) {
     $name = trim($name);
-    if (strlen($name) == 0) {
-        continue;
-    }
 
-    if (strlen($name) >= $length) {
-    $result .= "<li>" . htmlspecialchars($name) . "</li>";
-    } else if ($show) {
-        $result .= '<li style="color: red;">' . htmlspecialchars($name) . "</li>";
+    if (strlen($name) >= $minLength) {
+        $result .= "<li>" . htmlspecialchars($name) . "</li>";
+    } else if (isset($_GET['show'])) {
+        $result .= "<li style=\"color: red;\">" . htmlspecialchars($name) . "</li>";
     }
 }
 
