@@ -1,64 +1,55 @@
 <?php
-
-$minPrice = $_GET['minPrice'];
-$maxPrice = $_GET['maxPrice'];
+$minPrice = floatval($_GET['minPrice']);
+$maxPrice = floatval($_GET['maxPrice']);
 $filter = $_GET['filter'];
 $order = $_GET['order'];
-$list = $_GET['list'];
 
-$items = preg_split("/\n/", $list, -1, PREG_SPLIT_NO_EMPTY);
+$entries = preg_split("/\r?\n/", $_GET['list'], -1, PREG_SPLIT_NO_EMPTY);
 $results = array();
-
 $id = 0;
-foreach ($items as $entry) {
-    $id++;
-    $data = preg_split("/\s*[|]\s*/", $entry, -1, PREG_SPLIT_NO_EMPTY);
 
+foreach ($entries as $entry) {
+    $id++;
+    $data = preg_split("/\s*\|\s*/", $entry, -1, PREG_SPLIT_NO_EMPTY);
     $name = trim($data[0]);
     $type = trim($data[1]);
-    $components = preg_split("/,\s+/", $data[2], -1, PREG_SPLIT_NO_EMPTY);
-    $price = trim($data[3]);
+    $components = preg_split("/\s*,\s+/", $data[2], -1, PREG_SPLIT_NO_EMPTY);
+    $price = floatval($data[3]);
 
-    if ($price >= $minPrice && $price <= $maxPrice && ($type == $filter || $filter == 'all'))  {
-        $currentProduct = [
+    if ($price >= $minPrice && $price <= $maxPrice && ($type == $filter || $filter == 'all')) {
+        $results[] = [
             'id' => $id,
             'name' => $name,
             'components' => $components,
-            'price' => $price,
-            'type' => $type
+            'price' => $price
         ];
-        $results[] = $currentProduct;
     }
 }
 
-uasort($results, function($a, $b)  {
+uasort($results, function($a, $b) {
     global $order;
-    if ($a['price'] == $b['price']) {
+
+    if (floatval($a['price']) == floatval($b['price'])) {
         return $a['id'] - $b['id'];
     }
 
-    if ($order == 'ascending') {
-        return $a['price'] - $b['price'];
-    }
-
-    return $b['price'] - $a['price'];
-
+    return ($order == 'ascending') ^ ($a['price'] < $b['price']) ? 1 : -1;
 });
 
-foreach ($results as $product) {
-    $name = htmlspecialchars($product['name']);
-    $price = number_format($product['price'], 2, '.', '');
-    $id = $product['id'];
+$toPrint = "";
 
-    echo "<div class=\"product\" id=\"product$id\">";
-    echo "<h2>$name</h2><ul>";
+foreach ($results as $computer) {
+    $toPrint .= "<div class=\"product\" id=\"product" . $computer['id'] . "\">";
+    $toPrint .= "<h2>" . htmlspecialchars($computer['name']) . "</h2>";
 
-    foreach ($product['components'] as $component) {
-        $component = trim($component);
-        $component = htmlspecialchars($component);
-        echo "<li class=\"component\">$component</li>";
+    $toPrint .= "<ul>";
+    foreach ($computer['components'] as $component) {
+        $toPrint .= "<li class=\"component\">" . htmlspecialchars(trim($component)) . "</li>";
     }
+    $toPrint .= "</ul>";
 
-    echo "</ul><span class=\"price\">$price</span></div>";
+    $toPrint .= "<span class=\"price\">" . number_format($computer['price'], 2, '.', '') . "</span>";
+    $toPrint .= "</div>";
 }
-?>
+
+echo $toPrint;
