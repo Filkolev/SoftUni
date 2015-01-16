@@ -54,31 +54,22 @@ while ($index < $size * $size){
     $col++;
 };
 
-$string = "";
+$leftString = "";
+$rightString = "";
 
 for ($row = 0; $row < $size; $row++) {
     for ($col = 0; $col < $size; $col++) {
-        if ($row % 2 == 0 && $col % 2 == 0) {
-            $string .= $matrix[$row][$col];
-        }
-
-        if ($row % 2 == 1 & $col % 2 == 1) {
-            $string .= $matrix[$row][$col];
+        if ($row % 2 == 0 && $col % 2 == 0
+            || $row % 2 == 1 & $col % 2 == 1) {
+            $leftString .= $matrix[$row][$col];
+        } else if ($row % 2 == 0 && $col % 2 == 1
+            || $row % 2 == 1 & $col % 2 == 0) {
+            $rightString .= $matrix[$row][$col];
         }
     }
 }
 
-for ($row = 0; $row < $size; $row++) {
-    for ($col = 0; $col < $size; $col++) {
-        if ($row % 2 == 0 && $col % 2 == 1) {
-            $string .= $matrix[$row][$col];
-        }
-
-        if ($row % 2 == 1 & $col % 2 == 0) {
-            $string .= $matrix[$row][$col];
-        }
-    }
-}
+$string = $leftString . $rightString;
 
 $checkString = preg_replace("/[^a-zA-Z]+/", "", $string);
 $checkString = strtolower($checkString);
