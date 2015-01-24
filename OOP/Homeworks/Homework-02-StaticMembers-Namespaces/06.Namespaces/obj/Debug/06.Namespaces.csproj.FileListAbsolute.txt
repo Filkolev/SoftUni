@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\06.Namespaces\bin\Debug\06.Namespaces.exe.config
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\06.Namespaces\bin\Debug\06.Namespaces.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\06.Namespaces\bin\Debug\06.Namespaces.pdb
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\06.Namespaces\obj\Debug\06.Namespaces.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\06.Namespaces\obj\Debug\06.Namespaces.pdb
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\06.Namespaces\obj\Debug\06.Namespaces.csprojResolveAssemblyReference.cache

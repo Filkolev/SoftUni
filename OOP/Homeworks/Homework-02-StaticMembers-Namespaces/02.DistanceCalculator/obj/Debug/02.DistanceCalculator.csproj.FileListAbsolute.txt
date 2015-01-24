@@ -1,0 +1,8 @@
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\02.DistanceCalculator\obj\Debug\02.DistanceCalculator.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\02.DistanceCalculator\bin\Debug\02.DistanceCalculator.exe.config
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\02.DistanceCalculator\bin\Debug\02.DistanceCalculator.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\02.DistanceCalculator\bin\Debug\02.DistanceCalculator.pdb
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\02.DistanceCalculator\bin\Debug\Point3DTest.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\02.DistanceCalculator\bin\Debug\Point3DTest.pdb
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\02.DistanceCalculator\obj\Debug\02.DistanceCalculator.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\02.DistanceCalculator\obj\Debug\02.DistanceCalculator.pdb

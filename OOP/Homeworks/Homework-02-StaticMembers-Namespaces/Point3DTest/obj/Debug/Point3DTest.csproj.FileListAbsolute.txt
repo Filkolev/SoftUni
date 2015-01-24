@@ -1,0 +1,1 @@
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\Point3DTest\bin\Debug\Point3DTest.exe.config

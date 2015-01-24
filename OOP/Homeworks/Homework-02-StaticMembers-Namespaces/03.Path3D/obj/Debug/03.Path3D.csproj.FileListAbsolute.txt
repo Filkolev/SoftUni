@@ -1,0 +1,8 @@
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\03.Path3D\bin\Debug\03.Path3D.exe.config
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\03.Path3D\bin\Debug\03.Path3D.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\03.Path3D\bin\Debug\03.Path3D.pdb
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\03.Path3D\bin\Debug\Point3DTest.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\03.Path3D\bin\Debug\Point3DTest.pdb
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\03.Path3D\obj\Debug\03.Path3D.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\03.Path3D\obj\Debug\03.Path3D.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\03.Path3D\obj\Debug\03.Path3D.pdb

@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\Point3DTest\bin\Debug\Point3DTest.exe.config
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\Point3DTest\bin\Debug\Point3DTest.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\Point3DTest\bin\Debug\Point3DTest.pdb
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\Point3DTest\obj\Debug\01.Point3D.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\Point3DTest\obj\Debug\Point3DTest.exe
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\Point3DTest\obj\Debug\Point3DTest.pdb
