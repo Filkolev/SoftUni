@@ -1,0 +1,6 @@
+D:\Lectures\Web Fundamentals\Exam-08-July-2014\02.SimpleSite\bin\02.SimpleSite.dll.config
+D:\Lectures\Web Fundamentals\Exam-08-July-2014\02.SimpleSite\bin\02.SimpleSite.dll
+D:\Lectures\Web Fundamentals\Exam-08-July-2014\02.SimpleSite\bin\02.SimpleSite.pdb
+D:\Lectures\Web Fundamentals\Exam-08-July-2014\02.SimpleSite\obj\Debug\02.SimpleSite.csprojResolveAssemblyReference.cache
+D:\Lectures\Web Fundamentals\Exam-08-July-2014\02.SimpleSite\obj\Debug\02.SimpleSite.dll
+D:\Lectures\Web Fundamentals\Exam-08-July-2014\02.SimpleSite\obj\Debug\02.SimpleSite.pdb

@@ -1,0 +1,126 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 730px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+h1 {
+    font-weight: normal;
+    color: #333333;
+}
+
+form {
+    width: 465px;
+    float: left;
+}
+
+aside {
+    width: 210px;
+    float: right;
+    font-size: 0.9em;
+    color: #666666;
+    border: 1px solid #cccccc;
+    padding: 0 20px;
+    position: relative;
+    top: -202px;
+}
+
+    aside h2 {
+        font-weight: normal;
+        color: #333333;
+    }
+
+legend {
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #666666;
+    border: 1px solid #333333;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: 1px dashed #cccccc;
+}
+
+label {
+    width: 70px;
+    padding: 10px;
+    display: inline-block;
+    color: #666666;
+    background-color: #cccccc;
+    margin: 5px 0;
+}
+
+input {
+    width: 335px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 20px;
+}
+
+    input:hover {
+        cursor: pointer;
+        background-color: #f7f5d2;
+    }
+
+form:first-of-type {
+    border-bottom: 1px dashed #cccccc;
+}
+
+form:last-of-type {
+    margin-top: 20px;
+}
+
+#username {
+    background-image: url('../images/username-icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#password {
+    background-image: url('../images/password-icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#register input[type="text"] {
+    background-image: url('../images/field-icon.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.submit-container {
+    float: right;
+    width: 80%;
+    border: 1px solid #cccccc;
+    padding: 5px 20px;
+}
+
+input[type="submit"] {
+    width: 20%;
+    text-align: center;
+    float: right;
+    text-indent: 0;
+    padding: 10px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #989070;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #e3e3db;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
+    border-bottom-color: #d8d8d0;
+    border-right-color: #d8d8d0;
+}
+
+    input[type="submit"]:hover {
+        color: #555555;
+        background-color: #cccccc;
+    }

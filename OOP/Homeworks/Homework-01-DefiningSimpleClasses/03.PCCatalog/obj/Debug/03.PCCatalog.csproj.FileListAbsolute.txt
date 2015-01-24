@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\03.PCCatalog\bin\Debug\03.PCCatalog.exe.config
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\03.PCCatalog\obj\Debug\03.PCCatalog.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\03.PCCatalog\bin\Debug\03.PCCatalog.exe
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\03.PCCatalog\bin\Debug\03.PCCatalog.pdb
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\03.PCCatalog\obj\Debug\03.PCCatalog.exe
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\03.PCCatalog\obj\Debug\03.PCCatalog.pdb

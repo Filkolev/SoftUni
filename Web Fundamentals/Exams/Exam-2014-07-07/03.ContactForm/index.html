@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="styles/style.css" rel="stylesheet" />
+    <title>Contact Form</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div id="container">
+        <h1>Send a Message</h1>
+        <div id="letter-back">
+            <img src="images/envelope-top.png" alt="envelope-top" />
+        </div>
+        <form method="post" action="#">
+            <h2>Hello,</h2>
+            <label for="message">your message:</label>
+            <textarea name="message" id="message"></textarea>
+
+            <h2>Best,</h2>
+            <label for="name">name:</label>
+            <input type="text" name="name" id="name" />
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" />
+
+            <input type="submit" value="Send Message" />
+        </form>
+        <div id="letter-front"><img src="images/envelope-bottom.png" alt="envelope-bottom" /></div>
+    </div>
+</body>
+</html>

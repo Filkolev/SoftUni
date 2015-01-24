@@ -1,0 +1,6 @@
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BithPaths-strings\bin\Debug\05.BithPaths-strings.exe.config
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BithPaths-strings\bin\Debug\05.BithPaths-strings.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BithPaths-strings\bin\Debug\05.BithPaths-strings.pdb
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BithPaths-strings\obj\Debug\05.BithPaths-strings.csprojResolveAssemblyReference.cache
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BithPaths-strings\obj\Debug\05.BithPaths-strings.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BithPaths-strings\obj\Debug\05.BithPaths-strings.pdb

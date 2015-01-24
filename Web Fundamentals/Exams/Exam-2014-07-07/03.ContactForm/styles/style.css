@@ -1,0 +1,103 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'yanonekaffeesatz-regular-webfont';
+    src: url('../fonts/yanonekaffeesatz-regular-webfont.ttf') format('truetype');
+}
+
+body {
+    background-image: url('../images/form-background.png');
+    font-family: yanonekaffeesatz-regular-webfont, Arial, sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    width: 530px;
+    position: relative;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #7c7873;
+}
+
+form {
+    width: 400px;
+    position: relative;
+    top: -320px;
+    left: 55px;
+    border-radius: 2px;
+    background-image: url('../images/letter-background.png');
+    padding: 10px 10px 150px 10px;
+    border: 1px solid #bcb9b0;
+    z-index: 1;
+}
+
+h2 {
+    font-weight: normal;
+    color: #7c7873;
+}
+
+label {
+    color: #b3aba1;
+    display: block;
+    text-transform: uppercase;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #e6ded4;
+    outline: none;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, serif;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 50px;
+    resize: vertical;
+    max-height: 50px;
+}
+
+div#letter-back, div#letter-front {
+    position: relative;
+}
+
+div#letter-back {
+    top: 148px;
+    left: 0;
+    z-index: 0;
+}
+
+div#letter-front {
+    top: -465px;
+    left: 0;
+    z-index: 2;
+}
+
+input[type="submit"] {
+    font-size: 1.5rem;
+    font-family: yanonekaffeesatz-regular-webfont, Arial, sans-serif;
+    color: #7c7873;
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+    width: 33%;
+    margin: 0 auto;
+}
+
+    input[type="submit"]:hover {
+        font-weight: bold;
+        color: #435c70;
+        background-color: #bbc9cf;
+        cursor: pointer;
+    }

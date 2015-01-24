@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\02.LaptopShop\bin\Debug\02.LaptopShop.exe.config
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\02.LaptopShop\bin\Debug\02.LaptopShop.exe
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\02.LaptopShop\bin\Debug\02.LaptopShop.pdb
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\02.LaptopShop\obj\Debug\02.LaptopShop.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\02.LaptopShop\obj\Debug\02.LaptopShop.exe
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\02.LaptopShop\obj\Debug\02.LaptopShop.pdb

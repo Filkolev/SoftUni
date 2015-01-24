@@ -1,0 +1,6 @@
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\01.MelonsAndWatermelons\bin\Debug\01.MelonsAndWatermelons.exe.config
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\01.MelonsAndWatermelons\bin\Debug\01.MelonsAndWatermelons.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\01.MelonsAndWatermelons\bin\Debug\01.MelonsAndWatermelons.pdb
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\01.MelonsAndWatermelons\obj\Debug\01.MelonsAndWatermelons.csprojResolveAssemblyReference.cache
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\01.MelonsAndWatermelons\obj\Debug\01.MelonsAndWatermelons.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\01.MelonsAndWatermelons\obj\Debug\01.MelonsAndWatermelons.pdb

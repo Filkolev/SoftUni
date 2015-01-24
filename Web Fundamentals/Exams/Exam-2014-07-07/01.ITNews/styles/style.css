@@ -1,0 +1,48 @@
+﻿body, a, h2 {
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 13px;
+}
+
+section {
+    width: 590px;
+    margin: 20px auto;
+}
+
+    section > article {
+        width: 280px;
+        margin: 5px;
+        padding: 5px;
+        vertical-align: top;
+        float: left;
+        border: 1px solid #cbcbcb;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 284px;
+        box-shadow: 1px 1px 1px #cbcbcb;
+    }
+
+figure {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+p {
+    display: inline;
+    margin: 0;
+}
+
+a, h2 {
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+time {
+    font-size: 10px;
+    color: #54555a;
+}

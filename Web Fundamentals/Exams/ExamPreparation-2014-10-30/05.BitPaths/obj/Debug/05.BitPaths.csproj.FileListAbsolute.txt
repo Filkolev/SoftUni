@@ -1,0 +1,6 @@
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BitPaths\bin\Debug\05.BitPaths.exe.config
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BitPaths\bin\Debug\05.BitPaths.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BitPaths\bin\Debug\05.BitPaths.pdb
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BitPaths\obj\Debug\05.BitPaths.csprojResolveAssemblyReference.cache
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BitPaths\obj\Debug\05.BitPaths.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\05.BitPaths\obj\Debug\05.BitPaths.pdb

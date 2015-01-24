@@ -1,0 +1,6 @@
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\02.Letters\bin\Debug\02.Letters.exe.config
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\02.Letters\bin\Debug\02.Letters.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\02.Letters\bin\Debug\02.Letters.pdb
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\02.Letters\obj\Debug\02.Letters.csprojResolveAssemblyReference.cache
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\02.Letters\obj\Debug\02.Letters.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\02.Letters\obj\Debug\02.Letters.pdb

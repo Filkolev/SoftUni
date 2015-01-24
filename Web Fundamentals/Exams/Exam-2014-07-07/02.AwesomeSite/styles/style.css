@@ -1,0 +1,168 @@
+﻿/* text-decoration-style and text-decoration-color properties only work in Firefox! */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Fairview_Regular';
+    src: url('../resources/Fairview_Regular.otf') format('opentype');
+}
+
+/* latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v7/rAprGwwb-suIemivDBrAyfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Nunito-Bold'), url(https://fonts.gstatic.com/s/nunito/v7/TttUCfJ272GBgSKaOaD7KhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body > header {
+    font-family: Fairview_Regular, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #222222;
+}
+
+section, footer {
+    font-family: Nunito, Arial, sans-serif;
+}
+
+body > header, footer {
+    width: 100%;
+}
+
+section {
+    width: 670px;
+    margin: 40px auto;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 6rem;
+    padding: 10px 0;
+    background-color: #e05e43;
+    margin-bottom: 5px;
+}
+
+body > header a {
+    text-decoration: none;
+    color: white;
+}
+
+    body > header a:hover {
+        color: black;
+    }
+
+header nav ul li {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+    header nav ul li a {
+        color: #666666;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    header nav ul li.active {
+        background-color: #e05e43;
+    }
+
+    header nav ul li:hover a {
+        color: black;
+    }
+
+footer nav {
+    padding: 10px 0;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #444444;
+}
+
+    footer nav a {
+        font-weight: bold;
+        color: #aaaaaa;
+    }
+
+    footer nav li {
+        margin: 0 5px;
+        padding: 5px;
+    }
+
+        footer nav li:hover {
+            background-color: #aaaaaa;
+        }
+
+            footer nav li:hover a {
+                color: #aa2222;
+            }
+
+footer span {
+    display: block;
+}
+
+footer a {
+    font-style: normal;
+    text-decoration: none;
+    color: #555555;
+}
+
+    footer a:hover {
+        color: #aaaaaa;
+    }
+
+#email {
+    display: block;
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+table {
+    border-top: 1px solid #dddddd;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 5px 30px 5px 0;
+}
+
+    td a {
+        color: #bc0000;
+        -moz-text-decoration-color: #ff6347;
+        text-decoration-color: #ff6347;
+        -moz-text-decoration-style: dotted;
+        text-decoration-style: dotted;
+    }
+
+        td a:hover {
+            color: black;
+            -moz-text-decoration-style: solid;
+            text-decoration-style: solid;
+        }

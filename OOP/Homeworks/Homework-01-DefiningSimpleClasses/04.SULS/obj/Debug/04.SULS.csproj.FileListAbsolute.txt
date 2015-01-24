@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\04.SULS\bin\Debug\04.SULS.exe.config
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\04.SULS\obj\Debug\04.SULS.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\04.SULS\bin\Debug\04.SULS.exe
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\04.SULS\bin\Debug\04.SULS.pdb
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\04.SULS\obj\Debug\04.SULS.exe
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\04.SULS\obj\Debug\04.SULS.pdb

@@ -1,0 +1,143 @@
+﻿/* cyrillic */
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v11/c28rH3kclCLEuIsGhOg7evY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v11/9NqNYV_LP7zlAF8jHr7f1vY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v11/hhO8-q4hv9jbU4UQyl-u4vY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    font-family: Open-sans, sans-serif;
+    margin: 0;
+}
+
+header > section, footer > section, .container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+body > header {
+    background-image: url('../images/bgr.jpg');
+}
+
+    body > header > section {
+        background-image: url('../images/got-dolls.jpg');
+        background-size: cover;
+        height: 350px;
+    }
+
+    body > header h1 {
+        color: white;
+        padding: 15px 20px;
+        background-color: rgba(78, 83, 89, 0.9);
+        display: inline-block;
+        position: relative;
+        top: 150px;
+        right: -465px;
+        font-size: 72px;
+        font-family: Lobster;
+        font-weight: normal;
+    }
+
+#main {
+    width: 78%;
+    float: right;
+    margin-top: 10px;
+}
+
+.category {
+    padding: 0 15px;
+    border-top: 2px solid #bbbabf;
+    padding-bottom: 15px;    
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #bbbabf;
+    margin-top: 20px;
+}
+
+article a {
+    text-decoration: none;
+    color: #0000ee;
+}
+
+article p {
+    color: #8b8e9c;
+    margin-top: 5px;
+    font-size: 0.95em;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #c9c7cc;
+    padding: 20px 0 100px 0;
+    color: #5a6976;
+    clear: both;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    position: relative;
+    top: -6px;
+}
+
+    aside img {
+        width: 100%;
+    }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    nav ul li {
+        width: 100%;
+        padding: 0 0 0 5px;
+        background-color: #42464b;
+    }
+
+        nav ul li a {
+            display: block;
+            width: 100%;
+            color: #eaffff;
+            ;
+            text-decoration: none;
+            padding: 20px 0;
+            background-color: #42464b;
+            text-indent: 10px;
+        }
+
+.active {
+    background-color: #22dba5;
+}
+
+nav ul li:hover {
+    background-color: #2f6d6c;
+}
+
+    nav ul li:hover a {
+        background-color: #5d6167;
+    }

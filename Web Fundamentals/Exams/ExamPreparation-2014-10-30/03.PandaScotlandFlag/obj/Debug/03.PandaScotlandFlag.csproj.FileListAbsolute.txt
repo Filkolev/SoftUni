@@ -1,0 +1,6 @@
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\03.PandaScotlandFlag\bin\Debug\03.PandaScotlandFlag.exe.config
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\03.PandaScotlandFlag\bin\Debug\03.PandaScotlandFlag.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\03.PandaScotlandFlag\bin\Debug\03.PandaScotlandFlag.pdb
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\03.PandaScotlandFlag\obj\Debug\03.PandaScotlandFlag.csprojResolveAssemblyReference.cache
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\03.PandaScotlandFlag\obj\Debug\03.PandaScotlandFlag.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\03.PandaScotlandFlag\obj\Debug\03.PandaScotlandFlag.pdb

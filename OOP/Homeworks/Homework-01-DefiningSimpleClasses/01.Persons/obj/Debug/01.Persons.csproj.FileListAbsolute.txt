@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\01.Persons\bin\Debug\01.Persons.exe.config
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\01.Persons\bin\Debug\01.Persons.exe
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\01.Persons\bin\Debug\01.Persons.pdb
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\01.Persons\obj\Debug\01.Persons.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\01.Persons\obj\Debug\01.Persons.exe
+D:\Lectures\OOP\Homework-01-DefiningSimpleClasses\01.Persons\obj\Debug\01.Persons.pdb

@@ -1,0 +1,5 @@
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\04.MorseCodeNumbers\bin\Debug\04.MorseCodeNumbers.exe.config
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\04.MorseCodeNumbers\bin\Debug\04.MorseCodeNumbers.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\04.MorseCodeNumbers\bin\Debug\04.MorseCodeNumbers.pdb
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\04.MorseCodeNumbers\obj\Debug\04.MorseCodeNumbers.exe
+D:\Lectures\Web Fundamentals\ExamPreparation-2014-10-30\04.MorseCodeNumbers\obj\Debug\04.MorseCodeNumbers.pdb
