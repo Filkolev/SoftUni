@@ -6,10 +6,7 @@ class OnsiteStudent : CurrentStudent
 
     public int NumberOfVisits
     {
-        get
-        {
-            return this.numberOfVisits;
-        }
+        get { return this.numberOfVisits; }
         set
         {
             if (value < 0)

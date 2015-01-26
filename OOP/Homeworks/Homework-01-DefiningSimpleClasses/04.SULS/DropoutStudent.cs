@@ -6,10 +6,7 @@ class DropoutStudent : Student
 
     public string DropoutReason
     {
-        get
-        {
-            return this.dropoutReason;
-        }
+        get { return this.dropoutReason; }
         set
         {
             if (String.IsNullOrWhiteSpace(value))
@@ -29,11 +26,7 @@ class DropoutStudent : Student
 
     public void Reapply()
     {
-        Console.WriteLine("Name: {1}, {0}", this.FirstName, this.LastName);
-        Console.WriteLine("Age: {0}", this.Age);
-        Console.WriteLine("Student Number: {0}", this.StudentNumber);
-        Console.WriteLine("Average Grade: {0:f2}", this.AverageGrade);
-        Console.WriteLine("Dropout Reason: {0}", this.DropoutReason);
+        Console.WriteLine(this);
     }
 
     public override string ToString()

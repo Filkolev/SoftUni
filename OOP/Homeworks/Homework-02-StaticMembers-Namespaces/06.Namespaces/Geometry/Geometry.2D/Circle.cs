@@ -5,14 +5,9 @@ namespace Geometry.Geometry2D
 
     class Circle : Figure2D
     {
-        private Point2D center;
         private double radius;
 
-        public Point2D Center
-        {
-            get { return this.center; }
-            set { this.center = value; }
-        }
+        public Point2D Center { get; set; }
 
         public double Radius
         {

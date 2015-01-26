@@ -14,10 +14,7 @@ class Person
 
     public string Name
     {
-        get
-        {
-            return this.name;
-        }
+        get { return this.name; }
         set
         {
             if (String.IsNullOrWhiteSpace(value))
@@ -36,10 +33,7 @@ class Person
 
     public int Age
     {
-        get
-        {
-            return this.age;
-        }
+        get { return this.age; }
         set
         {
             if (!PersonMethods.ValidateAge(value))
@@ -53,10 +47,7 @@ class Person
 
     public string Email
     {
-        get
-        {
-            return this.email;
-        }
+        get { return this.email; }
         set
         {
             if (value != null && !PersonMethods.ValidateEmail(value))

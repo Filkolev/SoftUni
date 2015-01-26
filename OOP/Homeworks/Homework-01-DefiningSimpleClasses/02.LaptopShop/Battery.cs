@@ -7,10 +7,7 @@ class Battery
 
     public string Description
     {
-        get
-        {
-            return this.description;
-        }
+        get { return this.description; }
         set
         {
             if (String.IsNullOrWhiteSpace(value))
@@ -24,10 +21,7 @@ class Battery
 
     public double BatteryLife
     {
-        get
-        {
-            return this.batteryLife;
-        }
+        get { return this.batteryLife; }
         set
         {
             if (value < 0)

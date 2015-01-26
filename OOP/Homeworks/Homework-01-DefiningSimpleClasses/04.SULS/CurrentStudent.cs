@@ -6,10 +6,7 @@ class CurrentStudent : Student
 
     public string CurrentCourse
     {
-        get
-        {
-            return this.currentCourse;
-        }
+        get { return this.currentCourse; }
         set
         {
             if (String.IsNullOrWhiteSpace(value))

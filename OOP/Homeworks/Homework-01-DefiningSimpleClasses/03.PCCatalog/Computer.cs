@@ -15,10 +15,7 @@ class Computer : IComparable
 
     public string Name
     {
-        get
-        {
-            return this.name;
-        }
+        get { return this.name; }
         set
         {
             if (String.IsNullOrWhiteSpace(value))
@@ -40,10 +37,7 @@ class Computer : IComparable
 
     public List<Component> Components
     {
-        get
-        {
-            return this.components;
-        }
+        get { return this.components; }
         set
         {
             if (value.Count == 0)

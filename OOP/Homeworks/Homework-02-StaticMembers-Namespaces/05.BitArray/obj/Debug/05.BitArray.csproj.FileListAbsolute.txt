@@ -3,3 +3,4 @@ D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\05.BitArray\bin\Debug\05.Bi
 D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\05.BitArray\bin\Debug\05.BitArray.pdb
 D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\05.BitArray\obj\Debug\05.BitArray.exe
 D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\05.BitArray\obj\Debug\05.BitArray.pdb
+D:\Lectures\OOP\Homework-02-StaticMembers-Namespaces\05.BitArray\obj\Debug\05.BitArray.csprojResolveAssemblyReference.cache

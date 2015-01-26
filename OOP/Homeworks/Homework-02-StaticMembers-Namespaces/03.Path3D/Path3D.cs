@@ -21,7 +21,7 @@ class Path3D
 
     public void AddPointToPath(Point3D point)
     {
-        var currentPath = this.path;
+        var currentPath = this.Path;
         currentPath.Add(point);
         this.Path = currentPath;
     }

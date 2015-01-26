@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-02-ExceptionHandling\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Lectures\OOP\Homework-02-ExceptionHandling\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Lectures\OOP\Homework-02-ExceptionHandling\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Lectures\OOP\Homework-02-ExceptionHandling\ConsoleApplication1\obj\Debug\01.SquareRoot.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-02-ExceptionHandling\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Lectures\OOP\Homework-02-ExceptionHandling\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

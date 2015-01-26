@@ -1,11 +1,12 @@
-﻿using System;
-using Geometry.Geometry2D;
-using Geometry.Geometry3D;
-using Geometry.Storage;
-using Geometry.UI;
-
+﻿
 namespace Geometry
 {
+    using System;
+    using Geometry2D;
+    using Geometry3D;
+    using Storage;
+    using UI;
+
     class NamespacesTest
     {
         static void Main()

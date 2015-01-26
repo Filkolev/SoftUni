@@ -5,13 +5,6 @@ class Laptop
     /*----- FIELDS -----*/
 
     private string model;
-    private string manufacturer;
-    private string processor;
-    private string ram;
-    private string gpu;
-    private string hdd;
-    private string display;
-    private Battery laptopBattery;
     private decimal price;
 
 
@@ -19,10 +12,7 @@ class Laptop
 
     public string Model
     {
-        get
-        {
-            return this.model;
-        }
+        get { return this.model; }
         set
         {
             if (String.IsNullOrWhiteSpace(value))
@@ -34,96 +24,23 @@ class Laptop
         }
     }
 
-    public string Manufacturer
-    {
-        get
-        {
-            return this.manufacturer;
-        }
-        set
-        {
-            this.manufacturer = value;
-        }
-    }
+    public string Manufacturer { get; set; }
 
-    public string Processor
-    {
-        get
-        {
-            return this.processor;
-        }
-        set
-        {
-            this.processor = value;
-        }
-    }
+    public string Processor { get; set; }
 
-    public string RAM
-    {
-        get
-        {
-            return this.ram;
-        }
-        set
-        {
-            this.ram = value;
-        }
-    }
+    public string RAM { get; set; }
 
-    public string GPU
-    {
-        get
-        {
-            return this.gpu;
-        }
-        set
-        {
-            this.gpu = value;
-        }
-    }
+    public string GPU { get; set; }
 
-    public string HDD
-    {
-        get
-        {
-            return this.hdd;
-        }
-        set
-        {
-            this.hdd = value;
-        }
-    }
+    public string HDD { get; set; }
 
-    public string Display
-    {
-        get
-        {
-            return this.display;
-        }
-        set
-        {
-            this.display = value;
-        }
-    }
+    public string Display { get; set; }
 
-    public Battery LaptopBattery
-    {
-        get
-        {
-            return this.laptopBattery;
-        }
-        set
-        {
-            this.laptopBattery = value;
-        }
-    }
+    public Battery LaptopBattery { get; set; }
 
     public decimal Price
     {
-        get
-        {
-            return this.price;
-        }
+        get { return this.price; }
         set
         {
             if (value < 0.0m)

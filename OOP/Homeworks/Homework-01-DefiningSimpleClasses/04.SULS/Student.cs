@@ -7,10 +7,7 @@ class Student : Person
 
     public int StudentNumber
     {
-        get
-        {
-            return this.studentNumber;
-        }
+        get { return this.studentNumber; }
         set
         {
             if (value < 1000 || value > 10000)
@@ -24,10 +21,7 @@ class Student : Person
 
     public double AverageGrade
     {
-        get
-        {
-            return this.averageGrade;
-        }
+        get { return this.averageGrade; }
         set
         {
             if (value < 2 || value > 6)

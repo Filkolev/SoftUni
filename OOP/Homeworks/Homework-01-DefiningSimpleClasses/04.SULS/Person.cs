@@ -8,10 +8,7 @@ class Person
 
     public string FirstName
     {
-        get
-        {
-            return this.firstName;
-        }
+        get { return this.firstName; }
         set
         {
             if (String.IsNullOrWhiteSpace(value))
@@ -25,10 +22,7 @@ class Person
 
     public string LastName
     {
-        get
-        {
-            return this.lastName;
-        }
+        get { return this.lastName; }
         set
         {
             if (String.IsNullOrWhiteSpace(value))
@@ -42,10 +36,7 @@ class Person
 
     public int Age
     {
-        get
-        {
-            return this.age;
-        }
+        get { return this.age; }
         set
         {
             if (value < 0 || value > 100)

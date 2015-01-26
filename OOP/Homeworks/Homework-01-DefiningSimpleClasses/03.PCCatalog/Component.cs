@@ -5,7 +5,6 @@ class Component : IComparable
     /*----- FIELDS -----*/
 
     private string name;
-    private string details;
     private decimal price;
 
 
@@ -13,10 +12,7 @@ class Component : IComparable
 
     public string Name
     {
-        get
-        {
-            return this.name;
-        }
+        get { return this.name; }
         set
         {
             if (String.IsNullOrWhiteSpace(value))
@@ -28,24 +24,11 @@ class Component : IComparable
         }
     }
 
-    public string Details
-    {
-        get
-        {
-            return this.details;
-        }
-        set
-        {
-            this.details = value;
-        }
-    }
+    public string Details { get; set; }
 
     public decimal Price
     {
-        get
-        {
-            return this.price;
-        }
+        get { return this.price; }
         set
         {
             if (value < 0)
