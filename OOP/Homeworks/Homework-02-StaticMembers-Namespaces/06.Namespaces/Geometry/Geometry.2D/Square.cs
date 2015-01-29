@@ -10,6 +10,12 @@ namespace Geometry.Geometry2D
         /// </summary>
         private Point2D location;
         private double sideLength;
+        
+        public Square(Point2D location, double sideLength = 0)
+        {
+            this.Location = location;
+            this.SideLength = sideLength;
+        }
 
         public Point2D Location { get; set; }
 
@@ -30,12 +36,6 @@ namespace Geometry.Geometry2D
         public double Area
         {
             get { return this.SideLength * this.SideLength; }
-        }
-
-        public Square(Point2D location, double sideLength = 0)
-        {
-            this.Location = location;
-            this.SideLength = sideLength;
         }
     }
 }

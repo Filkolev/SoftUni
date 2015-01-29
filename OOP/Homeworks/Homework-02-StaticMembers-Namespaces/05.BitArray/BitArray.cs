@@ -7,9 +7,15 @@ namespace _05.BitArray
 
     class BitArray
     {
-        private int size;
         public const int MaxSize = 100000;
+        private int size;
         private bool[] bits;
+
+        public BitArray(int size)
+        {
+            this.Size = size;
+            this.bits = new bool[size];
+        }
 
         public int Size
         {
@@ -28,12 +34,6 @@ namespace _05.BitArray
         public BigInteger Value
         {
             get { return BitArrayToDecimalString(this); }
-        }
-
-        public BitArray(int size)
-        {
-            this.Size = size;
-            this.bits = new bool[size];
         }
 
         public static BitArray operator ^(BitArray arr1, BitArray arr2)

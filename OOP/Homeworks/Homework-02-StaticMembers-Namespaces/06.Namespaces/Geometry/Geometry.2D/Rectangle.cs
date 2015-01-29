@@ -12,6 +12,13 @@ namespace Geometry.Geometry2D
         private double width;
         private double height;
 
+        public Rectangle(Point2D location, double width = 0, double height = 0)
+        {
+            this.Location = location;
+            this.Width = width;
+            this.Height = height;
+        }
+
         public Point2D Location { get; set; }
 
         public double Width
@@ -45,13 +52,6 @@ namespace Geometry.Geometry2D
         public double Area
         {
             get { return this.Width * this.Height; }
-        }
-
-        public Rectangle(Point2D location, double width = 0, double height = 0)
-        {
-            this.Location = location;
-            this.Width = width;
-            this.Height = height;
         }
     }
 }

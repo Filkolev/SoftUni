@@ -9,8 +9,8 @@ class EnterNumbers
 
         for (int i = 0; i < 10; i++)
         {
-            int maxArr = numbers.Max();
-            int min = Math.Max(2, maxArr + 1);
+            int maxArrayElement = numbers.Max();
+            int min = Math.Max(2, maxArrayElement + 1);
             int max = 100 - 10 + i;
             Console.Write("Enter a number: ");
             numbers[i] = ReadNumber(min, max);

@@ -7,6 +7,12 @@ namespace Geometry.Geometry2D
     {
         private double radius;
 
+        public Circle(Point2D center, double radius = 0)
+        {
+            this.Center = center;
+            this.Radius = radius;
+        }
+
         public Point2D Center { get; set; }
 
         public double Radius
@@ -21,12 +27,6 @@ namespace Geometry.Geometry2D
 
                 this.radius = value;
             }
-        }
-
-        public Circle(Point2D center, double radius = 0)
-        {
-            this.Center = center;
-            this.Radius = radius;
         }
     }
 }

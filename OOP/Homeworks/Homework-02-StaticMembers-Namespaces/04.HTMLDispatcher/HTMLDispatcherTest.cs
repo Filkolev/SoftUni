@@ -32,6 +32,10 @@ namespace Dispatcher
             ElementBuilder input = HTMLDispatcher.CreateInput("radio", "gender", "0");
             Console.WriteLine(input);
             // input.AddContent("nope...");
+
+            string[] tags = ElementBuilder.GetValidHtmlTags();
+            tags[0] = "removed";
+            Console.WriteLine(ElementBuilder.ValidHtmlTags[0]); // List of valid tags cannot be modified
         }
     }
 }

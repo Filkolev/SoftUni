@@ -1,4 +1,6 @@
 ﻿
+using System.Runtime.CompilerServices;
+
 namespace Dispatcher
 {
     using System;
@@ -7,7 +9,7 @@ namespace Dispatcher
 
     public class ElementBuilder
     {
-        public static readonly string[] ValidHtmlTags = 
+        private static readonly string[] ValidHtmlTags = 
         { 
             "!DOCTYPE", "a", "abbr", "acronym", "address", "applet", "area", "article", "aside","audio","b","base", "basefont","bdi","bdo","big",
             "blockquote","body", "br","button", "canvas","caption","center","cite","code","col","colgroup","datalist","dd","del","details","dfn",
@@ -18,7 +20,7 @@ namespace Dispatcher
             "summary","sup","table","tbody","td","textarea","tfoot","th","thead","time","title","tr","track","tt","u","ul","var","video","wbr"
         };
 
-        public static readonly string[] SelfClosingTags =
+        private static readonly string[] SelfClosingTags =
         {
             "area", "base", "br", "col", "command", "embed", "hr", "img", "input", "keygen", "link", "meta", "param", "source", "track", "wbr"
         };
@@ -26,6 +28,15 @@ namespace Dispatcher
         private string tag;
         private int repetitions;
         private bool isSelfClosing;
+
+        public ElementBuilder(string tag)
+        {
+            this.Tag = tag;
+            this.IsSelfClosing = Array.IndexOf(SelfClosingTags, tag) != -1;
+            this.Attributes = new Dictionary<string, string>();
+            this.Content = "";
+            this.Repetitions = 1;
+        }
 
         public string Tag
         {
@@ -57,13 +68,20 @@ namespace Dispatcher
             private set { this.isSelfClosing = value; }
         }
 
-        public ElementBuilder(string tag)
+        public static ElementBuilder operator *(ElementBuilder currentElement, int count)
         {
-            this.Tag = tag;
-            this.IsSelfClosing = Array.IndexOf(SelfClosingTags, tag) != -1;
-            this.Attributes = new Dictionary<string, string>();
-            this.Content = "";
-            this.Repetitions = 1;
+            if (count <= 0)
+            {
+                throw new ArgumentOutOfRangeException("count", "Count should be greater than zero.");
+            }
+
+            ElementBuilder newElement = new ElementBuilder(currentElement.Tag);
+            newElement.Attributes = currentElement.Attributes;
+            newElement.Content = currentElement.Content;
+            newElement.Repetitions *= count;
+            newElement.IsSelfClosing = currentElement.IsSelfClosing;
+
+            return newElement;
         }
 
         public void AddAttribute(string attribute, string value)
@@ -86,20 +104,18 @@ namespace Dispatcher
             this.Content = this.Content + contentToAdd;
         }
 
-        public static ElementBuilder operator *(ElementBuilder currentElement, int count)
+        public static string[] GetValidHtmlTags()
         {
-            if (count <= 0)
-            {
-                throw new ArgumentOutOfRangeException("count", "Count should be greater than zero.");
-            }
+            string[] tags = new string[ValidHtmlTags.Length];
+            Array.Copy(ValidHtmlTags, tags, ValidHtmlTags.Length);
+            return tags;
+        }
 
-            ElementBuilder newElement = new ElementBuilder(currentElement.Tag);
-            newElement.Attributes = currentElement.Attributes;
-            newElement.Content = currentElement.Content;
-            newElement.Repetitions *= count;
-            newElement.IsSelfClosing = currentElement.IsSelfClosing;
-
-            return newElement;
+        public static string[] GetSelfClosingTags()
+        {
+            string[] tags = new string[SelfClosingTags.Length];
+            Array.Copy(SelfClosingTags, tags, SelfClosingTags.Length);
+            return tags;
         }
 
         public override string ToString()
