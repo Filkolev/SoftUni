@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\02.LINQExtensions\bin\Debug\02.LINQExtensions.exe.config
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\02.LINQExtensions\bin\Debug\02.LINQExtensions.exe
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\02.LINQExtensions\bin\Debug\02.LINQExtensions.pdb
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\02.LINQExtensions\obj\Debug\02.LINQExtensions.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\02.LINQExtensions\obj\Debug\02.LINQExtensions.exe
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\02.LINQExtensions\obj\Debug\02.LINQExtensions.pdb

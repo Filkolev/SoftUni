@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-03-Inheritance-And-Abstraction\02.Human-Student-Worker\bin\Debug\02.Human-Student-Worker.exe.config
+D:\Lectures\OOP\Homework-03-Inheritance-And-Abstraction\02.Human-Student-Worker\obj\Debug\02.Human-Student-Worker.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-03-Inheritance-And-Abstraction\02.Human-Student-Worker\bin\Debug\02.Human-Student-Worker.exe
+D:\Lectures\OOP\Homework-03-Inheritance-And-Abstraction\02.Human-Student-Worker\bin\Debug\02.Human-Student-Worker.pdb
+D:\Lectures\OOP\Homework-03-Inheritance-And-Abstraction\02.Human-Student-Worker\obj\Debug\02.Human-Student-Worker.exe
+D:\Lectures\OOP\Homework-03-Inheritance-And-Abstraction\02.Human-Student-Worker\obj\Debug\02.Human-Student-Worker.pdb

@@ -1,0 +1,6 @@
+D:\Lectures\OOP\OOP-Lab\Item\obj\Debug\MultimediaShop.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\OOP-Lab\Item\bin\Debug\Item.exe.config
+D:\Lectures\OOP\OOP-Lab\Item\bin\Debug\Item.exe
+D:\Lectures\OOP\OOP-Lab\Item\bin\Debug\Item.pdb
+D:\Lectures\OOP\OOP-Lab\Item\obj\Debug\Item.exe
+D:\Lectures\OOP\OOP-Lab\Item\obj\Debug\Item.pdb

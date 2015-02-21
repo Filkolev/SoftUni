@@ -1,0 +1,9 @@
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\01.Shapes\bin\Debug\01.Shapes.exe.config
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\01.Shapes\bin\Debug\01.Shapes.exe
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\01.Shapes\bin\Debug\01.Shapes.pdb
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\01.Shapes\obj\Debug\01.Shapes.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\01.Shapes\obj\Debug\01.Shapes.exe
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\01.Shapes\obj\Debug\01.Shapes.pdb
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\01.Shapes\bin\Debug\01.Shapes.exe.config
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\01.Shapes\obj\Debug\01.Shapes.exe
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\01.Shapes\obj\Debug\01.Shapes.pdb

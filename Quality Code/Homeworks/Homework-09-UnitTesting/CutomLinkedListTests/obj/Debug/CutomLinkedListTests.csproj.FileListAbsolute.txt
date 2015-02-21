@@ -1,0 +1,7 @@
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CutomLinkedListTests\bin\Debug\CutomLinkedListTests.dll
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CutomLinkedListTests\bin\Debug\CutomLinkedListTests.pdb
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CutomLinkedListTests\bin\Debug\CustomLinkedList.dll
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CutomLinkedListTests\bin\Debug\CustomLinkedList.pdb
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CutomLinkedListTests\obj\Debug\CutomLinkedListTests.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CutomLinkedListTests\obj\Debug\CutomLinkedListTests.dll
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CutomLinkedListTests\obj\Debug\CutomLinkedListTests.pdb

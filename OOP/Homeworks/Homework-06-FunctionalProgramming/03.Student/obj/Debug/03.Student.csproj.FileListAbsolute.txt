@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\03.Student\bin\Debug\03.Student.exe.config
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\03.Student\bin\Debug\03.Student.exe
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\03.Student\bin\Debug\03.Student.pdb
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\03.Student\obj\Debug\03.Student.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\03.Student\obj\Debug\03.Student.exe
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\03.Student\obj\Debug\03.Student.pdb

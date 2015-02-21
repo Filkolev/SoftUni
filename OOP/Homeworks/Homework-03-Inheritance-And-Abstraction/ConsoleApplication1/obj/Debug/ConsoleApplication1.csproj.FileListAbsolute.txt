@@ -1,0 +1,1 @@
+D:\Lectures\OOP\Homework-03-Inheritance-And-Abstraction\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config

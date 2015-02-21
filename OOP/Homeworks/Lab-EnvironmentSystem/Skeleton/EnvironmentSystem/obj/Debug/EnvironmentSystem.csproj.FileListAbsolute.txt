@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Lab-EnvironmentSystem\Skeleton\EnvironmentSystem\bin\Debug\EnvironmentSystem.exe.config
+D:\Lectures\OOP\Lab-EnvironmentSystem\Skeleton\EnvironmentSystem\bin\Debug\EnvironmentSystem.exe
+D:\Lectures\OOP\Lab-EnvironmentSystem\Skeleton\EnvironmentSystem\bin\Debug\EnvironmentSystem.pdb
+D:\Lectures\OOP\Lab-EnvironmentSystem\Skeleton\EnvironmentSystem\obj\Debug\EnvironmentSystem.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Lab-EnvironmentSystem\Skeleton\EnvironmentSystem\obj\Debug\EnvironmentSystem.exe
+D:\Lectures\OOP\Lab-EnvironmentSystem\Skeleton\EnvironmentSystem\obj\Debug\EnvironmentSystem.pdb

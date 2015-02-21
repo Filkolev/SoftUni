@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\02.AsynchronousTimer\bin\Debug\02.AsynchronousTimer.exe.config
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\02.AsynchronousTimer\bin\Debug\02.AsynchronousTimer.exe
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\02.AsynchronousTimer\bin\Debug\02.AsynchronousTimer.pdb
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\02.AsynchronousTimer\obj\Debug\02.AsynchronousTimer.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\02.AsynchronousTimer\obj\Debug\02.AsynchronousTimer.exe
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\02.AsynchronousTimer\obj\Debug\02.AsynchronousTimer.pdb

@@ -1,0 +1,10 @@
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Mini4ki\bin\Debug\Minesweeper.exe
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Mini4ki\bin\Debug\Minesweeper.pdb
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Mini4ki\obj\Debug\Minesweeper.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Mini4ki\obj\Debug\Minesweeper.exe
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Mini4ki\obj\Debug\Minesweeper.pdb
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Minesweeper\obj\Debug\Minesweeper.exe
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Minesweeper\obj\Debug\Minesweeper.pdb
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Minesweeper\bin\Debug\Minesweeper.exe
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Minesweeper\bin\Debug\Minesweeper.pdb
+D:\Lectures\Quality Code\Homework-02-NamingIdentifiers\C#\Minesweeper\obj\Debug\Minesweeper.csprojResolveAssemblyReference.cache

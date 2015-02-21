@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\03.StudentClass\bin\Debug\03.StudentClass.exe.config
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\03.StudentClass\bin\Debug\03.StudentClass.exe
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\03.StudentClass\bin\Debug\03.StudentClass.pdb
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\03.StudentClass\obj\Debug\03.StudentClass.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\03.StudentClass\obj\Debug\03.StudentClass.exe
+D:\Lectures\OOP\Homework-05-DelegatesAndEvents\03.StudentClass\obj\Debug\03.StudentClass.pdb

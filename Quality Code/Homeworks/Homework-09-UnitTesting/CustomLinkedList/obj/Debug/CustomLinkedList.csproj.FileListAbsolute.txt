@@ -1,0 +1,18 @@
+D:\SoftUni SVN\High Quality Code\September-2014\Linked-List-Unit-Testing\CustomLinkedList\CustomLinkedList\bin\Debug\CustomLinkedList.dll.config
+D:\SoftUni SVN\High Quality Code\September-2014\Linked-List-Unit-Testing\CustomLinkedList\CustomLinkedList\bin\Debug\CustomLinkedList.dll
+D:\SoftUni SVN\High Quality Code\September-2014\Linked-List-Unit-Testing\CustomLinkedList\CustomLinkedList\bin\Debug\CustomLinkedList.pdb
+D:\SoftUni SVN\High Quality Code\September-2014\Linked-List-Unit-Testing\CustomLinkedList\CustomLinkedList\obj\Debug\CustomLinkedList.csprojResolveAssemblyReference.cache
+D:\SoftUni SVN\High Quality Code\September-2014\Linked-List-Unit-Testing\CustomLinkedList\CustomLinkedList\obj\Debug\CustomLinkedList.dll
+D:\SoftUni SVN\High Quality Code\September-2014\Linked-List-Unit-Testing\CustomLinkedList\CustomLinkedList\obj\Debug\CustomLinkedList.pdb
+D:\SoftUni SVN\High Quality Code\September-2014\08. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\bin\Debug\CustomLinkedList.dll.config
+D:\SoftUni SVN\High Quality Code\September-2014\08. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\bin\Debug\CustomLinkedList.dll
+D:\SoftUni SVN\High Quality Code\September-2014\08. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\bin\Debug\CustomLinkedList.pdb
+D:\SoftUni SVN\High Quality Code\September-2014\08. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\obj\Debug\CustomLinkedList.csprojResolveAssemblyReference.cache
+D:\SoftUni SVN\High Quality Code\September-2014\08. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\obj\Debug\CustomLinkedList.dll
+D:\SoftUni SVN\High Quality Code\September-2014\08. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\obj\Debug\CustomLinkedList.pdb
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\bin\Debug\CustomLinkedList.dll.config
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\bin\Debug\CustomLinkedList.dll
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\bin\Debug\CustomLinkedList.pdb
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\obj\Debug\CustomLinkedList.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\obj\Debug\CustomLinkedList.dll
+D:\Lectures\Quality Code\09. Unit-Tests-Homework\CustomeLinedList\CustomLinkedList\obj\Debug\CustomLinkedList.pdb

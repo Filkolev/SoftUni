@@ -1,0 +1,6 @@
+D:\Lectures\Quality Code\Students\bin\Debug\Students.exe.config
+D:\Lectures\Quality Code\Students\bin\Debug\Students.exe
+D:\Lectures\Quality Code\Students\bin\Debug\Students.pdb
+D:\Lectures\Quality Code\Students\obj\Debug\Students.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\Students\obj\Debug\Students.exe
+D:\Lectures\Quality Code\Students\obj\Debug\Students.pdb

@@ -1,0 +1,5 @@
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\03.TheSlum\bin\Debug\TheSlum.exe
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\03.TheSlum\bin\Debug\TheSlum.pdb
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\03.TheSlum\obj\Debug\03.TheSlum.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\03.TheSlum\obj\Debug\TheSlum.exe
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\03.TheSlum\obj\Debug\TheSlum.pdb

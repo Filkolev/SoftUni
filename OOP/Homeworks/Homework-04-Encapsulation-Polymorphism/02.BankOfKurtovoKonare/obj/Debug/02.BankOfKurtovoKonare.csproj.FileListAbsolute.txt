@@ -1,0 +1,12 @@
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\bin\Debug\02.BankOfKurtovoKonare.exe.config
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\obj\Debug\02.BankOfKurtovoKonare.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\bin\Debug\02.BankOfKurtovoKonare.exe
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\bin\Debug\02.BankOfKurtovoKonare.pdb
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\obj\Debug\02.BankOfKurtovoKonare.exe
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\obj\Debug\02.BankOfKurtovoKonare.pdb
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\bin\Debug\02.BankOfKurtovoKonare.exe.config
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\bin\Debug\02.BankOfKurtovoKonare.exe
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\bin\Debug\02.BankOfKurtovoKonare.pdb
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\obj\Debug\02.BankOfKurtovoKonare.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\obj\Debug\02.BankOfKurtovoKonare.exe
+D:\Lectures\OOP\Homework-04-Encapsulation-Polymorphism\02.BankOfKurtovoKonare\obj\Debug\02.BankOfKurtovoKonare.pdb

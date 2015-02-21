@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\01.StringBuilderExtensions\bin\Debug\01.StringBuilderExtensions.exe.config
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\01.StringBuilderExtensions\obj\Debug\01.StringBuilderExtensions.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\01.StringBuilderExtensions\bin\Debug\01.StringBuilderExtensions.exe
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\01.StringBuilderExtensions\bin\Debug\01.StringBuilderExtensions.pdb
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\01.StringBuilderExtensions\obj\Debug\01.StringBuilderExtensions.exe
+D:\Lectures\OOP\Homework-06-FunctionalProgramming\01.StringBuilderExtensions\obj\Debug\01.StringBuilderExtensions.pdb

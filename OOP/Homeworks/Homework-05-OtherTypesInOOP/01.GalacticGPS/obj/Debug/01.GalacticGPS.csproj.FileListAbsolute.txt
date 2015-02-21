@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\01.GalacticGPS\bin\Debug\01.GalacticGPS.exe.config
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\01.GalacticGPS\bin\Debug\01.GalacticGPS.exe
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\01.GalacticGPS\bin\Debug\01.GalacticGPS.pdb
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\01.GalacticGPS\obj\Debug\01.GalacticGPS.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\01.GalacticGPS\obj\Debug\01.GalacticGPS.exe
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\01.GalacticGPS\obj\Debug\01.GalacticGPS.pdb

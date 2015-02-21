@@ -1,0 +1,14 @@
+D:\Lectures\OOP\CSharpProject\bin\Debug\CSharpProject.exe.config
+D:\Lectures\OOP\CSharpProject\obj\Debug\CSharpProject.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\CSharpProject\bin\Debug\CSharpProject.exe
+D:\Lectures\OOP\CSharpProject\bin\Debug\CSharpProject.pdb
+D:\Lectures\OOP\CSharpProject\bin\Debug\PowerCollections.dll
+D:\Lectures\OOP\CSharpProject\bin\Debug\PowerCollections.xml
+D:\Lectures\OOP\CSharpProject\obj\Debug\CSharpProject.exe
+D:\Lectures\OOP\CSharpProject\obj\Debug\CSharpProject.pdb
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\CSharpProject\bin\Debug\CSharpProject.exe.config
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\CSharpProject\obj\Debug\CSharpProject.exe
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\CSharpProject\obj\Debug\CSharpProject.pdb
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\CSharpReformattedProject\Events\bin\Debug\CSharpProject.exe.config
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\CSharpReformattedProject\Events\obj\Debug\CSharpProject.exe
+D:\Lectures\Quality Code\Homework-02-CodeFormatting\CSharpReformattedProject\Events\obj\Debug\CSharpProject.pdb

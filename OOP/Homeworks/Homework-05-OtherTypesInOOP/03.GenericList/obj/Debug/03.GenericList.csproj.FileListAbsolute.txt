@@ -1,0 +1,6 @@
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\03.GenericList\bin\Debug\03.GenericList.exe.config
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\03.GenericList\bin\Debug\03.GenericList.exe
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\03.GenericList\bin\Debug\03.GenericList.pdb
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\03.GenericList\obj\Debug\03.GenericList.csprojResolveAssemblyReference.cache
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\03.GenericList\obj\Debug\03.GenericList.exe
+D:\Lectures\OOP\Homework-05-OtherTypesInOOP\03.GenericList\obj\Debug\03.GenericList.pdb
