@@ -1,0 +1,5 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Morning\Exam-2015-02-02-Morning\02.TextToNumber\bin\Debug\02.TextToNumber.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Morning\Exam-2015-02-02-Morning\02.TextToNumber\bin\Debug\02.TextToNumber.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Morning\Exam-2015-02-02-Morning\02.TextToNumber\bin\Debug\02.TextToNumber.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Morning\Exam-2015-02-02-Morning\02.TextToNumber\obj\Debug\02.TextToNumber.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Morning\Exam-2015-02-02-Morning\02.TextToNumber\obj\Debug\02.TextToNumber.pdb
