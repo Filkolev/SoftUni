@@ -1,6 +1,0 @@
-D:\Lectures\OOP\Exams\Exam-2015-03-01\Console-Forum\bin\Debug\ConsoleForum.exe.config
-D:\Lectures\OOP\Exams\Exam-2015-03-01\Console-Forum\bin\Debug\ConsoleForum.exe
-D:\Lectures\OOP\Exams\Exam-2015-03-01\Console-Forum\bin\Debug\ConsoleForum.pdb
-D:\Lectures\OOP\Exams\Exam-2015-03-01\Console-Forum\obj\Debug\ConsoleForum.csprojResolveAssemblyReference.cache
-D:\Lectures\OOP\Exams\Exam-2015-03-01\Console-Forum\obj\Debug\ConsoleForum.exe
-D:\Lectures\OOP\Exams\Exam-2015-03-01\Console-Forum\obj\Debug\ConsoleForum.pdb

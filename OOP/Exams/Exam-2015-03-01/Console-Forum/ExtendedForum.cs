@@ -22,7 +22,8 @@
         {
             StringBuilder welcomeMessage = new StringBuilder();
 
-            welcomeMessage.AppendLine(new string('~', 20));
+            string delimiter = new string('~', 20);
+            welcomeMessage.AppendLine(delimiter);
 
             if (!this.IsLogged)
             {
@@ -43,7 +44,7 @@
                 countOfHotQuestions, 
                 countOfActiveUsers));
 
-            welcomeMessage.AppendLine(new string('~', 20));
+            welcomeMessage.AppendLine(delimiter);
 
             return welcomeMessage.ToString().Trim();
         }
@@ -59,10 +60,12 @@
 
         private int GetNumberOfActiveUsers()
         {
+            const int MinNumberOfPostsForActiveUser = 3;
+
             var countOfActiveUsers = this.Users
                 .Select(user => this.Answers
                     .Count(answer => answer.Author == user))
-                .Count(countOfAnswersForCurrentUser => countOfAnswersForCurrentUser >= 3);
+                .Count(countOfAnswersForCurrentUser => countOfAnswersForCurrentUser >= MinNumberOfPostsForActiveUser);
 
             return countOfActiveUsers;
         }

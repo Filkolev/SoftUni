@@ -14,9 +14,10 @@
         {
             StringBuilder result = new StringBuilder();
 
-            result.AppendLine(new string('*', 20));
+            string delimiter = new string('*', 20);
+            result.AppendLine(delimiter);
             result.AppendLine(base.ToString());
-            result.AppendLine(new string('*', 20));
+            result.AppendLine(delimiter);
 
             return result.ToString().Trim();
         }
