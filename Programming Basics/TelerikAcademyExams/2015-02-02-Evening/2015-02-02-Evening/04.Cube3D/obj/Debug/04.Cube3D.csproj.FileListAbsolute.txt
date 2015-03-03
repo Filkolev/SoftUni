@@ -1,0 +1,5 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\04.Cube3D\bin\Debug\04.Cube3D.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\04.Cube3D\bin\Debug\04.Cube3D.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\04.Cube3D\bin\Debug\04.Cube3D.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\04.Cube3D\obj\Debug\04.Cube3D.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\04.Cube3D\obj\Debug\04.Cube3D.pdb

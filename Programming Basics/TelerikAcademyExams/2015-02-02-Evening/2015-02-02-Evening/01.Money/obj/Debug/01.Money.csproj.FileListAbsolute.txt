@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\01.Money\bin\Debug\01.Money.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\01.Money\bin\Debug\01.Money.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\01.Money\bin\Debug\01.Money.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\01.Money\obj\Debug\01.Money.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\01.Money\obj\Debug\01.Money.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\01.Money\obj\Debug\01.Money.pdb

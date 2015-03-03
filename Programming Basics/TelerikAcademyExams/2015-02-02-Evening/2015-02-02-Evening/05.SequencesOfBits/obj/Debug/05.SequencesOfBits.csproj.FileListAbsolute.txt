@@ -1,0 +1,1 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-02-Evening\2015-02-02-Evening\05.SequencesOfBits\bin\Debug\05.SequencesOfBits.exe.config
