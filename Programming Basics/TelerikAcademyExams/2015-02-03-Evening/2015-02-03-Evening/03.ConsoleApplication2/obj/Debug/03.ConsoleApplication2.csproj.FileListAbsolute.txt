@@ -1,0 +1,5 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\03.ConsoleApplication2\bin\Debug\03.ConsoleApplication2.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\03.ConsoleApplication2\bin\Debug\03.ConsoleApplication2.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\03.ConsoleApplication2\bin\Debug\03.ConsoleApplication2.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\03.ConsoleApplication2\obj\Debug\03.ConsoleApplication2.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\03.ConsoleApplication2\obj\Debug\03.ConsoleApplication2.pdb

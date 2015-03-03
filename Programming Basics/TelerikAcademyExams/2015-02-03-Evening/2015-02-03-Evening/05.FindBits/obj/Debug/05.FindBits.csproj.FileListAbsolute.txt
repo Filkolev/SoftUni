@@ -1,0 +1,5 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\05.FindBits\bin\Debug\05.FindBits.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\05.FindBits\bin\Debug\05.FindBits.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\05.FindBits\bin\Debug\05.FindBits.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\05.FindBits\obj\Debug\05.FindBits.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\05.FindBits\obj\Debug\05.FindBits.pdb

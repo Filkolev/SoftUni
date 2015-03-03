@@ -1,0 +1,5 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\04.PersianRugs\bin\Debug\04.PersianRugs.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\04.PersianRugs\bin\Debug\04.PersianRugs.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\04.PersianRugs\bin\Debug\04.PersianRugs.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\04.PersianRugs\obj\Debug\04.PersianRugs.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\04.PersianRugs\obj\Debug\04.PersianRugs.pdb

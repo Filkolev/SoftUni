@@ -1,0 +1,5 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\05.SearchInBits\bin\Debug\05.SearchInBits.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\05.SearchInBits\bin\Debug\05.SearchInBits.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\05.SearchInBits\bin\Debug\05.SearchInBits.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\05.SearchInBits\obj\Debug\05.SearchInBits.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\05.SearchInBits\obj\Debug\05.SearchInBits.pdb

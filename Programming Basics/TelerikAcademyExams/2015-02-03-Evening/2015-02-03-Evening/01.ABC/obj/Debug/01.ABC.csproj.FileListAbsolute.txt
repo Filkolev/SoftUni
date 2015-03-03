@@ -1,0 +1,5 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\01.ABC\bin\Debug\01.ABC.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\01.ABC\bin\Debug\01.ABC.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\01.ABC\bin\Debug\01.ABC.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\01.ABC\obj\Debug\01.ABC.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\01.ABC\obj\Debug\01.ABC.pdb

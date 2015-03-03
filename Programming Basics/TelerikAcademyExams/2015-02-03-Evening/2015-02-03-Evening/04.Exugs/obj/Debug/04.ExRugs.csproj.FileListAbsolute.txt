@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\04.Exugs\bin\Debug\04.Exugs.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\04.Exugs\bin\Debug\04.Exugs.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\04.Exugs\bin\Debug\04.Exugs.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\04.Exugs\obj\Debug\04.ExRugs.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\04.Exugs\obj\Debug\04.Exugs.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Evening\2015-02-03-Evening\04.Exugs\obj\Debug\04.Exugs.pdb

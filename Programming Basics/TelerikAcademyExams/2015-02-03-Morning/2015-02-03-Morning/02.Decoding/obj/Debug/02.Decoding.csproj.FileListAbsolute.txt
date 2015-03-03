@@ -1,0 +1,5 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\02.Decoding\bin\Debug\02.Decoding.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\02.Decoding\bin\Debug\02.Decoding.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\02.Decoding\bin\Debug\02.Decoding.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\02.Decoding\obj\Debug\02.Decoding.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\02.Decoding\obj\Debug\02.Decoding.pdb

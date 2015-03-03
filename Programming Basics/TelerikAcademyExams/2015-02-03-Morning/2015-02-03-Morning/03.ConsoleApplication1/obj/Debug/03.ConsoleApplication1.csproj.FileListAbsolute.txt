@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\03.ConsoleApplication1\bin\Debug\03.ConsoleApplication1.exe.config
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\03.ConsoleApplication1\bin\Debug\03.ConsoleApplication1.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\03.ConsoleApplication1\bin\Debug\03.ConsoleApplication1.pdb
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\03.ConsoleApplication1\obj\Debug\03.ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\03.ConsoleApplication1\obj\Debug\03.ConsoleApplication1.exe
+D:\Lectures\C# Basics\Telerik Exams\2015-02-03-Morning\2015-02-03-Morning\03.ConsoleApplication1\obj\Debug\03.ConsoleApplication1.pdb
