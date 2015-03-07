@@ -1,0 +1,7 @@
+D:\Lectures\Quality Code\Assertions-and-Exceptions\Assertions\bin\Debug\Assertions-Homework.exe
+D:\Lectures\Quality Code\Assertions-and-Exceptions\Assertions\bin\Debug\Assertions-Homework.pdb
+D:\Lectures\Quality Code\Assertions-and-Exceptions\Assertions\obj\Debug\Assertions.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\Assertions-and-Exceptions\Assertions\obj\Debug\Assertions-Homework.exe
+D:\Lectures\Quality Code\Assertions-and-Exceptions\Assertions\obj\Debug\Assertions-Homework.pdb
+C:\Users\Filip Kolev\Desktop\Assertions-and-Exceptions\Assertions\obj\Debug\Assertions-Homework.exe
+C:\Users\Filip Kolev\Desktop\Assertions-and-Exceptions\Assertions\obj\Debug\Assertions-Homework.pdb
