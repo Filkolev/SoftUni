@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C38B3E21-D670-48F0-B38A-B8E2BB9637CE}"
+	ProjectSection(SolutionItems) = preProject
+		01.bugFix.js = 01.bugFix.js
+		02.bugFixLevel2.js = 02.bugFixLevel2.js
+		03.arrayFlattening.js = 03.arrayFlattening.js
+		04.usefulStringMethods.js = 04.usefulStringMethods.js
+		05.vector.js = 05.vector.js
+		index.html = index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
