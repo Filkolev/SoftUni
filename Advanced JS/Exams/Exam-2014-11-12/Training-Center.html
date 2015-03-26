@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Training Center</title>
+    <meta charset='utf-8' />
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        div {
+            margin: 10px;
+        }
+
+        textarea {
+            font-family: Consolas, Monospaced;
+            font-size: 12pt;
+            width: 100%;
+            overflow: auto;
+        }
+
+            textarea#input {
+                height: 320px;
+            }
+
+            textarea#output {
+                height: 500px;
+            }
+
+        button {
+            width: 250px;
+            height: 50px;
+            font-size: 15pt;
+        }
+    </style>
+    <script src='Training-Center.js'></script>
+    <script>
+        function processCommands() {
+            var commands = document.getElementById('input').value;
+            var commandsArr = commands.split('\n');
+            var output = processTrainingCenterCommands(commandsArr);
+            document.getElementById('output').value = output;
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        Input commands: <br />
+        <textarea id='input'>create Trainer {"username":"nakov", "lastName":"Nakov"}
+create Trainer {"username":"maria", "firstName":"Maria", "lastName":"Green", "email":"maria@mail.ru"}
+
+create Course {"name":"C# Basics", "startDate":"15-Nov-2014"}
+create Course {"name":"JavaScript Apps", "trainer":"nakov", "startDate":"30-Nov-2014", "duration":8}
+create Course {"name":"JavaScript Basics", "description":"JS course for beginners", "trainer":"maria", "startDate":"20-Jan-2015", "duration":5}
+
+create Seminar {"name":"Python for Newbies", "date":"10-Jan-2015"}
+create Seminar {"name":"MySQL for Dummies", "description":"MySQL overview for beginners", "trainer":"nakov","date":"20-Jan-2015"}
+
+create RemoteCourse {"name":"C# Basics", "startDate":"31-Jan-2015", "location":"Varna"}
+create RemoteCourse {"name":"C# Basics", "description":"Programming course for absolute beginners", "trainer":"maria", "startDate":"31-Jan-2015", "duration":9, "location":"Bourgas"}
+
+list</textarea>
+    </div>
+    <div>
+        <button onclick='processCommands()'>Process Commands</button>
+    </div>
+    <div>
+        Output: <br />
+        <textarea id='output'></textarea>
+    </div>
+</body>
+
+</html>
