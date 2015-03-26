@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vehicle Park</title>
+    <meta charset='utf-8' />
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        div {
+            margin: 10px;
+        }
+
+        textarea {
+            font-family: Consolas, Monospaced;
+            font-size: 12pt;
+            width: 100%;
+            overflow: auto;
+        }
+
+            textarea#input {
+                height: 320px;
+            }
+
+            textarea#output {
+                height: 500px;
+            }
+
+        button {
+            width: 250px;
+            height: 50px;
+            font-size: 15pt;
+        }
+    </style>
+    <script src='VehiclePark.js'></script>
+    <script>
+        function processCommands() {
+            var commands = document.getElementById('input').value;
+            var commandsArr = commands.split('\n');
+            var output = processVehicleParkCommands(commandsArr);
+            document.getElementById('output').value = output;
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        Input commands: <br />
+        <textarea id='input'>insert(type=employee;name=Angel;position=Trainer;grade=10)
+insert(type=bike;brand=RAM;age=2;terrain-coverage=all;frame-size=19;number-of-shifts=21)
+insert(type=truck;brand=Opel;age=15;terrain-coverage=road;consumption=8;type-of-fuel=gas;number-of-doors=3)
+insert(type=truck;brand=Ford;age=8;consumption=10;type-of-fuel=diesel;number-of-doors=5)
+insert(type=limo;brand=GM;age=5;number-of-wheels=8;consumption=15;type-of-fuel=diesel)
+list
+delete(type=truck;brand=Opel)
+delete(type=bike;brand=RAM)
+append-employee(name=Angel;brand=GM)
+list
+delete(type=truck;brand=Ford)
+insert(type=limo;brand=GM;age=5;number-of-wheels=8;consumption=15;type-of-fuel=diesel)
+insert(type=employee;name=Vlado;position=Programmer;grade=20)
+append-employee(name=Vlado;brand=GM)
+list
+list-employees(grade=all)</textarea>
+    </div>
+    <div>
+        <button onclick='processCommands()'>Process Commands</button>
+    </div>
+    <div>
+        Output: <br />
+        <textarea id='output'></textarea>
+    </div>
+</body>
+
+</html>

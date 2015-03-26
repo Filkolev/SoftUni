@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EE87326-19CB-44ED-9B28-FB5A31DE374B}"
+	ProjectSection(SolutionItems) = preProject
+		01-02.functionArguments-call-apply.js = 01-02.functionArguments-call-apply.js
+		03.testValueOfThis.js = 03.testValueOfThis.js
+		04.addingNumbers.js = 04.addingNumbers.js
+		05.functionComposition.js = 05.functionComposition.js
+		06.domTraversal.js = 06.domTraversal.js
+		07.domManipulations.js = 07.domManipulations.js
+		08.consoleModule.js = 08.consoleModule.js
+		index.html = index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

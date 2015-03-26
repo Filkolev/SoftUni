@@ -1,0 +1,63 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#listWrapper {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: right;
+    margin: 0;
+}
+
+#sectionWrapper {
+    padding: 5px;
+    margin: 15px;
+    border: 1px solid black;
+}
+
+    #sectionWrapper > section {
+        margin: 5px;
+        padding: 5px;
+    }
+
+div.listContainer {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.listContainer > div {
+    margin: 3px 0;
+}
+
+input[name='itemName'], button[name='addItemButton'] {
+    position: relative;
+    left: 335px;
+    margin: 2px;
+}
+
+input[type='checkbox']:checked + label {
+    background-color: lightgreen;
+}
+
+label {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    width: 90%;
+    height: 100%;
+}
+
+#listWrapper > input {
+    margin: 0 4px 0 15px;
+}

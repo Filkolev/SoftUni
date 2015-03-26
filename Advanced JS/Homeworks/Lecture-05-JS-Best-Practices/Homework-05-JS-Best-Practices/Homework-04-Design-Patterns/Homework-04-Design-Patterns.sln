@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AA40DFBE-C5ED-421A-AF7B-19A4C471DC0C}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F18AEC5D-9F9E-4C58-970C-D619BD82ECA9}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\container.js = Scripts\container.js
+		Scripts\listItem.js = Scripts\listItem.js
+		Scripts\main.js = Scripts\main.js
+		Scripts\section.js = Scripts\section.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Styles", "Styles", "{E965EE7D-AD1F-4F72-87F7-2B3B52E6667F}"
+	ProjectSection(SolutionItems) = preProject
+		Styles\style.css = Styles\style.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F18AEC5D-9F9E-4C58-970C-D619BD82ECA9} = {AA40DFBE-C5ED-421A-AF7B-19A4C471DC0C}
+		{E965EE7D-AD1F-4F72-87F7-2B3B52E6667F} = {AA40DFBE-C5ED-421A-AF7B-19A4C471DC0C}
+	EndGlobalSection
+EndGlobal

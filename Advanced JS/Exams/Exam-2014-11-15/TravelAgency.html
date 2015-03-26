@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Travel Agency</title>
+    <meta charset='utf-8' />
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        div {
+            margin: 10px;
+        }
+
+        textarea {
+            font-family: Consolas, Monospaced;
+            font-size: 12pt;
+            width: 100%;
+            overflow: auto;
+        }
+
+            textarea#input {
+                height: 320px;
+            }
+
+            textarea#output {
+                height: 500px;
+            }
+
+        button {
+            width: 250px;
+            height: 50px;
+            font-size: 15pt;
+        }
+    </style>
+    <script src='TravelAgency-Skeleton.js'></script>
+    <script>
+        function processCommands() {
+            var commands = document.getElementById('input').value;
+            var commandsArr = commands.split('\n');
+            var output = processTravelAgencyCommands(commandsArr);
+            document.getElementById('output').value = output;
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        Input commands: <br />
+        <textarea id='input'>insert(type=vacation;name=Karibska prikazka;price=3400.00;start-date=22-Jun-2015;end-date=4-Jul-2015;location=Caribbean Sea;accommodation=hut)
+insert(type=vacation;name=Havaiska zima;price=2600.00;start-date=22-Dec-2014;end-date=4-Jan-2015;location=Hawaii Islands)
+insert(type=excursion;name=Do Chikago i nazad;price=1250.50;start-date=17-Dec-2014;end-date=28-Dec-2014;transport=bus and cruiser)
+insert(type=excursion;name=Tibet;price=1250.50;start-date=17-Dec-2014;end-date=28-Dec-2014;transport=bus)
+insert(type=cruise;name=Transatlantic cruise;end-date=16-Jan-2015;start-date=2-Jan-2015;price=1778.00;start-dock=Lisbon)
+insert(type=cruise;name=Pacific cruise;end-date=29-Mar-2015;start-date=3-Mar-2015;price=1778.00)
+
+insert(type=destination;location=Chicago;landmark=Niagara Falls)
+insert(type=destination;location=New York;landmark=Statue of Liberty)
+add-destination(name=Do Chikago i nazad;location=Chicago;landmark=Niagara Falls)
+add-destination(name=Do Chikago i nazad;location=New York;landmark=Statue of Liberty)
+list</textarea>
+    </div>
+    <div>
+        <button onclick='processCommands()'>Process Commands</button>
+    </div>
+    <div>
+        Output: <br />
+        <textarea id='output'></textarea>
+    </div>
+</body>
+
+</html>

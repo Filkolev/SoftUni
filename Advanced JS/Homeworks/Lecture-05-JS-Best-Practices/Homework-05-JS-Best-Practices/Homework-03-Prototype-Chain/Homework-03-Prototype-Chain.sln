@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.2DGeometryStructure-PseudoClassical", "01.2DGeometryStructure-PseudoClassical", "{9EB7EAEE-A594-430D-9A8F-EB506187003B}"
+	ProjectSection(SolutionItems) = preProject
+		GeometryStructure_PseudoClassical\01.geometryStructure-classical.js = GeometryStructure_PseudoClassical\01.geometryStructure-classical.js
+		GeometryStructure_PseudoClassical\index.html = GeometryStructure_PseudoClassical\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.2DGeometryStructure-Prototypal", "02.2DGeometryStructure-Prototypal", "{A8851413-ED86-45DF-87DE-D5DFDA39B028}"
+	ProjectSection(SolutionItems) = preProject
+		GeometryStructure_Prototypal\02.geometryStructure-prototypal.js = GeometryStructure_Prototypal\02.geometryStructure-prototypal.js
+		GeometryStructure_Prototypal\index.html = GeometryStructure_Prototypal\index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
