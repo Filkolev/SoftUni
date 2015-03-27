@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{4D9D6769-C17C-4508-BC71-090BD49DB13D}"
+	ProjectSection(SolutionItems) = preProject
+		app.js = app.js
+		html-loader.js = html-loader.js
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "helpers", "helpers", "{C5E3CF43-8737-4A02-89EE-BE198CCC51E9}"
+	ProjectSection(SolutionItems) = preProject
+		helpers\extensions.js = helpers\extensions.js
+		helpers\generator.js = helpers\generator.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{E1221D7B-CDFF-4736-B3D9-ED1703BC16CF}"
+	ProjectSection(SolutionItems) = preProject
+		models\actor.js = models\actor.js
+		models\genre.js = models\genre.js
+		models\movie.js = models\movie.js
+		models\review.js = models\review.js
+		models\theatre.js = models\theatre.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{6F986148-6588-464E-8D7C-98A084EB2AFA}"
+	ProjectSection(SolutionItems) = preProject
+		styles\bootstrap.css = styles\bootstrap.css
+		styles\styles.css = styles\styles.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5E3CF43-8737-4A02-89EE-BE198CCC51E9} = {4D9D6769-C17C-4508-BC71-090BD49DB13D}
+		{E1221D7B-CDFF-4736-B3D9-ED1703BC16CF} = {4D9D6769-C17C-4508-BC71-090BD49DB13D}
+		{6F986148-6588-464E-8D7C-98A084EB2AFA} = {4D9D6769-C17C-4508-BC71-090BD49DB13D}
+	EndGlobalSection
+EndGlobal

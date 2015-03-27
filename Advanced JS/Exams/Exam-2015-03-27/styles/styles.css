@@ -1,0 +1,22 @@
+#genres li {
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+
+#genres li:hover {
+	cursor: pointer;
+	background-color: #def;
+}
+
+#movies > ul > li {
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin: 10px;
+	padding: 10px;
+}
+
+#movies > ul > li:hover {
+	background-color: #def;
+	cursor: pointer;
+}
