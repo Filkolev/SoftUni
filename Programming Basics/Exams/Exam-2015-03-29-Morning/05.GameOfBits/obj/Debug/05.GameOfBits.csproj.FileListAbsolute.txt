@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\05.GameOfBits\bin\Debug\05.GameOfBits.exe.config
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\05.GameOfBits\bin\Debug\05.GameOfBits.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\05.GameOfBits\bin\Debug\05.GameOfBits.pdb
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\05.GameOfBits\obj\Debug\05.GameOfBits.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\05.GameOfBits\obj\Debug\05.GameOfBits.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\05.GameOfBits\obj\Debug\05.GameOfBits.pdb

@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\03.Dumbbell\bin\Debug\03.Dumbbell.exe.config
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\03.Dumbbell\bin\Debug\03.Dumbbell.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\03.Dumbbell\bin\Debug\03.Dumbbell.pdb
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\03.Dumbbell\obj\Debug\03.Dumbbell.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\03.Dumbbell\obj\Debug\03.Dumbbell.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\03.Dumbbell\obj\Debug\03.Dumbbell.pdb

@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\02.DreamItem\bin\Debug\02.DreamItem.exe.config
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\02.DreamItem\bin\Debug\02.DreamItem.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\02.DreamItem\bin\Debug\02.DreamItem.pdb
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\02.DreamItem\obj\Debug\02.DreamItem.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\02.DreamItem\obj\Debug\02.DreamItem.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\02.DreamItem\obj\Debug\02.DreamItem.pdb

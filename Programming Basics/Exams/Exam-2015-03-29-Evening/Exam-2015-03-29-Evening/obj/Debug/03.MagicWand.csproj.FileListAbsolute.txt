@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\bin\Debug\Exam-2015-03-29-Evening.exe.config
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\bin\Debug\Exam-2015-03-29-Evening.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\bin\Debug\Exam-2015-03-29-Evening.pdb
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\obj\Debug\03.MagicWand.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\obj\Debug\Exam-2015-03-29-Evening.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\obj\Debug\Exam-2015-03-29-Evening.pdb

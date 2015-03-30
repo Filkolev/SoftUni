@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\01.CurrencyCheck\bin\Debug\01.CurrencyCheck.exe.config
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\01.CurrencyCheck\bin\Debug\01.CurrencyCheck.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\01.CurrencyCheck\bin\Debug\01.CurrencyCheck.pdb
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\01.CurrencyCheck\obj\Debug\01.CurrencyCheck.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\01.CurrencyCheck\obj\Debug\01.CurrencyCheck.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Evening\Exam-2015-03-29-Evening\01.CurrencyCheck\obj\Debug\01.CurrencyCheck.pdb

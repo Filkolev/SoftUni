@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\04.EncryptedMessage\bin\Debug\04.EncryptedMessage.exe.config
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\04.EncryptedMessage\bin\Debug\04.EncryptedMessage.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\04.EncryptedMessage\bin\Debug\04.EncryptedMessage.pdb
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\04.EncryptedMessage\obj\Debug\04.EncryptedMatrix.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\04.EncryptedMessage\obj\Debug\04.EncryptedMessage.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\04.EncryptedMessage\obj\Debug\04.EncryptedMessage.pdb

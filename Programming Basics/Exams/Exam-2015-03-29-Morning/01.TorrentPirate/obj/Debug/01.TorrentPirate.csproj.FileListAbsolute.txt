@@ -1,0 +1,6 @@
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\01.TorrentPirate\bin\Debug\01.TorrentPirate.exe.config
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\01.TorrentPirate\bin\Debug\01.TorrentPirate.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\01.TorrentPirate\bin\Debug\01.TorrentPirate.pdb
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\01.TorrentPirate\obj\Debug\01.TorrentPirate.csprojResolveAssemblyReference.cache
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\01.TorrentPirate\obj\Debug\01.TorrentPirate.exe
+D:\Lectures\C# Basics\Exams\Exam-2015-03-29-Morning\Exam-2015-03-29-Morning\01.TorrentPirate\obj\Debug\01.TorrentPirate.pdb
