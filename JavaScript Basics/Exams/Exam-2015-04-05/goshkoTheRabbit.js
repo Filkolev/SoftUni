@@ -43,10 +43,7 @@ function solve(input) {
 
             match = regex.exec(garden[currentRow][currentCol]);
             while (match) {
-                switch (match[1]) {
-                    case '@':
-                        result['@'] += 1;
-                        break;
+                switch (match[1]) {                    
                     case '#':
                         result['#'] += 1;
                         break;
