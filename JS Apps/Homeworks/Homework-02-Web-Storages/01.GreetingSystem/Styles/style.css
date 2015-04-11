@@ -1,0 +1,30 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#visits {
+    width: 60%;
+    display: block;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+#greeting {
+    text-align: center;
+    margin: 4px auto;
+}
+
+span {
+    display: block;
+}

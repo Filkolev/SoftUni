@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Poll</title>
+    <script src="../libs/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="Styles/style.css"/>
+</head>
+<body>
+<form>
+    <h3>In JavaScript, what will be the result of the operation: 2.3 % 2?</h3>
+    <label for="js-0"><input type="radio" name="js" value="0" id="js-0"/>0</label>
+    <label for="js-nan"><input type="radio" name="js" value="NaN" id="js-nan"/>NaN</label>
+    <label for="js-0-3"><input type="radio" name="js" value="0.3" id="js-0-3"/>0.3</label>
+    <label for="js-undefined"><input type="radio" name="js" value="undefined" id="js-undefined"/>undefined</label>
+
+    <h3>In C#, what will be the result of Math.Round(4.5)?</h3>
+    <label for="csharp-4"><input type="radio" name="csharp" value="4" id="csharp-4" />4</label>
+    <label for="csharp-5"><input type="radio" name="csharp" value="5" id="csharp-5"/>5</label>
+    <label for="csharp-depends"><input type="radio" name="csharp" value="It depends" id="csharp-depends"/>It depends</label>
+    <label for="csharp-no-method"><input type="radio" name="csharp" value="There is no such method" id="csharp-no-method"/>There is no such method</label>
+
+    <button type="button">Submit</button>
+</form>
+
+<div id="answers">
+    <h2>Answers submitted successfully</h2>
+    <h4>In JavaScript, what will be the result of the operation: 2.3 % 2?</h4>
+    <div id="js-answer-submitted"><span class="msg correct-msg"> (Correct)</span><span class="msg incorrect-msg"> (Incorrect)</span></div>
+    <div id="js-answer-correct"></div>
+
+    <h4>In C#, what will be the result of Math.Round(4.5)?</h4>
+    <div id="csharp-answer-submitted"><span class="msg correct-msg"> (Correct)</span><span class="msg incorrect-msg"> (Incorrect)</span></div>
+    <div id="csharp-answer-correct"></div>
+
+    <div id="time-elapsed">Elapsed time: </div>
+</div>
+
+<div id="timer"></div>
+<script src="Scripts/poll.js"></script>
+</body>
+</html>

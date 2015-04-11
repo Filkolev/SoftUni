@@ -1,0 +1,43 @@
+main {
+    width: 600px;
+    margin: 10px auto;
+}
+
+label, textarea, input {
+    box-sizing: border-box;
+    display: block;
+    width: 600px;
+}
+
+label {
+    text-align: center;
+}
+
+textarea {
+    margin: 10px auto;
+    height: 150px;
+}
+
+input {
+    font-size: 1rem;
+    padding: 3px;
+}
+
+section {
+    margin: 20px auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 150px;
+    border: 1px solid black;
+    padding: 2px 5px;
+}
+
+th {
+    text-transform: capitalize;
+    background-color: greenyellow;
+}

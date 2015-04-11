@@ -1,0 +1,23 @@
+label, input {
+    margin: 5px;
+}
+
+label {
+    display: block;
+}
+
+form, ul {
+    display: inline-block;
+}
+
+main {
+    width: 500px;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 150px;
+    height: 25px;
+    font-size: 1rem;
+}

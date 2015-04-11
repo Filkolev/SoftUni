@@ -1,0 +1,15 @@
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 150px;
+    border: 1px solid black;
+    padding: 2px 5px;
+}
+
+th {
+    text-transform: capitalize;
+    background-color: greenyellow;
+}

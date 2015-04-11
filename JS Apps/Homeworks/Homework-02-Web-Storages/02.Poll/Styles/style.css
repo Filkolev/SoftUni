@@ -1,0 +1,35 @@
+form {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#timer {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+#answers {
+    display: none;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.msg {
+    display: none;
+}
+
+#time-elapsed {
+    margin-top: 15px;
+    font-size: 1.25rem;
+}
