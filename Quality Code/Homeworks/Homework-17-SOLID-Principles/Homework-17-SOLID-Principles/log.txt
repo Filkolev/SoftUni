@@ -1,0 +1,3 @@
+4/11/2015 4:04:27 PM - Error - Error parsing JSON.
+4/11/2015 4:04:27 PM - Info - User Pesho successfully registered.
+4/11/2015 4:04:27 PM - Warning - Warning - missing files.

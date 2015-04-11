@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic-Arithmetic-Operations", "Basic-Arithmetic-Operations\Basic-Arithmetic-Operations.csproj", "{A26240E6-36BB-41CC-BB7E-804AEE4A2595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex-Operations", "Complex-Operations\Complex-Operations.csproj", "{80F15044-755B-4134-BB96-D09F7246F0F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting-Algorithms", "Sorting-Algorithms\Sorting-Algorithms.csproj", "{0DFAB582-BABF-4D92-AD0C-DF177535B708}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A26240E6-36BB-41CC-BB7E-804AEE4A2595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26240E6-36BB-41CC-BB7E-804AEE4A2595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26240E6-36BB-41CC-BB7E-804AEE4A2595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26240E6-36BB-41CC-BB7E-804AEE4A2595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F15044-755B-4134-BB96-D09F7246F0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F15044-755B-4134-BB96-D09F7246F0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F15044-755B-4134-BB96-D09F7246F0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F15044-755B-4134-BB96-D09F7246F0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DFAB582-BABF-4D92-AD0C-DF177535B708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFAB582-BABF-4D92-AD0C-DF177535B708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFAB582-BABF-4D92-AD0C-DF177535B708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DFAB582-BABF-4D92-AD0C-DF177535B708}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

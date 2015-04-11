@@ -1,0 +1,6 @@
+D:\Lectures\Quality Code\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\bin\Debug\Logger.exe.config
+D:\Lectures\Quality Code\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\obj\Debug\01.Logger.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\bin\Debug\Logger.exe
+D:\Lectures\Quality Code\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\bin\Debug\Logger.pdb
+D:\Lectures\Quality Code\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\obj\Debug\Logger.exe
+D:\Lectures\Quality Code\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\Homework-17-SOLID-Principles\obj\Debug\Logger.pdb

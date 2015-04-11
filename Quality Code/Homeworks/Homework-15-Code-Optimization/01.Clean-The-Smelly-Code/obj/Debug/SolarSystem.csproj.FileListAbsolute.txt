@@ -1,0 +1,36 @@
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\bin\Debug\SolarSystem.exe
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\bin\Debug\SolarSystem.pdb
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem.csprojResolveAssemblyReference.cache
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\MainWindow.g.cs
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\App.g.cs
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem_MarkupCompile.cache
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem_MarkupCompile.lref
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\MainWindow.baml
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem.g.resources
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem.exe
+D:\SoftUni SVN\High Quality Code\Resources\Lectures\10. Code Tuning and Optimization\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem.pdb
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem.exe
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem.pdb
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\bin\Debug\SolarSystem.exe
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\bin\Debug\SolarSystem.pdb
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\MainWindow.g.cs
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\App.g.cs
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem_MarkupCompile.cache
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem_MarkupCompile.lref
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\MainWindow.baml
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Code-Tuning-and-Optimization-Homework\obj\Debug\SolarSystem.g.resources
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\SolarSystem.exe
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\SolarSystem.pdb
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\bin\Debug\SolarSystem.exe
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\bin\Debug\SolarSystem.pdb
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\SolarSystem.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\MainWindow.g.cs
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\App.g.cs
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\SolarSystem_MarkupCompile.cache
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\SolarSystem_MarkupCompile.lref
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\MainWindow.baml
+D:\Lectures\Quality Code\15. Code-Optimization-Homework\Homework-15-Code-Optimization\01.Clean-The-Smelly-Code\obj\Debug\SolarSystem.g.resources

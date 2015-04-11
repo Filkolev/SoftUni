@@ -1,0 +1,2 @@
+﻿I didn't have time to figure out a better way to structure the projects. Perhaps a lot of code could be avoided with generics. I realize this is not ideal.
+I believe quick sort is slowest because of the recursion and the separation of the algorithm into two methods.

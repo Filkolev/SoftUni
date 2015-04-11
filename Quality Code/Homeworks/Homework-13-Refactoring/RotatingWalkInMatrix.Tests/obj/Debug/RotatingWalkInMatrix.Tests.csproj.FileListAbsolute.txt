@@ -1,0 +1,14 @@
+D:\Lectures\Quality Code\RotatingWalkInMatrix.Tests\bin\Debug\RotatingWalkInMatrix.Tests.dll
+D:\Lectures\Quality Code\RotatingWalkInMatrix.Tests\bin\Debug\RotatingWalkInMatrix.Tests.pdb
+D:\Lectures\Quality Code\RotatingWalkInMatrix.Tests\bin\Debug\RotatingWalkInMatrix.exe
+D:\Lectures\Quality Code\RotatingWalkInMatrix.Tests\bin\Debug\RotatingWalkInMatrix.pdb
+D:\Lectures\Quality Code\RotatingWalkInMatrix.Tests\obj\Debug\RotatingWalkInMatrix.Tests.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\RotatingWalkInMatrix.Tests\obj\Debug\RotatingWalkInMatrix.Tests.dll
+D:\Lectures\Quality Code\RotatingWalkInMatrix.Tests\obj\Debug\RotatingWalkInMatrix.Tests.pdb
+D:\Lectures\Quality Code\Homework-13-Refactoring\RotatingWalkInMatrix.Tests\bin\Debug\RotatingWalkInMatrix.Tests.dll
+D:\Lectures\Quality Code\Homework-13-Refactoring\RotatingWalkInMatrix.Tests\bin\Debug\RotatingWalkInMatrix.Tests.pdb
+D:\Lectures\Quality Code\Homework-13-Refactoring\RotatingWalkInMatrix.Tests\bin\Debug\RotatingWalkInMatrix.exe
+D:\Lectures\Quality Code\Homework-13-Refactoring\RotatingWalkInMatrix.Tests\bin\Debug\RotatingWalkInMatrix.pdb
+D:\Lectures\Quality Code\Homework-13-Refactoring\RotatingWalkInMatrix.Tests\obj\Debug\RotatingWalkInMatrix.Tests.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\Homework-13-Refactoring\RotatingWalkInMatrix.Tests\obj\Debug\RotatingWalkInMatrix.Tests.dll
+D:\Lectures\Quality Code\Homework-13-Refactoring\RotatingWalkInMatrix.Tests\obj\Debug\RotatingWalkInMatrix.Tests.pdb

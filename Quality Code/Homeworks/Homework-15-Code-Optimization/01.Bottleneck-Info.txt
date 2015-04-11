@@ -1,0 +1,1 @@
+The performance bottleneck is located in the OrbitsCalculator.cs file, on line 96 in the method EarthRotation(). The loop is executed several million times without need; the fix is on line 101.

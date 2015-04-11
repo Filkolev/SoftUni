@@ -1,0 +1,6 @@
+D:\Lectures\Quality Code\Homework-15-Code-Optimization\02.Operations-Performance-Tests\Performance-Tests\Basic-Arithmetic-Operations\bin\Debug\Basic-Arithmetic-Operations.exe.config
+D:\Lectures\Quality Code\Homework-15-Code-Optimization\02.Operations-Performance-Tests\Performance-Tests\Basic-Arithmetic-Operations\bin\Debug\Basic-Arithmetic-Operations.exe
+D:\Lectures\Quality Code\Homework-15-Code-Optimization\02.Operations-Performance-Tests\Performance-Tests\Basic-Arithmetic-Operations\bin\Debug\Basic-Arithmetic-Operations.pdb
+D:\Lectures\Quality Code\Homework-15-Code-Optimization\02.Operations-Performance-Tests\Performance-Tests\Basic-Arithmetic-Operations\obj\Debug\Basic-Arithmetic-Operations.csprojResolveAssemblyReference.cache
+D:\Lectures\Quality Code\Homework-15-Code-Optimization\02.Operations-Performance-Tests\Performance-Tests\Basic-Arithmetic-Operations\obj\Debug\Basic-Arithmetic-Operations.exe
+D:\Lectures\Quality Code\Homework-15-Code-Optimization\02.Operations-Performance-Tests\Performance-Tests\Basic-Arithmetic-Operations\obj\Debug\Basic-Arithmetic-Operations.pdb
