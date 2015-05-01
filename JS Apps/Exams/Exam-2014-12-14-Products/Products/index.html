@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css"/>
+    <title>Products</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/q/q.js"></script>
+    <script src="node_modules/shimney-sammy/main.js"></script>
+    <script src="node_modules/mustache/mustache.js"></script>
+    <script src="node_modules/noty/js/noty/packaged/jquery.noty.packaged.js"></script>
+    <script src="scripts/helpers/notifications.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <img class="img-header" src="imgs/trash.png" width="50px"/>
+
+        <h1 class="site-header">Products</h1>
+        <nav id="menu">
+            <ul id="default-menu">
+                <li class="nav-button"><a href="#/home/">Home</a></li>
+                <li class="nav-button"><a href="#/login/">Login</a></li>
+                <li class="nav-button"><a href="#/register/">Register</a></li>
+            </ul>
+            <ul id="logged-menu">
+                <li class="nav-button"><a href="#/home/">Home</a></li>
+                <li class="nav-button"><a href="#/products/">Products</a></li>
+                <li class="nav-button"><a href="#/products/add/">Add Product</a></li>
+                <li class="nav-button"><a href="#/logout/">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main"></div>
+</div>
+
+<script src="scripts/models/headers.js"></script>
+<script src="scripts/models/ajax-requester.js"></script>
+
+<script src="scripts/models/user-model.js"></script>
+<script src="scripts/models/product-model.js"></script>
+
+<script src="scripts/views/home-views.js"></script>
+<script src="scripts/views/user-views.js"></script>
+<script src="scripts/views/product-views.js"></script>
+
+<script src="scripts/controllers/home-controller.js"></script>
+<script src="scripts/controllers/user-controller.js"></script>
+<script src="scripts/controllers/product-controller.js"></script>
+
+<script src="scripts/app.js"></script>
+</body>
+</html>

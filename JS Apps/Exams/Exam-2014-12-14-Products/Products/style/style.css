@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgba(14, 160, 197, 0.3);
+    height: 100%;
+}
+
+#wrapper {
+    display: inline-block;
+    width: 70%;
+    padding: 0 15%;
+    color: #000;
+    font-family: Calibri;
+}
+
+.site-header, .img-header {
+    margin: 1% 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: #3498DB;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: solid 1px #000;
+}
+
+button:hover {
+    opacity: 0.8;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+header {
+    margin: 3%;
+    text-align: center;
+}
+
+header > nav > ul {
+    list-style: none;
+    display: inline-block;
+}
+
+li.nav-button {
+    font-size: 1.3rem;
+    display: inline-block;
+    margin: 0 7px;
+    background: #428BCA;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
+li.nav-button > a {
+    color: #fff;
+}
+
+li.nav-button:hover {
+    background: #3071A9
+}
+
+li.nav-button > a {
+    padding: 10px;
+    border: solid 1px gray;
+    text-decoration: none;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+
+#main {
+    padding: 0 5%;
+}
+
+#main > section > div {
+    padding: 2%;
+    vertical-align: top;
+    font-size: 1.3rem;
+    box-shadow: 1px 1px 1px 1px #888888;
+    border: solid 1px #000;
+}
+
+.add-product-form, .edit-product-form, .delete-product-form, .login-form, .register-form, .welcome-message {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.products {
+    display: inline-block;
+    margin: 0 2%;
+    width: 60%;
+}
+
+#main div input {
+    display: block;
+    font-size: 1.3rem;
+    width: 250px;
+    margin: 2px 0;
+}
+
+input {
+    padding: 2px 5px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    font-size: 1.3rem;
+    margin: 2% 1%;
+}
+
+.main-header {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1% 20%;
+    text-align: center;
+    margin: 0 0 2% 0;
+    border-bottom: solid 2px black;
+}
+
+.input-num {
+    width: 50px;
+    display: inline-block;
+}
+
+li.product {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 1px gray;
+    box-shadow: 1px 2px 1px #888888;
+}
+
+.filters {
+    margin: 0;
+    padding: 2%;
+    display: inline-block;
+    width: 25%;
+    font-size: 1.4rem;
+    box-shadow: 1px 1px 1px #888888;
+    border: solid 1px grey;
+}
+
+.filters label {
+    display: block;
+    margin: 0;
+}
+
+.filters > * {
+    margin-bottom: 3px;
+}
+
+.filters input, select {
+    padding: 4px;
+    font-size: 1rem;
+}
+
+.filters .search-bar, .category {
+    width: 90%;
+}
+
+.filters .input-num {
+    width: 35%;
+}
+
+.filters h3 {
+    margin-bottom: 5px;
+}
+
+.filter-button {
+    display: block;
+    width: 50%;
+    height: 30px;
+}
+
+.clear-filters {
+    text-decoration: underline;
+    color: #444;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.clear-filters:hover {
+    color: #000;
+}
+
+.item-name {
+    padding: 1% 2%;
+    font-weight: bold;
+    border-bottom: solid 2px #666;
+}
+
+.category, .price {
+    padding: .5% 2%;
+}
+
+.data {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+
+.panel {
+    margin: 1%;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.product-info {
+    display: block;
+}
+
+.product-footer .delete-button, .edit-button {
+    text-decoration: none !important;
+    width: 80px;
+    height: 30px;
+}
+
+.product-footer {
+    text-align: right;
+}
+
+.pre {
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 1%;
+}
+
+footer > p {
+    margin-top: 5%;
+    font-size: 1.1rem;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+a:-webkit-any-link {
+    text-decoration: none !important;
+}
+
+.noty_text {
+    font-size: 20px;
+}
+

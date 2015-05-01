@@ -1,0 +1,44 @@
+<section>
+    <aside class="filters">
+        <h3>Filter</h3>
+        <input id="search-bar" class="search-bar" type="text" placeholder="Keyword.."/>
+        <label>Price:</label>
+        <input id="min-price" class="input-num" type="number" value="0" min="0"/>
+        <span>-</span>
+        <input id="max-price" class="input-num" type="number" value="10000"/>
+        <label>Category:</label>
+        <select id="category" class="category">
+            <option value="All">All</option>
+            <option value="Animals">Animals</option>
+            <option value="Food">Food</option>
+            <option value="Other">Other</option>
+        </select>
+        <button id="filter" class="filter-button">Filter</button>
+        <p class="clear-filters" id="clear-filters">Clear filters</p>
+    </aside>
+    <div class="products">
+        <ul>
+            {{#results}}
+            <li class="product">
+                <div class="product-info">
+                    <p class="item-name">{{name}}</p>
+
+                    <p class="category"><span class="pre">Category:</span>{{category}}</p>
+
+                    <p class="price"><span class="pre">Price:</span> ${{price}}</p>
+                </div>
+                {{#show}}
+                <footer class="product-footer">
+                    <a href="#/products/edit/id={{objectId}}&name={{name}}&category={{category}}&price={{price}}">
+                        <button class="edit-button">Edit</button>
+                    </a>
+                    <a href="#/products/delete/id={{objectId}}&name={{name}}&category={{category}}&price={{price}}">
+                        <button class="delete-button">Delete</button>
+                    </a>
+                </footer>
+                {{/show}}
+            </li>
+            {{/results}}
+        </ul>
+    </div>
+</section>

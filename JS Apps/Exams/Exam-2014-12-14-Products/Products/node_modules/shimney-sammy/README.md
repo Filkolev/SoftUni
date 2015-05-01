@@ -1,0 +1,1 @@
+[Shimney ](https://github.com/webforge-labs/shimney-js) is a set of shim packages from webforge. This package is maintained from webforge and the author is not responsible for this.
