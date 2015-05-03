@@ -1,0 +1,23 @@
+<ul class="listItems">
+    {{#results}}
+    <li class="item" data-id="{{objectId}}">
+        <a href="#">
+            <h2 id="title">{{title}}</h2>
+
+            <p id="text">{{text}}</p>
+
+            <div class="author" title="author">{{author.fullName}}</div>
+            <div class="deadline" title="deadline">{{deadline}}</div>
+        </a>
+        {{#show}}
+        <button class="edit" data-id="{{objectId}}" data-title="{{title}}" data-text="{{text}}"
+                data-deadline="{{deadline}}">Edit
+        </button>
+        <button class="delete" data-id="{{objectId}}" data-title="{{title}}" data-text="{{text}}"
+                data-deadline="{{deadline}}">Delete
+        </button>
+        {{/show}}
+    </li>
+    {{/results}}
+</ul>
+<div id="pagination"></div>

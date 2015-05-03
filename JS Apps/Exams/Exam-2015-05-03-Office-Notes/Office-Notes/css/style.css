@@ -1,0 +1,468 @@
+@font-face {
+    font-family: 'JerryshandwritingReg.listItemsar';
+    src: url("../fonts/jerry_b4s_handwriting.eot");
+    src: url("../fonts/jerry_b4s_handwriting.eot") format('embedded-opentype'),
+    url("../fonts/jerry_b4s_handwriting.woff") format('woff'),
+    url("../fonts/jerry_b4s_handwriting.ttf") format('truetype'),
+    url("../fonts/jerry_b4s_handwriting.svg#JerryshandwritingReg.listItemsar") format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    margin: 1.5em 2em 1em;
+    background: url("../images/bg.jpg");
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
+
+header {
+    font-family: 'JerryshandwritingReg.listItemsar', cursive;
+    font-weight: normal;
+    text-align: center;
+    height: 3em;
+}
+
+header > h1 {
+    font-size: 400%;
+    height: 100%;
+}
+
+#container {
+    float: right;
+    background: transparent;
+    background: url("../images/corkboard-bg.png") no-repeat;
+    background-size: contain;
+    width: 940px;
+    height: 500px;
+    padding-bottom: 10px;
+    margin-top: 2em;
+}
+
+h2, p {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.listItems, .item {
+    list-style: none;
+    padding: 0 1em 1em 0;
+}
+
+.listItems {
+    width: 93%;
+    height: 80%;
+    padding: 1.5em 1.5em 0 2.5em;
+    margin: auto;
+}
+
+.listItems .item {
+    margin: 1em;
+    float: left;
+}
+
+.listItems .item h2 {
+    font-size: 100%;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.listItems .item p {
+    font-family: "Reenie Beanie", arial, sans-serif;
+    font-size: 75%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 45%;
+    white-space: nowrap;
+}
+
+.listItems .item .deadline {
+    font-family: "Reenie Beanie", arial, sans-serif;
+    text-align: right;
+    font-size: 75%;
+    position: fixed;
+    left: 60%;
+    bottom: 0;
+}
+
+.listItems .item .author {
+    font-family: "Reenie Beanie", arial, sans-serif;
+    text-align: left;
+    font-size: 75%;
+    position: fixed;
+    bottom: 0;
+}
+
+.listItems .item a {
+    text-decoration: none;
+    color: #000;
+    background: #ffc;
+    display: block;
+    height: 7em;
+    width: 7em;
+    padding: 0.4em;
+    -moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+    -moz-transition: -moz-transform .15s linear;
+    -o-transition: -o-transform .15s linear;
+    -webkit-transition: -webkit-transform .15s linear;
+    -o-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+}
+
+.listItems .item:nth-child(even) a {
+    -o-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background: #cfc;
+}
+
+.listItems .item:nth-child(3n) a {
+    -o-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    position: relative;
+    top: -5px;
+    background: #ccf;
+}
+
+.listItems .item:nth-child(5n) a {
+    -o-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    position: relative;
+    top: -10px;
+}
+
+.listItems .item a:hover, .listItems .item a:focus {
+    -moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    -webkit-transform: scale(1.75);
+    -moz-transform: scale(1.75);
+    -o-transform: scale(1.75);
+    position: relative;
+    z-index: 5;
+}
+
+.listItems .item a:hover p, .listItems .item a:focus p {
+    text-overflow: clip;
+    height: 80%;
+    white-space: normal;
+}
+
+.listItems button {
+    margin-top: 1em;
+    color: #000;
+    background: rgb(240, 234, 175);
+    margin-bottom: 0.5em;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    width: 40%;
+}
+
+.listItems button:hover {
+    cursor: pointer;
+    border: 2px solid #D7D2D2;
+}
+
+.listItems .delete {
+    background: #ffd1ce;
+    float: right;
+}
+
+#pagination {
+    padding-top: 1%;
+    display: table;
+    position: relative;
+    margin: auto;
+}
+
+ul .simple-pagination {
+    list-style: none;
+}
+
+.simple-pagination {
+    display: block;
+    overflow: hidden;
+    padding: 0 5px 5px 0;
+    margin: 0;
+}
+
+.simple-pagination ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.simple-pagination li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+/*------------------------------------*\
+	Light Theme Styles
+\*------------------------------------*/
+
+.light-theme a, .light-theme span {
+    float: left;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    text-align: center;
+    border: 1px solid #BBB;
+    min-width: 14px;
+    padding: 0 7px;
+    margin: 0 5px 0 0;
+    border-radius: 3px;
+    text-decoration: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background: #efefef; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #efefef)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #efefef 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%, #efefef 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%, #efefef 100%); /* IE10+ */
+    background: linear-gradient(top, #ffffff 0%, #efefef 100%); /* W3C */
+}
+
+.light-theme a:hover {
+    text-decoration: none;
+    background: #FCFCFC;
+}
+
+.light-theme .current {
+    background: #666;
+    color: #FFF;
+    border-color: #444;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 1), 0 0 2px rgba(0, 0, 0, 0.3) inset;
+    cursor: default;
+}
+
+.light-theme .ellipse {
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    font-weight: bold;
+    cursor: default;
+}
+
+#wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+#menu {
+    float: left;
+    margin: 2em 2em 0 auto;
+    background: transparent;
+    background: url("../images/blackboard-bg.png") no-repeat;
+    background-size: contain;
+    height: 196px;
+    padding: 1em;
+    font-family: 'JerryshandwritingReg.listItemsar', cursive;
+    font-weight: normal;
+    width: 20%
+}
+
+#menu h2 {
+    font-size: 1.4em;
+    text-align: left;
+}
+
+#menu ul {
+    padding-top: 1em;
+}
+
+#menu ul li {
+    list-style: none;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu ul li a:hover, #menu ul li a:focus {
+    text-decoration: underline;
+}
+
+.form {
+    text-align: center;
+    width: 25%;
+    height: 17em;
+    margin: 8em auto;
+    font-family: 'JerryshandwritingRegular', cursive;
+    background: url('../images/blackboard-bg.png') no-repeat;
+    background-size: contain;
+    padding-top: 1em;
+}
+
+.form label {
+    display: block;
+}
+
+.form input {
+    display: inline-table;
+    width: 75%;
+    padding: 5px;
+    border: 2px solid #151515;
+    background: none;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .05);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+.form input:focus {
+    border: 2px solid #ccc;
+    background: #fff;
+}
+
+.form button {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    background: transparent;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 0.2em;
+}
+
+.form button:hover {
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+
+.form button:active {
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+
+.form #loginButton {
+    margin-top: 4em;
+}
+
+.dialog-box {
+    text-align: center;
+    color: #000000;
+    display: inline-block;
+    width: 30%;
+    height: 20%;
+    margin-top: 20%;
+    margin-left: 32%;
+    background: #ffc;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid #507E32;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);;
+}
+
+.dialog-box h1 {
+    width: 100%;
+    margin: 0 0 0.5em 0;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.dialog-box button {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    background: transparent;
+    border-radius: 4px;
+    border: 2px solid #d9d9ab;
+    width: 40%;
+    padding: 0.5em 0.2em;
+}
+
+.dialog-box button:hover {
+    cursor: pointer;
+    border: 2px solid #747459;
+}
+
+.dialog-box button:active {
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+
+.dialog-box button a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.dialog-box button a:visited {
+    color: #000000;
+}
+
+#add-note, #edit-note, #delete-note {
+    font-family: 'JerryshandwritingRegular', cursive;
+    margin-top: 8%;
+    height: 60%;
+}
+
+#add-note label, #edit-note label, #delete-note label {
+    text-align: left;
+    margin-left: 10%;
+    width: 80%;
+    display: block;
+}
+
+#add-note input, #edit-note input, #delete-note input {
+    margin-right: 0;
+    width: 80%;
+    height: 8%;
+    padding: 2px;
+    border: 2px solid #151515;
+    background: none;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .05);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-bottom: 0.5em;
+}
+
+#add-note input:focus, #edit-note input:focus, #delete-note input:focus {
+    border: 2px solid #ccc;
+    background: #fff;
+}
+
+#add-note button, #edit-note button, #delete-note button {
+    margin-top: 8%;
+}
+
+#homePage {
+    margin-left: 25%;
+    width: 50%;
+}
+
+.noty_text {
+    font-size: 20px;
+}
