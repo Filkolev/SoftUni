@@ -1,0 +1,14 @@
+﻿Game objective: destroy all enemies on the map.
+Available commands:
+-help - displays basic game info
+-status - displays the current status of the player and the game progress (number of enemies left on the map)
+-map - displays the map
+-enemies - displays data about the enemies (hit points and damage)
+-left - moves the player one position to the left on the map
+-right - moves the player one position to the right on the map
+-up - moves the player one position upwards on the map
+-down - moves the player one position downwards on the map
+-clear - clears the screen
+-inventory - displays information about the player's inventory
+-heal - player uses a health potion to restore health
+-surrender - exit game in shame...
