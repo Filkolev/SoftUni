@@ -9,7 +9,7 @@ public class UnitFactoryImpl implements UnitFactory {
 
     @Override
     public Unit createUnit(String unitType) {
-        switch(unitType) {
+        switch (unitType) {
             case "Archer":
                 return new Archer();
             case "Swordsman":
@@ -17,5 +17,5 @@ public class UnitFactoryImpl implements UnitFactory {
             default:
                 throw new UnsupportedOperationException("Unsupported unit type.");
         }
-    }    
+    }
 }

@@ -3,6 +3,7 @@ package org.softuni.empires.core;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
+
 import org.softuni.empires.contracts.Building;
 import org.softuni.empires.contracts.BuildingFactory;
 import org.softuni.empires.contracts.Engine;
@@ -26,7 +27,7 @@ public class EmpiresEngine implements Engine, Updateable {
     private final List<Building> buildings = new ArrayList<>();
     private final List<Updateable> updateableEntities = new ArrayList<>();
     private final LinkedHashMap<String, Integer> units = new LinkedHashMap<>();
-    private final LinkedHashMap<String, Integer> resources = new LinkedHashMap<>();    
+    private final LinkedHashMap<String, Integer> resources = new LinkedHashMap<>();
 
     public EmpiresEngine(
             InputReader reader,
@@ -39,26 +40,24 @@ public class EmpiresEngine implements Engine, Updateable {
         this.resourceFactory = resourceFactory;
         this.unitFactory = unitFactory;
         this.buildingFactory = buildingFactory;
-        
-        for (ResourceType resourceType : ResourceType.values()) {
-            this.resources.put(ResourceType.toString(resourceType), 0);
-        }
-    }
+
+        initResources();
+    }    
 
     @Override
-    public void Run() {
+    public void run() {
         while (true) {
-            String[] inputTokens = this.reader.ReadLine().split(" ");
+            String[] inputTokens = this.reader.readLine().split(" ");
             String commandName = inputTokens[0];
 
             switch (commandName) {
                 case "armistice":
                     return;
                 case "build":
-                    this.ExecuteBuildCommand(inputTokens);
+                    this.executeBuildCommand(inputTokens);
                     break;
                 case "empire-status":
-                    this.ExecuteEmpireReportCommand();
+                    this.executeEmpireReportCommand();
                     break;
             }
 
@@ -66,7 +65,7 @@ public class EmpiresEngine implements Engine, Updateable {
         }
     }
 
-    private void ExecuteBuildCommand(String[] inputTokens) {
+    private void executeBuildCommand(String[] inputTokens) {
         String buildingType = inputTokens[1];
         Building building = this.buildingFactory.createBuilding(buildingType, this.unitFactory, this.resourceFactory);
 
@@ -74,7 +73,7 @@ public class EmpiresEngine implements Engine, Updateable {
         this.updateableEntities.add(building);
     }
 
-    private void ExecuteEmpireReportCommand() {
+    private void executeEmpireReportCommand() {
         StringBuilder output = new StringBuilder();
 
         output.append("Resources:\n");
@@ -96,7 +95,7 @@ public class EmpiresEngine implements Engine, Updateable {
             });
         }
 
-        this.writer.WriteLine(output.toString().trim());
+        this.writer.writeLine(output.toString().trim());
     }
 
     @Override
@@ -105,21 +104,21 @@ public class EmpiresEngine implements Engine, Updateable {
 
         for (Building building : buildings) {
             if (building.hasProducedUnit()) {
-                addUnit(building);
+                this.addUnit(building);
             }
 
             if (building.hasProducedResources()) {
-                addResource(building);
+                this.addResource(building);
             }
         }
     }
 
     private void addResource(Building building) {
-        Resource resource = building.produceResource();       
+        Resource resource = building.produceResource();
         String resourceName = ResourceType.toString(resource.getResourceType());
-        
+
         this.resources.put(
-                resourceName, 
+                resourceName,
                 this.resources.get(resourceName) + resource.getQuantity());
     }
 
@@ -129,5 +128,11 @@ public class EmpiresEngine implements Engine, Updateable {
 
         this.units.putIfAbsent(unitType, 0);
         this.units.put(unitType, this.units.get(unitType) + 1);
+    }
+    
+    private void initResources() {
+        for (ResourceType resourceType : ResourceType.values()) {
+            this.resources.put(ResourceType.toString(resourceType), 0);
+        }
     }
 }

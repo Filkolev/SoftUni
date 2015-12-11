@@ -1,5 +1,6 @@
 package org.softuni.empires.contracts;
 
 public interface InputReader {
-    public String ReadLine();
+
+    public String readLine();
 }

@@ -8,7 +8,7 @@ public class ConsoleInputReader implements InputReader {
     private final Scanner scanner = new Scanner(System.in);
 
     @Override
-    public String ReadLine() {
+    public String readLine() {
         String line = scanner.nextLine();
 
         return line;

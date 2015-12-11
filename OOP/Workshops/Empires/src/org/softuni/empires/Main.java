@@ -14,14 +14,15 @@ import org.softuni.empires.io.ConsoleInputReader;
 import org.softuni.empires.io.ConsoleOutputWriter;
 
 public class Main {
+
     public static void main(String[] args) {
         InputReader reader = new ConsoleInputReader();
         OutputWriter writer = new ConsoleOutputWriter();
         ResourceFactory resourceFactory = new ResourceFactoryImpl();
         UnitFactory unitFactory = new UnitFactoryImpl();
         BuildingFactory buildingFactory = new BuildingFactoryImpl();
-        
+
         Engine engine = new EmpiresEngine(reader, writer, resourceFactory, unitFactory, buildingFactory);
-        engine.Run();
-    }    
+        engine.run();
+    }
 }

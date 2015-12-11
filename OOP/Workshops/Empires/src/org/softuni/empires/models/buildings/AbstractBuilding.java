@@ -123,7 +123,7 @@ public abstract class AbstractBuilding implements Building {
     public String toString() {
         int turnsUntilUnit = this.unitProductionCycleLength - (this.cyclesCount % this.unitProductionCycleLength);
         int turnsUntilResource = this.resourceProductionCycleLength - (this.cyclesCount % this.resourceProductionCycleLength);
-        
+
         String result = String.format(
                 "--%s: %d turns (%d turns until %s, %d turns until %s)",
                 this.getClass().getSimpleName(),
@@ -132,7 +132,7 @@ public abstract class AbstractBuilding implements Building {
                 this.unitType,
                 turnsUntilResource,
                 this.resourceType);
-        
+
         return result;
-    }  
+    }
 }

@@ -1,5 +1,6 @@
 package org.softuni.empires.contracts;
 
 public interface OutputWriter {
-    public void WriteLine(String output);
+
+    public void writeLine(String output);
 }

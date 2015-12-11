@@ -11,7 +11,7 @@ public class BuildingFactoryImpl implements BuildingFactory {
 
     @Override
     public Building createBuilding(String buildingType, UnitFactory unitFactory, ResourceFactory resourceFactory) {
-        switch(buildingType) {
+        switch (buildingType) {
             case "barracks":
                 return new Barracks(unitFactory, resourceFactory);
             case "archery":
@@ -19,5 +19,5 @@ public class BuildingFactoryImpl implements BuildingFactory {
             default:
                 throw new UnsupportedOperationException("Unknown building type");
         }
-    }    
+    }
 }
