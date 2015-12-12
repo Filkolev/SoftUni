@@ -28,7 +28,7 @@ public class EmpiresEngine implements Engine, Updateable {
     private final List<Updateable> updateableEntities = new ArrayList<>();
     private final LinkedHashMap<String, Integer> units = new LinkedHashMap<>();
     private final LinkedHashMap<String, Integer> resources = new LinkedHashMap<>();
-    
+
     private boolean isRunning = true;
 
     public EmpiresEngine(
@@ -44,6 +44,22 @@ public class EmpiresEngine implements Engine, Updateable {
         this.buildingFactory = buildingFactory;
 
         this.initResources();
+    }
+
+    protected List<Building> getBuildings() {
+        return this.buildings;
+    }
+    
+    protected List<Updateable> getUpdateableEntities() {
+        return this.updateableEntities;
+    }
+    
+    protected LinkedHashMap<String, Integer> getUnits() {
+        return this.units;
+    }
+    
+    protected LinkedHashMap<String, Integer> getResources() {
+        return this.resources;
     }
 
     @Override
@@ -69,6 +85,21 @@ public class EmpiresEngine implements Engine, Updateable {
             case "empire-status":
                 this.executeEmpireReportCommand();
                 break;
+        }
+    }
+    
+    @Override
+    public void update() {
+        this.updateableEntities.stream().forEach(Updateable::update);
+
+        for (Building building : buildings) {
+            if (building.canProduceUnit()) {
+                this.addUnit(building);
+            }
+
+            if (building.canProduceResource()) {
+                this.addResource(building);
+            }
         }
     }
 
@@ -107,22 +138,7 @@ public class EmpiresEngine implements Engine, Updateable {
         }
 
         this.writer.writeLine(output.toString().trim());
-    }
-
-    @Override
-    public void update() {
-        this.updateableEntities.stream().forEach(Updateable::update);
-
-        for (Building building : buildings) {
-            if (building.canProduceUnit()) {
-                this.addUnit(building);
-            }
-
-            if (building.canProduceResource()) {
-                this.addResource(building);
-            }
-        }
-    }
+    }    
 
     private void addResource(Building building) {
         Resource resource = building.produceResource();
